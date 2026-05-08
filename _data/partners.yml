@@ -6,7 +6,7 @@
   full_name: "European Cooperation in Science and Technology"
   description: "EEG101 is funded by COST, a European framework for research and innovation networks."
   url: "https://www.cost.eu"
-  logo: "/assets/images/partners/cost-logo.png"
+  logo: "/assets/images/partners/cost-logo.jpg"
   type: "funder"
 
 - id: eu
@@ -15,6 +15,7 @@
   description: "COST is funded by the Horizon Europe programme of the European Union."
   url: "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
   logo: "/assets/images/partners/eu-logo.png"
+
   type: "funder"
 
 - id: eegmanylabs
