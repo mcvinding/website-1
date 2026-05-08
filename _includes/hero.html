@@ -1,0 +1,64 @@
+{% assign s = site.data.site %}
+{% assign c = site.data.content.hero %}
+
+<section class="hero" aria-label="Hero">
+
+  <!-- Video background -->
+  <div class="hero__media" aria-hidden="true">
+    <video class="hero__video"
+           autoplay muted loop playsinline
+           poster="{{ s.hero_fallback | relative_url }}">
+      <source src="{{ s.hero_video | relative_url }}" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+  </div>
+
+  <!-- EEG wave decoration -->
+  <div class="hero__wave-decoration" aria-hidden="true">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C50,40 80,10 120,10 C160,10 170,70 210,70 C250,70 260,20 300,20 C340,20 350,60 390,60 C430,60 440,30 480,30 C520,30 530,50 570,50 C610,50 640,15 680,15 C720,15 730,65 770,65 C810,65 820,35 860,35 C900,35 910,55 950,55 C990,55 1000,25 1040,25 C1080,25 1090,45 1130,45 C1160,45 1180,35 1200,35 L1200,80 L0,80 Z"
+            fill="rgba(255,204,0,0.15)"/>
+    </svg>
+  </div>
+
+  <!-- Content -->
+  <div class="hero__content">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8 text-center">
+
+          <div class="hero__badge">
+            <img src="{{ s.logo | relative_url }}"
+                 alt="{{ s.logo_alt }}"
+                 class="hero__logo"
+                 width="160" height="54">
+          </div>
+
+          <h1 class="hero__headline">{{ c.headline }}</h1>
+          <p class="hero__strapline">{{ c.strapline }}</p>
+
+          <div class="hero__actions">
+            <a href="{{ c.cta_primary.url | relative_url }}" class="btn btn-gold btn-lg">
+              {{ c.cta_primary.label }}
+            </a>
+            <a href="{{ c.cta_secondary.url | relative_url }}" class="btn btn-outline-light btn-lg">
+              {{ c.cta_secondary.label }}
+            </a>
+            <a href="{{ c.cta_tertiary.url | relative_url }}" class="btn btn-ghost-light btn-lg">
+              {{ c.cta_tertiary.label }}
+            </a>
+          </div>
+
+          <a href="#about" class="hero__scroll-cue" aria-label="Scroll to About section">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

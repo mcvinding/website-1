@@ -1,0 +1,42 @@
+title: "EEG101"
+subtitle: "Fundamentals of Open & Rigorous EEG Science"
+description: >
+  A COST Action network establishing standardised methodologies, data-sharing
+  platforms, and inclusive training to enhance scientific rigour and global
+  leadership in EEG research.
+
+url: "https://www.eeg101.eu"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/images/og-image.png
+  - scope:
+      path: "index.md"
+    values:
+      layout: home
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - node_modules
+  - "*.py"

@@ -1,0 +1,155 @@
+# Working Groups and activity areas.
+# Edit aims, activities, and outputs here. Leaders are referenced by people.yml IDs.
+
+working_groups:
+  - id: wg1
+    number: 1
+    title: "Reporting Standards"
+    short_title: "WG1"
+    tagline: "Standardised reporting for rigorous EEG research"
+    aim: >
+      Develop and disseminate standardised reporting guidelines and templates to
+      promote transparency, reproducibility, and consistency across the European
+      EEG research community.
+    activities:
+      - "Create standardised templates for reporting EEG studies, covering advanced experimental designs and methodologies beyond ERPs"
+      - "Support complex EEG designs and advanced analyses through community feedback and iterative improvement"
+      - "Develop instructional materials and user guides for researchers at all career stages"
+      - "Pilot implementation of reporting standards with an international journal partner"
+      - "Build an interactive web application for documenting complex ERP designs and statistical procedures"
+    outputs:
+      - "Comprehensive reporting templates that streamline the publication process"
+      - "Improved transparency and reproducibility across the EEG community"
+      - "Increased publication of EEG research adhering to standardised reporting practices"
+      - "Pre-registration templates and recommended preprocessing pipelines"
+    mou_objectives:
+      - "S1: Launch standardised reporting tools by Month 24"
+      - "S2: Provide pre-registered study templates and workflows by Month 18"
+      - "S3: Develop comprehensive training materials by Month 24"
+    leaders:
+      - vanja
+    co_leaders:
+      - andjela
+    icon: "📋"
+    image: ""
+
+  - id: wg2
+    number: 2
+    title: "Curation and Harmonisation"
+    short_title: "WG2"
+    tagline: "FAIR EEG data accessible to all"
+    aim: >
+      Curate and harmonise EEG data across different laboratories and equipment,
+      developing standardised workflows and protocols to promote interoperability
+      and facilitate large-scale collaborative research.
+    activities:
+      - "Develop recommended pipelines for commonly studied EEG phenomena"
+      - "Implement pipelines in open-source software platforms (MNE-Python, EEGLAB, FieldTrip, Brainlife.io)"
+      - "Provide interactive tools and documentation to assist adoption of standardised workflows"
+      - "Develop protocols and conversion tools to harmonise data from different devices and manufacturers"
+      - "Establish guidelines for data acquisition settings to minimise variability"
+      - "Curate and release an open-access EEG database adhering to FAIR principles"
+      - "Conduct collaborative projects to test and refine harmonisation methods"
+    outputs:
+      - "Harmonised data processing methods across laboratories"
+      - "Reduced variability in analysis results due to methodological differences"
+      - "A centralised online platform hosting a meta-directory of datasets, standardised pipelines, and a software database"
+      - "A publicly accessible FAIR-compliant EEG database supporting reuse and collaboration"
+      - "Standardised datasets enabling cross-laboratory and cross-device comparisons"
+    mou_objectives:
+      - "I1: Establish a centralised online platform by Month 12"
+      - "I2: Provide comprehensive data descriptions and metadata standards by Month 24"
+      - "I3: Develop conversion tools to harmonise data from various devices by Month 32"
+    leaders:
+      - mahnaz
+    co_leaders:
+      - xun
+      - claudio
+    icon: "🗄️"
+    image: ""
+
+  - id: wg3
+    number: 3
+    title: "EEG Community Framework"
+    short_title: "WG3"
+    tagline: "A shared framework for ethical, open EEG science"
+    aim: >
+      Develop and promote a Manifesto for EEG Science, outlining ethical
+      principles, standards, and best practices for EEG research, to foster a
+      culture of transparency, openness, and reproducibility across the community.
+    activities:
+      - "Identify key issues through community consultation across the EEG research landscape"
+      - "Collaborate with diverse stakeholders to ensure broad representation in the manifesto"
+      - "Launch an online platform for public pledges to the manifesto principles"
+      - "Develop community-driven governance structures for the framework"
+      - "Engage academic journals and publishers in adopting manifesto principles"
+    outputs:
+      - "A foundational Manifesto document guiding ethical and responsible EEG research practices"
+      - "An online pledge platform with widespread community adoption"
+      - "Widespread recognition and endorsement of manifesto principles by journals and societies"
+      - "The first-ever ethical framework for EEG research incorporating open science principles"
+    mou_objectives:
+      - "A1: Facilitate innovation through STSMs and VMGs — at least 15 community-driven projects"
+      - "A2: Build partnerships with global EEG initiatives — formal collaborations with ≥3 initiatives by Month 24"
+      - "A3: Launch educational and outreach channels by Month 12"
+    leaders:
+      - maximilien
+    co_leaders:
+      - alexandra
+    icon: "🌐"
+    image: ""
+
+# Activity areas coordinated by the Management Committee
+activities:
+  - id: podcast
+    title: "Podcast Series"
+    tagline: "Conversations at the frontier of EEG science"
+    description: >
+      The EEG101 podcast features conversations with researchers, innovators, and
+      practitioners from across the EEG community. Episodes cover cutting-edge
+      methodology, open science, career development, and the human stories behind
+      the science. New episodes are released regularly from Year 1.
+    icon: "🎙️"
+
+  - id: summer-school
+    title: "Summer School"
+    tagline: "Immersive hands-on training in EEG methodologies"
+    description: >
+      EEG101 delivers annual Summer Schools from Year 2 (Months 18, 30, and 42),
+      providing immersive, hands-on training in state-of-the-art EEG methodologies.
+      Prioritising Young Researchers & Innovators and those from Inclusiveness Target
+      Countries, each school combines technical skills with professional development
+      and networking.
+    icon: "🎓"
+
+  - id: conference
+    title: "Distributed Conference"
+    tagline: "A novel international conference model"
+    description: >
+      EEG101 adopts and extends the innovative CuttingGardens distributed conference
+      model — simultaneous satellite events across Europe, connected through live
+      streaming and shared programming. This model maximises accessibility and
+      geographic inclusivity, ensuring participation regardless of location or
+      travel constraints.
+    icon: "🏛️"
+
+  - id: inclusivity
+    title: "Inclusivity Monitoring Committee"
+    tagline: "Ensuring equity across the network"
+    description: >
+      A dedicated Inclusivity Monitoring Committee tracks engagement and develops
+      strategies for supporting underrepresented groups. The committee monitors
+      gender balance, ITC representation, and early career participation across
+      all EEG101 activities, reporting transparently to the Management Committee.
+    icon: "⚖️"
+
+  - id: stsm-vmg
+    title: "STSMs & VMGs / Community Challenges"
+    tagline: "Funded research visits and virtual collaborations"
+    description: >
+      Short-Term Scientific Missions and Virtual Mobility Grants fund researchers
+      to visit laboratories and conduct collaborative projects. Priority projects
+      are identified through community-driven 'Challenges' proposed by Working
+      Groups and neuroscience societies — ensuring STSM and VMG activity addresses
+      the most pressing issues in the field.
+    icon: "🔬"

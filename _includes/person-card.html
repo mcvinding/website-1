@@ -1,0 +1,45 @@
+{% assign person = include.person %}
+<div class="person-card">
+  <div class="person-card__photo-wrap">
+    {% if person.image %}
+    <img src="{{ person.image | relative_url }}"
+         alt="Photo of {{ person.name }}"
+         class="person-card__photo"
+         loading="lazy"
+         width="200" height="200">
+    {% else %}
+    <div class="person-card__photo-placeholder" aria-label="No photo for {{ person.name }}">
+      {{ person.name | slice: 0 }}
+    </div>
+    {% endif %}
+  </div>
+  <div class="person-card__body">
+    <h3 class="person-card__name">{{ person.name }}</h3>
+    <p class="person-card__role">{{ person.role }}</p>
+    {% if person.institution %}
+    <p class="person-card__institution">{{ person.institution }}{% if person.country %}, {{ person.country }}{% endif %}</p>
+    {% endif %}
+    {% if person.bio and person.bio != "" %}
+    <p class="person-card__bio">{{ person.bio | truncatewords: 30 }}</p>
+    {% endif %}
+    <div class="person-card__links">
+      {% if person.email and person.email != "" %}
+      <a href="mailto:{{ person.email }}" class="person-card__link" aria-label="Email {{ person.name }}">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email
+      </a>
+      {% endif %}
+      {% if person.website and person.website != "" %}
+      <a href="{{ person.website }}" class="person-card__link" target="_blank" rel="noopener" aria-label="{{ person.name }} website">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Website
+      </a>
+      {% endif %}
+      {% if person.orcid and person.orcid != "" %}
+      <a href="https://orcid.org/{{ person.orcid }}" class="person-card__link" target="_blank" rel="noopener" aria-label="{{ person.name }} ORCID profile">
+        ORCID
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

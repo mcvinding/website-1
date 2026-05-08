@@ -1,0 +1,50 @@
+# Partner organisations and initiatives.
+# Add logos to assets/images/partners/ — recommended size 200×80px, transparent PNG.
+
+- id: cost
+  name: "COST"
+  full_name: "European Cooperation in Science and Technology"
+  description: "EEG101 is funded by COST, a European framework for research and innovation networks."
+  url: "https://www.cost.eu"
+  logo: "/assets/images/partners/cost-logo.png"
+  type: "funder"
+
+- id: eu
+  name: "Horizon Europe"
+  full_name: "European Union — Horizon Europe"
+  description: "COST is funded by the Horizon Europe programme of the European Union."
+  url: "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en"
+  logo: "/assets/images/partners/eu-logo.png"
+  type: "funder"
+
+- id: eegmanylabs
+  name: "#EEGManyLabs"
+  full_name: "#EEGManyLabs"
+  description: "Large-scale multi-site effort replicating 20 influential EEG studies across >230 laboratories."
+  url: "https://eegmanylabs.com"
+  logo: ""
+  type: "initiative"
+
+- id: cuttingeeg
+  name: "CuttingEEG"
+  full_name: "CuttingEEG"
+  description: "Community association promoting cutting-edge EEG methods through the CuttingGardens distributed conference model."
+  url: "https://cuttingeeg.org"
+  logo: ""
+  type: "initiative"
+
+- id: artem-is
+  name: "ARTEM-IS"
+  full_name: "ARTEM-IS"
+  description: "INCF-developed standardised reporting tools for EEG research providing web-based guidance forms."
+  url: "https://artem-is.org"
+  logo: ""
+  type: "initiative"
+
+- id: fieldtrip
+  name: "FieldTrip"
+  full_name: "FieldTrip Toolbox"
+  description: "Open-source MATLAB toolbox for advanced EEG and MEG analysis methods."
+  url: "https://www.fieldtriptoolbox.org"
+  logo: ""
+  type: "tool"

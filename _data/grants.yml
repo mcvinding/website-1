@@ -1,0 +1,150 @@
+# Grant schemes offered by EEG101.
+# Update status, deadline, and application_url when new rounds open.
+# status options: open | closed | upcoming | tbc
+
+schemes:
+
+  - id: stsm
+    title: "Short-Term Scientific Mission"
+    short_title: "STSM"
+    icon: "🔬"
+    summary: >
+      Funded research visits to a host institution within the EEG101 network.
+      STSMs support knowledge exchange, skill development, and collaborative
+      projects addressing community-identified challenges.
+    eligibility: >
+      Open to researchers affiliated with an institution in a COST Full Member
+      or Cooperating Member country. Applicants must be working in a field related
+      to EEG research.
+    value: "Up to €4,000"
+    duration: "Minimum 5 days, maximum 90 days"
+    yri_track: true
+    itc_track: true
+    industry_track: true
+    status: "open"
+    deadline: "31 October 2026, 17:00 CET"
+    round_label: "Round 1"
+    application_url: "https://e-services.cost.eu/"
+    guidance_url: "https://www.cost.eu/funding/stsm/"
+    contact: "grants@eeg101.eu"
+    notes: >
+      Priority given to YRIs, ITC-based applicants, and projects addressing
+      Working Group community challenges. Decisions announced by 30 April 2026.
+
+  - id: vmg
+    title: "Virtual Mobility Grant"
+    short_title: "VMG"
+    icon: "💻"
+    summary: >
+      Grants to support virtual research collaborations between EEG101 network
+      members. VMGs are particularly suited to researchers who cannot travel,
+      including those with caring responsibilities or disabilities.
+    eligibility: >
+      Open to researchers affiliated with institutions in COST member countries.
+      The collaboration must involve at least one host institution different from
+      the applicant's home institution.
+    value: "Up to €1,500"
+    duration: "1 to 90 days (virtual)"
+    yri_track: true
+    itc_track: true
+    industry_track: true
+    status: "open"
+    deadline: "31 October 2026, 17:00 CET"
+    round_label: "Round 1"
+    application_url: "https://e-services.cost.eu/"
+    guidance_url: "https://www.cost.eu/funding/vmg/"
+    contact: "grants@eeg101.eu"
+    notes: >
+      VMGs enable remote access to laboratories, software, and expertise across the
+      network. Particularly encouraged for ITC applicants and YRIs.
+
+  - id: conference-inperson
+    title: "Conference Grant (In-Person)"
+    short_title: "Conference Grant"
+    icon: "🎤"
+    summary: >
+      Grants supporting attendance and presentation at scientific conferences
+      relevant to EEG research and open science.
+    eligibility: >
+      Open to Early Career Investigators and researchers from ITC countries.
+      Applicants must be presenting at the conference (oral or poster).
+    value: "Up to €2,500"
+    duration: "Conference duration"
+    yri_track: true
+    itc_track: true
+    industry_track: false
+    status: "open"
+    deadline: "31 October 2026, 17:00 CET"
+    round_label: "Round 1"
+    application_url: "https://e-services.cost.eu/"
+    guidance_url: "https://www.cost.eu/funding/dissemination-conference-grants/"
+    contact: "grants@eeg101.eu"
+    notes: >
+      Applications must be submitted at least 30 days before the conference start date.
+
+  - id: conference-online
+    title: "Conference Grant (Online)"
+    short_title: "Online Conference Grant"
+    icon: "🌐"
+    summary: >
+      Grants supporting registration and participation in online or hybrid
+      conferences for researchers unable to attend in person.
+    eligibility: >
+      Open to Early Career Investigators and ITC-based researchers. Applicants
+      must be actively presenting or contributing to the event.
+    value: "Up to €500"
+    duration: "Conference duration"
+    yri_track: true
+    itc_track: true
+    industry_track: false
+    status: "open"
+    deadline: "31 October 2026, 17:00 CET"
+    round_label: "Round 1"
+    application_url: "https://e-services.cost.eu/"
+    guidance_url: "https://www.cost.eu/funding/dissemination-conference-grants/"
+    contact: "grants@eeg101.eu"
+    notes: ""
+
+  - id: training-school
+    title: "Training School Grant"
+    short_title: "Training School"
+    icon: "📚"
+    summary: >
+      Support for attendance at an EEG101 Summer School or COST-endorsed training
+      school, covering travel, accommodation, and registration costs.
+    eligibility: >
+      Priority given to YRIs and ITC-based researchers. Participants must be
+      accepted to an EEG101 Summer School or COST-endorsed training event.
+    value: "Variable (covers reasonable costs)"
+    duration: "Training school duration"
+    yri_track: true
+    itc_track: true
+    industry_track: false
+    status: "upcoming"
+    deadline: "TBC — first Summer School from Month 18 (2026)"
+    round_label: ""
+    application_url: ""
+    guidance_url: "https://www.cost.eu/funding/training-schools/"
+    contact: "grants@eeg101.eu"
+    notes: "Details will be announced when the first EEG101 Summer School programme is confirmed."
+
+# Application process steps (shown on Grants page)
+application_process:
+  - step: 1
+    title: "Check eligibility"
+    description: "Review the grant scheme requirements and COST rules. Confirm your institution is in an eligible country."
+  - step: 2
+    title: "Agree your visit or project"
+    description: "Contact a potential host institution within the EEG101 network and agree the work plan and dates."
+  - step: 3
+    title: "Submit via e-COST"
+    description: "Complete your application on the e-COST platform (e-services.cost.eu) before the deadline."
+  - step: 4
+    title: "Await decision"
+    description: "Applications are reviewed by the Grant Awarding Coordinator. Decisions are communicated within 4 weeks of the deadline."
+  - step: 5
+    title: "Carry out your mission"
+    description: "Complete your STSM, VMG, or attend the conference as approved."
+  - step: 6
+    title: "Submit report"
+    description: "A short scientific report is required within 30 days of completing your grant. Payment is released on approval."

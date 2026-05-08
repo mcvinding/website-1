@@ -1,0 +1,127 @@
+# Homepage text blocks — edit freely. No HTML needed.
+
+hero:
+  headline: "Fundamentals of Open & Rigorous EEG Science"
+  strapline: >
+    A coordinated European network unifying standardised methodologies,
+    FAIR data sharing, and inclusive training — 101 years after the discovery of EEG.
+  cta_primary:
+    label: "Join the network"
+    url: "/join/"
+  cta_secondary:
+    label: "Explore grants"
+    url: "/grants/"
+  cta_tertiary:
+    label: "Watch videos"
+    url: "/videos/"
+
+about:
+  heading: "About EEG101"
+  intro: >
+    Electroencephalography (EEG) is the most widely used functional brain imaging
+    modality worldwide, yet the field is held back by substantial fragmentation —
+    in hardware, protocols, analytical workflows, and access to training.
+  body: >
+    EEG101 is a COST Action network launched in 2025, exactly 101 years after Hans
+    Berger's discovery of EEG. Bringing together researchers from across Europe and
+    beyond, EEG101 addresses the fragmentation that limits collaboration, data sharing,
+    and reproducibility in EEG research.
+  mission: >
+    Our mission is to establish a coordinated, open, and collaborative network that
+    harmonises methodologies, improves data accessibility, and provides equitable
+    training opportunities — establishing Europe as a global leader in open EEG science.
+  cost_explainer: >
+    COST (European Cooperation in Science and Technology) is a funding agency for
+    research and innovation networks. EEG101 (Action CA24148) is funded through
+    Horizon Europe.
+  inclusion: >
+    EEG101 is committed to equity and inclusion. We provide dedicated funding for
+    Young Researchers & Innovators (YRIs) and researchers from Inclusiveness Target
+    Countries (ITCs). An Inclusivity Monitoring Committee ensures our community
+    reflects the diversity of European science.
+  cta:
+    label: "Read more about EEG101"
+    url: "/about/"
+
+objectives:
+  heading: "Our approach"
+  intro: >
+    EEG101 works across three interconnected pillars to advance open and rigorous
+    EEG science across Europe.
+  items:
+    - icon: "📐"
+      title: "Standardise"
+      body: >
+        Develop and disseminate standardised reporting guidelines, pre-registration
+        templates, and analytical workflows to promote consistency and reproducibility
+        across European EEG laboratories.
+    - icon: "🔗"
+      title: "Integrate"
+      body: >
+        Build a centralised platform hosting a meta-directory of FAIR-compliant
+        datasets, standardised pipelines, and a database of open-source software
+        tools — making EEG data accessible and interoperable.
+    - icon: "🚀"
+      title: "Advance"
+      body: >
+        Drive innovation through Short-Term Scientific Missions, Virtual Mobility
+        Grants, Summer Schools, and a distributed conference model — building capacity
+        and connecting the next generation of EEG researchers.
+    - icon: "🌍"
+      title: "Collaborate"
+      body: >
+        Connect researchers across disciplines, countries, and sectors. EEG101 builds
+        on the extensive networks of existing initiatives engaging over 3,000 scientists
+        worldwide.
+    - icon: "🎓"
+      title: "Capacity-build"
+      body: >
+        Prioritise Young Researchers & Innovators and researchers from Inclusiveness
+        Target Countries through dedicated funding, mentorship, Summer Schools,
+        and open training materials.
+
+wg_preview:
+  heading: "Working Groups"
+  intro: "Three focused working groups drive EEG101's scientific programme."
+  cta:
+    label: "Explore all Working Groups"
+    url: "/working-groups/"
+
+grants_preview:
+  heading: "Funding opportunities"
+  intro: >
+    EEG101 offers several COST grant schemes to support research visits, virtual
+    collaboration, and conference attendance.
+  cta:
+    label: "View all grants and deadlines"
+    url: "/grants/"
+
+news_preview:
+  heading: "Latest news"
+  cta:
+    label: "All news"
+    url: "/news/"
+
+events_preview:
+  heading: "Upcoming events"
+  cta:
+    label: "All events"
+    url: "/events/"
+
+videos_preview:
+  heading: "Watch EEG101"
+  intro: >
+    Talks, tutorials, and podcast episodes from the EEG101 community.
+  cta:
+    label: "Full video library"
+    url: "/videos/"
+
+join_cta:
+  heading: "Join the EEG101 network"
+  body: >
+    Membership is free and open to researchers at all career stages, from any
+    country. Connect with the community on Discord, participate in Working Groups,
+    and access dedicated funding opportunities.
+  cta:
+    label: "How to join"
+    url: "/join/"

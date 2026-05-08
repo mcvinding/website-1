@@ -1,0 +1,37 @@
+title: "EEG101"
+tagline: "Fundamentals of Open & Rigorous EEG Science"
+description: >
+  A COST Action network bringing together European EEG researchers to establish
+  standardised methodologies, FAIR data-sharing platforms, and inclusive
+  training resources — enhancing scientific rigour and global leadership in EEG science.
+
+action_number: CA24148
+action_start_year: 2025
+action_end_year: 2029
+action_duration: "4 years (2025–2029)"
+launched: "November 2025"
+
+url: "https://www.eeg101.eu"
+email: "eeg101@eeg101.eu"
+
+# Social & external links
+discord_url: "https://discord.gg/eeg101"
+github_url: "https://github.com/eeg101-costaction"
+youtube_url: "https://www.youtube.com/@eeg101costaction"
+twitter_handle: "@eeg101costaction"
+cost_action_url: "https://www.cost.eu/actions/CA24148/"
+ecost_url: "https://e-services.cost.eu/"
+
+# Assets
+logo: "/assets/images/logo/EEG101-logo-v2.png"
+logo_alt: "EEG101 COST Action logo"
+hero_video: "/assets/video/hero.mp4"
+hero_fallback: "/assets/images/hero-fallback.jpg"
+
+# Plausible analytics (privacy-friendly, no cookies)
+plausible_domain: "eeg101.eu"
+
+footer_text: >
+  EEG101 (CA24148) is supported by COST (European Cooperation in Science and
+  Technology), a funding agency for research and innovation networks.
+  COST is funded by the Horizon Europe programme of the European Union.

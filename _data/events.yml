@@ -1,0 +1,91 @@
+# Events — upcoming first, then past.
+# status options: upcoming | ongoing | past
+# format options: in-person | online | hybrid
+
+- id: wg2-virtual-apr2026
+  title: "WG2 Virtual Meeting: EEG Data Curation & Harmonisation"
+  start_date: 2026-04-13
+  end_date: 2026-04-13
+  location: "Online"
+  format: "online"
+  summary: >
+    Working Group 2 hosts a virtual meeting to discuss current challenges
+    and approaches in EEG data curation and harmonisation. All EEG101
+    network members are welcome to attend.
+  image: "/assets/images/events/wg2-virtual-apr2026.jpg"
+  alt: "Virtual meeting icon — EEG101 WG2 online meeting"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: "wg2"
+  status: "upcoming"
+  tags:
+    - working-groups
+    - WG2
+    - online
+
+- id: summer-school-2026
+  title: "EEG101 Summer School 2026"
+  start_date: 2026-09-01
+  end_date: 2026-09-05
+  location: "TBC — Europe"
+  format: "in-person"
+  summary: >
+    The first EEG101 Summer School will provide immersive, hands-on training
+    in state-of-the-art EEG methodologies. Priority places for Young Researchers
+    & Innovators and ITC-based participants. Details to be announced.
+  image: "/assets/images/events/summer-school-2026.jpg"
+  alt: "EEG101 Summer School 2026 announcement"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  status: "upcoming"
+  tags:
+    - summer-school
+    - training
+    - YRI
+
+- id: mc-brussels-2025
+  title: "Management Committee Meeting — Brussels"
+  start_date: 2025-09-01
+  end_date: 2025-09-02
+  location: "Brussels, Belgium"
+  format: "in-person"
+  summary: >
+    The first in-person Management Committee meeting brought together
+    representatives from 24 COST Full Member countries to launch EEG101's
+    scientific programme and governance structure.
+  image: "/assets/images/news/brussels-mc-meeting.jpg"
+  alt: "Group photo from EEG101 Management Committee meeting in Brussels"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  status: "past"
+  tags:
+    - management-committee
+    - in-person
+
+# ---- EXAMPLE EVENT (copy this to add a new event) ----
+# - id: your-event-id
+#   title: "Your Event Title"
+#   start_date: 2027-03-10
+#   end_date: 2027-03-12
+#   location: "City, Country"
+#   format: "hybrid"           # in-person | online | hybrid
+#   summary: >
+#     A short description of the event.
+#   image: "/assets/images/events/your-image.jpg"
+#   alt: "Descriptive alt text"
+#   registration_url: "https://..."
+#   programme_url: ""
+#   recording_url: ""
+#   slides_url: ""
+#   related_wg: "wg1"          # wg1 | wg2 | wg3 | "" for general events
+#   status: "upcoming"         # upcoming | ongoing | past
+#   tags:
+#     - tag1

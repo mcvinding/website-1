@@ -1,0 +1,146 @@
+# Resource library — organised by category.
+# type options: document | template | tool | dataset | publication | policy | training | other
+# Add files to assets/docs/ or link to external URLs.
+
+- id: mou
+  title: "EEG101 Memorandum of Understanding (MOU)"
+  type: "document"
+  description: >
+    The official technical annex and MOU for COST Action CA24148, outlining
+    aims, objectives, working groups, milestones, and governance.
+  url: ""
+  file: "/assets/docs/EEG101-MOU-CA24148.pdf"
+  working_group: ""
+  tags:
+    - governance
+    - official
+  icon: "📄"
+
+- id: reporting-templates
+  title: "EEG Reporting Templates"
+  type: "template"
+  description: >
+    Standardised templates for reporting EEG studies, developed by WG1.
+    Covers experimental designs, analytical methods, and statistical reporting
+    beyond basic ERPs.
+  url: ""
+  file: ""
+  working_group: "wg1"
+  tags:
+    - reporting
+    - templates
+    - WG1
+  icon: "📋"
+  status: "In development — expected Month 24"
+
+- id: preregistration-templates
+  title: "EEG Pre-registration Templates"
+  type: "template"
+  description: >
+    Pre-registration templates and recommended preprocessing pipelines based
+    on community best practices, developed by WG1. Includes suggested
+    preprocessing steps and interactive analytical tools.
+  url: ""
+  file: ""
+  working_group: "wg1"
+  tags:
+    - pre-registration
+    - workflows
+    - WG1
+  icon: "📝"
+  status: "In development — expected Month 18"
+
+- id: eeg-platform
+  title: "EEG101 Data Platform"
+  type: "tool"
+  description: >
+    A centralised online platform hosting a meta-directory of FAIR-compliant
+    EEG datasets, standardised analysis pipelines, and a database of
+    open-source EEG software and tools.
+  url: ""
+  file: ""
+  working_group: "wg2"
+  tags:
+    - platform
+    - datasets
+    - pipelines
+    - WG2
+  icon: "🗄️"
+  status: "In development — expected Month 12"
+
+- id: manifesto
+  title: "EEG Community Manifesto"
+  type: "document"
+  description: >
+    A community-developed manifesto outlining ethical principles, standards,
+    and best practices for EEG research. Developed by WG3 through broad
+    community consultation. Includes an online pledge platform.
+  url: ""
+  file: ""
+  working_group: "wg3"
+  tags:
+    - manifesto
+    - ethics
+    - open-science
+    - WG3
+  icon: "🌐"
+  status: "In development"
+
+- id: cost-guide
+  title: "Guide to COST Grants (STSMs, VMGs, Conference Grants)"
+  type: "document"
+  description: >
+    A practical guide to applying for EEG101 and COST grant schemes, including
+    STSMs, VMGs, and Conference Grants. Covers eligibility, application process,
+    reporting requirements, and frequently asked questions.
+  url: "https://www.cost.eu/funding/funding-opportunities/"
+  file: ""
+  working_group: ""
+  tags:
+    - grants
+    - STSM
+    - VMG
+  icon: "💶"
+
+- id: discord
+  title: "EEG101 Discord Community"
+  type: "tool"
+  description: >
+    The main community space for EEG101 members. Join channels for each
+    Working Group, grant discussions, job postings, and general EEG
+    conversation. Free to join.
+  url: "https://discord.gg/eeg101"
+  file: ""
+  working_group: ""
+  tags:
+    - community
+    - discord
+  icon: "💬"
+
+- id: youtube
+  title: "EEG101 YouTube Channel"
+  type: "tool"
+  description: >
+    Talks, tutorials, podcast episodes, and event recordings from the
+    EEG101 community, freely available on YouTube.
+  url: "https://www.youtube.com/@eeg101costaction"
+  file: ""
+  working_group: ""
+  tags:
+    - videos
+    - podcast
+    - training
+  icon: "▶️"
+
+# ---- EXAMPLE ENTRY ----
+# - id: your-resource-id
+#   title: "Resource Title"
+#   type: "template"           # document | template | tool | dataset | publication | policy | training | other
+#   description: >
+#     A short description of the resource.
+#   url: "https://external-link.com"   # External link (or leave blank)
+#   file: "/assets/docs/filename.pdf"  # Internal file (or leave blank)
+#   working_group: "wg1"               # wg1 | wg2 | wg3 | "" for general
+#   tags:
+#     - tag1
+#   icon: "📄"
