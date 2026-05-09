@@ -16,10 +16,10 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 {% for wg in wgs %}
 <section class="wg-section" id="{{ wg.id }}">
 <div class="wg-section__header">
-  <span class="wg-section__number">WG{{ wg.number }}</span>
-  <div class="wg-section__icon" aria-hidden="true">{{ wg.icon }}</div>
-  <h2 class="wg-section__title">{{ wg.title }}</h2>
-  <p class="wg-section__tagline">{{ wg.tagline }}</p>
+<span class="wg-section__number">WG{{ wg.number }}</span>
+<div class="wg-section__icon" aria-hidden="true">{{ wg.icon }}</div>
+<h2 class="wg-section__title">{{ wg.title }}</h2>
+<p class="wg-section__tagline">{{ wg.tagline }}</p>
 </div>
 
 {{ wg.aim }}
@@ -85,7 +85,6 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 </div>
 
 </div>
-
 </section>
 <hr class="section-divider">
 {% endfor %}

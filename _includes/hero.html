@@ -1,5 +1,5 @@
 {% assign s = site.data.site %}
-{% assign c = site.data.content.hero %}
+{% assign hero_c = site.data.content.hero %}
 
 <section class="hero" aria-label="Hero">
 
@@ -34,18 +34,18 @@
                  width="220" height="74">
           </div>
 
-          <h1 class="hero__headline">{{ c.headline }}</h1>
-          <p class="hero__strapline">{{ c.strapline }}</p>
+          <h1 class="hero__headline">{{ hero_c.headline }}</h1>
+          <p class="hero__strapline">{{ hero_c.strapline }}</p>
 
           <div class="hero__actions">
-            <a href="{{ c.cta_primary.url | relative_url }}" class="btn btn-gold btn-lg">
-              {{ c.cta_primary.label }}
+            <a href="{{ hero_c.cta_primary.url | relative_url }}" class="btn btn-gold btn-lg">
+              {{ hero_c.cta_primary.label }}
             </a>
-            <a href="{{ c.cta_secondary.url | relative_url }}" class="btn btn-outline-light btn-lg">
-              {{ c.cta_secondary.label }}
+            <a href="{{ hero_c.cta_secondary.url | relative_url }}" class="btn btn-outline-light btn-lg">
+              {{ hero_c.cta_secondary.label }}
             </a>
-            <a href="{{ c.cta_tertiary.url | relative_url }}" class="btn btn-ghost-light btn-lg">
-              {{ c.cta_tertiary.label }}
+            <a href="{{ hero_c.cta_tertiary.url | relative_url }}" class="btn btn-ghost-light btn-lg">
+              {{ hero_c.cta_tertiary.label }}
             </a>
           </div>
 
