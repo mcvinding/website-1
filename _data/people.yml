@@ -16,7 +16,7 @@
     Professor of Cognitive Neuroscience at the University of Leeds. Faisal's
     research focuses on sensorimotor learning, neural plasticity, and open
     science. He leads EEG101 as COST Action Chair.
-  tags: [Leadership]
+  tags: [Leadership, Core Group, Management Committee]
   order: 1
 
 - id: anneso
@@ -33,7 +33,7 @@
     Cognitive neuroscientist at Aix-Marseille Université. Anne-Sophie's research
     focuses on language processing and EEG methodology. She serves as EEG101
     Vice Chair and co-contact for Code of Conduct matters.
-  tags: [Leadership]
+  tags: [Leadership, Core Group, Management Committee]
   order: 2
 
 - id: amy
@@ -49,7 +49,7 @@
   bio: >
     Amy coordinates EEG101's grant schemes — including STSMs, VMGs, and
     conference grants — overseeing the application and review process.
-  tags: [Core Group]
+  tags: [Core Group, Management Committee]
   order: 3
 
 - id: markos
@@ -65,7 +65,7 @@
   bio: >
     Markos represents EEG101's grant holder institution and supports
     administrative and financial coordination of the Action.
-  tags: [Core Group]
+  tags: [Core Group, Management Committee]
   order: 4
 
 - id: pinar
@@ -81,7 +81,7 @@
   bio: >
     Pınar leads science communication for EEG101, overseeing the podcast series,
     social media, and public engagement activities.
-  tags: [Core Group]
+  tags: [Core Group, Management Committee]
   order: 5
 
 - id: vanja
@@ -97,7 +97,7 @@
   bio: >
     Vanja leads Working Group 1 on Reporting Standards, developing standardised
     templates and guidelines to improve transparency and reproducibility in EEG research.
-  tags: [WG1]
+  tags: [WG1, Core Group, Management Committee]
   order: 6
 
 - id: andjela
@@ -111,7 +111,7 @@
   orcid: ""
   image: "/assets/images/people/andjela.jpg"
   bio: ""
-  tags: [WG1]
+  tags: [WG1, Core Group, Management Committee]
   order: 7
 
 - id: mahnaz
@@ -127,7 +127,7 @@
   bio: >
     Mahnaz leads Working Group 2, overseeing the curation and harmonisation of
     EEG datasets across laboratories and device manufacturers.
-  tags: [WG2]
+  tags: [WG2, Core Group, Management Committee]
   order: 8
 
 - id: xun
@@ -141,7 +141,7 @@
   orcid: ""
   image: "/assets/images/people/xun.jpg"
   bio: ""
-  tags: [WG2]
+  tags: [WG2, Core Group]
   order: 9
 
 - id: claudio
@@ -155,7 +155,7 @@
   orcid: ""
   image: "/assets/images/people/claudio.jpg"
   bio: ""
-  tags: [WG2]
+  tags: [WG2, Core Group, Management Committee]
   order: 10
 
 - id: maximilien
@@ -171,7 +171,7 @@
   bio: >
     Maximilien leads Working Group 3, guiding the development of the EEG
     Community Framework for ethical, open EEG research practice.
-  tags: [WG3]
+  tags: [WG3, Core Group, Management Committee]
   order: 11
 
 - id: alexandra
@@ -185,5 +185,5 @@
   orcid: ""
   image: "/assets/images/people/alexandra.jpg"
   bio: ""
-  tags: [WG3]
+  tags: [WG3, Core Group, Management Committee]
   order: 12
