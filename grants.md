@@ -79,10 +79,8 @@ Apply via <a href="{{ site.data.grants.schemes[0].application_url }}" target="_b
 {% for step in site.data.grants.application_process %}
 <div class="process-step">
 <div class="process-step__number">{{ step.step }}</div>
-<div class="process-step__content">
 <h3 class="process-step__title">{{ step.title }}</h3>
 <p class="process-step__desc">{{ step.description }}</p>
-</div>
 </div>
 {% endfor %}
 {:/nomarkdown}
