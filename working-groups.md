@@ -17,7 +17,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 <section class="wg-section" id="{{ wg.id }}">
 <div class="wg-section__header">
 <span class="wg-section__number">WG{{ wg.number }}</span>
-<div class="wg-section__icon" aria-hidden="true">{{ wg.icon }}</div>
+<span class="wg-section__icon" aria-hidden="true">{{ wg.icon }}</span>
 <h2 class="wg-section__title">{{ wg.title }}</h2>
 <p class="wg-section__tagline">{{ wg.tagline }}</p>
 </div>
@@ -29,10 +29,10 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 {% assign leader = all_people | where: "id", leader_id | first %}
 {% if leader %}
 <div class="wg-leader">
-  <strong>{{ leader.name }}</strong>
-  {% if leader.institution and leader.institution != "" %}<span class="wg-leader__inst">{{ leader.institution }}{% if leader.country and leader.country != "" %}, {{ leader.country }}{% endif %}</span>{% endif %}
-  {% if leader.email and leader.email != "" %}<a href="mailto:{{ leader.email }}" class="wg-leader__email">{{ leader.email }}</a>{% endif %}
-  <span class="wg-leader__badge">WG Leader</span>
+<strong>{{ leader.name }}</strong>
+{% if leader.institution and leader.institution != "" %}<span class="wg-leader__inst">{{ leader.institution }}{% if leader.country and leader.country != "" %}, {{ leader.country }}{% endif %}</span>{% endif %}
+{% if leader.email and leader.email != "" %}<a href="mailto:{{ leader.email }}" class="wg-leader__email">{{ leader.email }}</a>{% endif %}
+<span class="wg-leader__badge">WG Leader</span>
 </div>
 {% endif %}
 {% endfor %}
@@ -40,50 +40,46 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 {% assign coleader = all_people | where: "id", coleader_id | first %}
 {% if coleader %}
 <div class="wg-leader">
-  <strong>{{ coleader.name }}</strong>
-  {% if coleader.institution and coleader.institution != "" %}<span class="wg-leader__inst">{{ coleader.institution }}{% if coleader.country and coleader.country != "" %}, {{ coleader.country }}{% endif %}</span>{% endif %}
-  {% if coleader.email and coleader.email != "" %}<a href="mailto:{{ coleader.email }}" class="wg-leader__email">{{ coleader.email }}</a>{% endif %}
-  <span class="wg-leader__badge wg-leader__badge--co">Co-leader</span>
+<strong>{{ coleader.name }}</strong>
+{% if coleader.institution and coleader.institution != "" %}<span class="wg-leader__inst">{{ coleader.institution }}{% if coleader.country and coleader.country != "" %}, {{ coleader.country }}{% endif %}</span>{% endif %}
+{% if coleader.email and coleader.email != "" %}<a href="mailto:{{ coleader.email }}" class="wg-leader__email">{{ coleader.email }}</a>{% endif %}
+<span class="wg-leader__badge wg-leader__badge--co">Co-leader</span>
 </div>
 {% endif %}
 {% endfor %}
 </div>
 
 <div class="row g-3 mb-4">
-
 <div class="col-12 col-md-4">
 <div class="wg-detail-card">
-  <h3 class="wg-detail-card__title">Activities</h3>
-  <ul class="wg-detail-card__list">
-  {% for activity in wg.activities %}
-  <li>{{ activity }}</li>
-  {% endfor %}
-  </ul>
+<h3 class="wg-detail-card__title">Activities</h3>
+<ul class="wg-detail-card__list">
+{% for activity in wg.activities %}
+<li>{{ activity }}</li>
+{% endfor %}
+</ul>
 </div>
 </div>
-
 <div class="col-12 col-md-4">
 <div class="wg-detail-card">
-  <h3 class="wg-detail-card__title">Expected Outputs</h3>
-  <ul class="wg-detail-card__list">
-  {% for output in wg.outputs %}
-  <li>{{ output }}</li>
-  {% endfor %}
-  </ul>
+<h3 class="wg-detail-card__title">Expected Outputs</h3>
+<ul class="wg-detail-card__list">
+{% for output in wg.outputs %}
+<li>{{ output }}</li>
+{% endfor %}
+</ul>
 </div>
 </div>
-
 <div class="col-12 col-md-4">
 <div class="wg-detail-card">
-  <h3 class="wg-detail-card__title">MOU Objectives</h3>
-  <ul class="wg-detail-card__list">
-  {% for obj in wg.mou_objectives %}
-  <li>{{ obj }}</li>
-  {% endfor %}
-  </ul>
+<h3 class="wg-detail-card__title">MOU Objectives</h3>
+<ul class="wg-detail-card__list">
+{% for obj in wg.mou_objectives %}
+<li>{{ obj }}</li>
+{% endfor %}
+</ul>
 </div>
 </div>
-
 </div>
 </section>
 <hr class="section-divider">
@@ -98,10 +94,10 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 {% for activity in activities %}
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="activity-card">
-  <div class="activity-card__icon" aria-hidden="true">{{ activity.icon }}</div>
-  <h3 class="activity-card__title">{{ activity.title }}</h3>
-  <p class="activity-card__tagline">{{ activity.tagline }}</p>
-  <p class="activity-card__desc">{{ activity.description }}</p>
+<span class="activity-card__icon" aria-hidden="true">{{ activity.icon }}</span>
+<h3 class="activity-card__title">{{ activity.title }}</h3>
+<p class="activity-card__tagline">{{ activity.tagline }}</p>
+<p class="activity-card__desc">{{ activity.description }}</p>
 </div>
 </div>
 {% endfor %}
