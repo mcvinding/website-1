@@ -827,18 +827,9 @@ strong { font-weight: 600; }
 .grant-detail__actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
 
 /* --- Process Steps --- */
-.process-step {
-  display: grid;
-  grid-template-columns: 3rem 1fr;
-  grid-template-rows: auto auto;
-  column-gap: 1.25rem;
-  row-gap: 0.25rem;
-  margin-bottom: 1.5rem;
-}
+.process-step { display: flex; gap: 1.5rem; margin-bottom: 2rem; align-items: flex-start; }
 .process-step__number {
-  grid-column: 1;
-  grid-row: 1;
-  align-self: center;
+  flex-shrink: 0;
   width: 3rem;
   height: 3rem;
   background: var(--color-primary);
@@ -851,8 +842,8 @@ strong { font-weight: 600; }
   font-weight: 700;
   font-size: 1.3rem;
 }
-.process-step__title { grid-column: 2; grid-row: 1; font-size: var(--step-1); font-weight: 600; color: var(--color-text); margin: 0; }
-.process-step__desc { grid-column: 2; grid-row: 2; font-size: 0.9rem; color: var(--color-text-muted); margin: 0; }
+.process-step__body h3 { font-size: var(--step-1); font-weight: 600; margin-bottom: 0.4rem; margin-top: 0; }
+.process-step__body p { font-size: 0.9rem; color: var(--color-text-muted); margin: 0; }
 
 /* --- Join Steps --- */
 .join-steps { margin: 1.5rem 0; }
