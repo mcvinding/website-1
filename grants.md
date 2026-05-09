@@ -90,7 +90,6 @@ Apply via <a href="{{ site.data.grants.schemes[0].application_url }}" target="_b
 ---
 
 ## Frequently asked questions
-
 {::nomarkdown}
 <div class="accordion" id="faqAccordion">
 <div class="accordion-item">
