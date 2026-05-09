@@ -10,7 +10,7 @@ EEG101 was officially launched in November 2025. The coordination team oversees 
 
 {::nomarkdown}
 <div class="people-filter" id="peopleFilter" role="group" aria-label="Filter by group">
-<button class="people-filter__btn" data-filter="all">All</button><button class="people-filter__btn" data-filter="Leadership">Leadership</button><button class="people-filter__btn active" data-filter="Core Group">Core Group</button><button class="people-filter__btn" data-filter="Management Committee">Management Committee</button><button class="people-filter__btn" data-filter="WG1">WG1</button><button class="people-filter__btn" data-filter="WG2">WG2</button><button class="people-filter__btn" data-filter="WG3">WG3</button>
+<button class="people-filter__btn active" data-filter="Core Group">Core Group</button><button class="people-filter__btn" data-filter="Leadership">Leadership</button><button class="people-filter__btn" data-filter="WG1">WG1</button><button class="people-filter__btn" data-filter="WG2">WG2</button><button class="people-filter__btn" data-filter="WG3">WG3</button><button class="people-filter__btn" data-filter="Management Committee">Management Committee</button><button class="people-filter__btn" data-filter="all">All</button>
 </div>
 
 <div class="people-grid" id="peopleGrid">
