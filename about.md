@@ -36,14 +36,12 @@ Foster collaboration through Short-Term Scientific Missions (STSMs), Virtual Mob
 
 ---
 
-## What is a COST Action?
-
-[COST (European Cooperation in Science and Technology)](https://www.cost.eu){:target="_blank" rel="noopener"} is a funding agency for research and innovation networks. COST Actions help connect research initiatives across Europe and enable scientists to grow their ideas by sharing them with their peers. This boosts their research, career and innovation.
-
-EEG101 (CA24148) is funded through the Horizon Europe programme of the European Union, running from 2025 to 2029.
-
----
-
 ## Diversity, Equity, and Inclusion
 
 EEG101 is fully committed to the COST inclusiveness policy centered around geographical spread, researchers from all career stages, and gender balance. Fostering fair and diverse scientific communities, EEG101 encourages its members to embrace the [ALBA declaration](https://www.alba.network/alba-declaration){:target="_blank" rel="noopener"} promoting equity and inclusivity on individual and workplace levels.
+
+---
+
+## What is a COST Action?
+
+[COST (European Cooperation in Science and Technology)](https://www.cost.eu){:target="_blank" rel="noopener"} is a funding agency for research and innovation networks. COST Actions help connect research initiatives across Europe and enable scientists to grow their ideas by sharing them with their peers. This boosts their research, career and innovation.
