@@ -25,11 +25,7 @@ EEG101 offers several COST grant schemes to support research collaboration, trai
 <div>
 <h2 class="grant-detail__title">{{ grant.title }}</h2>
 <span class="grant-detail__value">{{ grant.value }}</span>
-<span class="grant-status grant-status--{{ grant.status }}">
-{% if grant.status == "open" %}● Open now
-{% elsif grant.status == "upcoming" %}◌ Coming soon
-{% else %}✕ Closed{% endif %}
-</span>
+<span class="grant-status grant-status--{{ grant.status }}">{% if grant.status == "open" %}● Open now{% elsif grant.status == "upcoming" %}◌ Coming soon{% else %}✕ Closed{% endif %}</span>
 </div>
 </div>
 
