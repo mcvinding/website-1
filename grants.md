@@ -80,13 +80,12 @@ EEG101 offers several COST grant schemes to support research collaboration, trai
 ## How to apply
 
 {% for step in site.data.grants.application_process %}
-
 <div class="process-step">
-  <div class="process-step__number">{{ step.step }}</div>
-  <div class="process-step__content">
-    <h3 class="process-step__title">{{ step.title }}</h3>
-    <p class="process-step__desc">{{ step.description }}</p>
-  </div>
+<div class="process-step__number">{{ step.step }}</div>
+<div class="process-step__content">
+<h3 class="process-step__title">{{ step.title }}</h3>
+<p class="process-step__desc">{{ step.description }}</p>
+</div>
 </div>
 {% endfor %}
 

@@ -31,7 +31,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 <div class="wg-leader">
 <strong>{{ leader.name }}</strong>
 {% if leader.institution and leader.institution != "" %}<span class="wg-leader__inst">{{ leader.institution }}{% if leader.country and leader.country != "" %}, {{ leader.country }}{% endif %}</span>{% endif %}
-{% if leader.email and leader.email != "" %}<a href="mailto:{{ leader.email }}" class="wg-leader__email">{{ leader.email }}</a>{% endif %}
+{% if leader.website and leader.website != "" %}<a href="{{ leader.website }}" class="wg-leader__email" target="_blank" rel="noopener">Website</a>{% endif %}
 <span class="wg-leader__badge">WG Leader</span>
 </div>
 {% endif %}
@@ -42,7 +42,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 <div class="wg-leader">
 <strong>{{ coleader.name }}</strong>
 {% if coleader.institution and coleader.institution != "" %}<span class="wg-leader__inst">{{ coleader.institution }}{% if coleader.country and coleader.country != "" %}, {{ coleader.country }}{% endif %}</span>{% endif %}
-{% if coleader.email and coleader.email != "" %}<a href="mailto:{{ coleader.email }}" class="wg-leader__email">{{ coleader.email }}</a>{% endif %}
+{% if coleader.website and coleader.website != "" %}<a href="{{ coleader.website }}" class="wg-leader__email" target="_blank" rel="noopener">Website</a>{% endif %}
 <span class="wg-leader__badge wg-leader__badge--co">Co-leader</span>
 </div>
 {% endif %}
