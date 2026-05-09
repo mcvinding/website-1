@@ -90,6 +90,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 In addition to the three Working Groups, EEG101 delivers a range of community activities coordinated by the Management Committee.
 
 {% assign activities = site.data.working_groups.activities %}
+{::nomarkdown}
 <div class="row g-4 mt-2">
 {% for activity in activities %}
 <div class="col-12 col-sm-6 col-lg-4">
@@ -106,6 +107,7 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 </div>
 {% endfor %}
 </div>
+{:/nomarkdown}
 
 ---
 
