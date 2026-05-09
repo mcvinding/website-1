@@ -1,4 +1,4 @@
-lol---
+---
 layout: page
 title: "Our Work"
 subtitle: "Three focused groups driving EEG101's scientific programme"
@@ -110,4 +110,3 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 {:/nomarkdown}
 
 ---
-
