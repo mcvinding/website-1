@@ -65,7 +65,7 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 
 ## Management Committee nominations
 
-National Management Committee (MC) representatives are nominated through COST National Coordinators in each country. If you are interested in representing your country on the EEG101 MC, contact your [COST National Coordinator](https://www.cost.eu/who-we-are/national-coordinators/){:target="_blank" rel="noopener"} and the <a href="{{ '/coordination/' | relative_url }}">Action Chair</a>.
+National Management Committee (MC) representatives are nominated through COST National Coordinators in each country. Each country has a maximum of two representatives. If you are interested in representing your country on the EEG101 MC, and you see that there is an available slot, then contact your [COST National Coordinator](https://www.cost.eu/who-we-are/national-coordinators/){:target="_blank" rel="noopener"} and write a short email to the <a href="{{ '/coordination/' | relative_url }}">Action Chair</a>.
 
 ---
 
@@ -77,9 +77,6 @@ Researchers from non-member countries may participate as observers and collabora
 
 ---
 
-## Questions?
-
-Contact the coordination team at [{{ site.data.site.email }}](mailto:{{ site.data.site.email }}) or ask in the [EEG101 Discord]({{ site.data.site.discord_url }}).
 
 {::nomarkdown}
 <div class="text-center mt-5">
