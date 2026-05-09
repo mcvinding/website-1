@@ -120,8 +120,8 @@ join_cta:
   heading: "Join the EEG101 network"
   body: >
     Membership is free and open to researchers at all career stages, from any
-    country. Connect with the community on Discord, participate in Working Groups,
-    and access dedicated funding opportunities.
+    COST member country. Participate in Working Groups, access dedicated grant
+    funding, and connect with the European EEG research community.
   cta:
     label: "How to join"
     url: "/join/"

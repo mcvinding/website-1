@@ -4,7 +4,7 @@
 - id: eegmanylabs
   name: "#EEGManyLabs"
   description: "Large-scale multi-site replication of 20 influential EEG studies across >230 laboratories from 32 countries."
-  url: "https://eegmanylabs.com"
+  url: "https://www.eegmanylabs.org"
   logo: "/assets/images/partners/eegmanylabs-logo.png"
   type: "initiative"
 
@@ -18,7 +18,7 @@
 - id: indos
   name: "INDOS COST Action"
   description: "COST Action investigating individual differences in oscillatory neural dynamics and their functional consequences."
-  url: "https://www.cost.eu/actions/CA21130/"
+  url: "https://www.indos-costaction.eu"
   logo: "/assets/images/partners/indos-logo.png"
   type: "initiative"
 
@@ -39,13 +39,13 @@
 - id: artem-is
   name: "ARTEM-IS"
   description: "INCF-developed standardised reporting tools for EEG research, providing web-based guidance forms for experimental documentation."
-  url: "https://artem-is.org"
+  url: "https://artemis.incf.org/about"
   logo: "/assets/images/partners/artemis-logo.png"
   type: "tool"
 
 - id: african-brain-data
   name: "African Brain Data Network"
   description: "Network promoting open, FAIR neuroscience data from African research sites to advance globally representative brain science."
-  url: "https://africanbraindata.network"
+  url: "https://africanbraindatanetwork.com"
   logo: "/assets/images/partners/abdn-logo.png"
   type: "initiative"
