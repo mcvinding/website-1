@@ -21,16 +21,16 @@ EEG101 offers several COST grant schemes to support research collaboration, trai
 {% for grant in site.data.grants.schemes %}
 <section class="grant-detail" id="{{ grant.id }}">
 <div class="grant-detail__header">
-  <span class="grant-detail__icon" aria-hidden="true">{{ grant.icon }}</span>
-  <div>
-    <h2 class="grant-detail__title">{{ grant.title }}</h2>
-    <span class="grant-detail__value">{{ grant.value }}</span>
-    <span class="grant-status grant-status--{{ grant.status }}">
-      {% if grant.status == "open" %}● Open now
-      {% elsif grant.status == "upcoming" %}◌ Coming soon
-      {% else %}✕ Closed{% endif %}
-    </span>
-  </div>
+<span class="grant-detail__icon" aria-hidden="true">{{ grant.icon }}</span>
+<div>
+<h2 class="grant-detail__title">{{ grant.title }}</h2>
+<span class="grant-detail__value">{{ grant.value }}</span>
+<span class="grant-status grant-status--{{ grant.status }}">
+{% if grant.status == "open" %}● Open now
+{% elsif grant.status == "upcoming" %}◌ Coming soon
+{% else %}✕ Closed{% endif %}
+</span>
+</div>
 </div>
 
 {{ grant.summary }}
