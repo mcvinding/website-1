@@ -105,29 +105,6 @@ schemes:
     contact: "grants@eeg101.eu"
     notes: ""
 
-  - id: training-school
-    title: "Training School Grant"
-    short_title: "Training School"
-    icon: "📚"
-    summary: >
-      Support for attendance at an EEG101 Summer School or COST-endorsed training
-      school, covering travel, accommodation, and registration costs.
-    eligibility: >
-      Priority given to YRIs and ITC-based researchers. Participants must be
-      accepted to an EEG101 Summer School or COST-endorsed training event.
-    value: "Variable (covers reasonable costs)"
-    duration: "Training school duration"
-    yri_track: true
-    itc_track: true
-    industry_track: false
-    status: "upcoming"
-    deadline: "TBC — first Summer School from Month 18 (2026)"
-    round_label: ""
-    application_url: ""
-    guidance_url: "https://www.cost.eu/funding/training-schools/"
-    contact: "grants@eeg101.eu"
-    notes: "Details will be announced when the first EEG101 Summer School programme is confirmed."
-
 # Application process steps (shown on Grants page)
 application_process:
   - step: 1

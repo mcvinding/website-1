@@ -9,9 +9,9 @@
 <article class="video-card">
 <a href="https://www.youtube.com/watch?v={{ video.youtube_id }}" class="video-card__thumb-wrap" target="_blank" rel="noopener" aria-label="Watch: {{ video.title }} on YouTube">
 <img src="{{ thumb }}" alt="Thumbnail for {{ video.title }}" class="video-card__thumb" loading="lazy" width="480" height="270">
-<div class="video-card__play" aria-hidden="true">
+<span class="video-card__play" aria-hidden="true">
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="24" fill="rgba(0,0,153,0.85)"/><polygon points="19,15 37,24 19,33" fill="#FFCC00"/></svg>
-</div>
+</span>
 {% if video.category %}<span class="video-card__category">{{ video.category | capitalize }}</span>{% endif %}
 </a>
 <div class="video-card__body">

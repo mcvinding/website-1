@@ -114,17 +114,6 @@ activities:
       the science. New episodes are released regularly from Year 1.
     icon: "🎙️"
 
-  - id: summer-school
-    title: "Summer School"
-    tagline: "Immersive hands-on training in EEG methodologies"
-    description: >
-      EEG101 delivers annual Summer Schools from Year 2 (Months 18, 30, and 42),
-      providing immersive, hands-on training in state-of-the-art EEG methodologies.
-      Prioritising Young Researchers & Innovators and those from Inclusiveness Target
-      Countries, each school combines technical skills with professional development
-      and networking.
-    icon: "🎓"
-
   - id: conference
     title: "Distributed Conference"
     tagline: "A novel international conference model"

@@ -25,29 +25,6 @@
     - WG2
     - online
 
-- id: summer-school-2026
-  title: "EEG101 Summer School 2026"
-  start_date: 2026-09-01
-  end_date: 2026-09-05
-  location: "TBC — Europe"
-  format: "in-person"
-  summary: >
-    The first EEG101 Summer School will provide immersive, hands-on training
-    in state-of-the-art EEG methodologies. Priority places for Young Researchers
-    & Innovators and ITC-based participants. Details to be announced.
-  image: "/assets/images/events/summer-school-2026.jpg"
-  alt: "EEG101 Summer School 2026 announcement"
-  registration_url: ""
-  programme_url: ""
-  recording_url: ""
-  slides_url: ""
-  related_wg: ""
-  status: "upcoming"
-  tags:
-    - summer-school
-    - training
-    - YRI
-
 - id: mc-brussels-2025
   title: "Management Committee Meeting — Brussels"
   start_date: 2025-09-01

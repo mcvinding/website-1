@@ -28,7 +28,7 @@ Accelerate adoption of open research practices through shared resources, ethical
 
 ### Build research capacity and skills across Europe
 
-Deliver open-access training materials, workshops, and Summer Schools, with a strong focus on early-career researchers and Inclusiveness Target Countries, to reduce inequalities in access to expertise and resources. Learn more about our [grants and funding opportunities](/grants/).
+Deliver open-access training materials and workshops, with a strong focus on early-career researchers and Inclusiveness Target Countries, to reduce inequalities in access to expertise and resources. Learn more about our [grants and funding opportunities](/grants/).
 
 ### Strengthen networking, innovation, and interdisciplinary collaboration
 

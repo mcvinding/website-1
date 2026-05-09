@@ -13,7 +13,7 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 - Access to COST grant schemes (STSMs, VMGs, Conference Grants)
 - Participation in Working Groups and community activities
 - Access to the EEG101 Discord community
-- Invitations to EEG101 events, Summer Schools, and distributed conferences
+- Invitations to EEG101 events and distributed conferences
 - Access to training resources, datasets, and tools as they are developed
 - Opportunities to contribute to the EEG Manifesto and community standards
 
@@ -40,15 +40,15 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <div class="join-step">
 <div class="join-step__number">3</div>
 <div class="join-step__body">
-<h3>Join the Discord community</h3>
-<p>The EEG101 Discord is where the day-to-day community lives. You can join Discord immediately — no waiting for e-COST approval. Find channels for each Working Group, grants discussion, events, and general EEG conversation.</p>
+<h3>Connect with the community</h3>
+<p>Once registered, introduce yourself to the network. Join Working Group activities, attend webinars and events, and connect with researchers across Europe who share your interests.</p>
 </div>
 </div>
 <div class="join-step">
 <div class="join-step__number">4</div>
 <div class="join-step__body">
 <h3>Get involved in a Working Group</h3>
-<p>Browse the <a href="/working-groups/">Working Groups page</a> and join the Discord channels that match your interests. Working Group meetings are announced in Discord and on the <a href="/events/">Events page</a>.</p>
+<p>Browse the <a href="/working-groups/">Working Groups page</a> and choose the group that matches your interests. Once your e-COST membership is approved, you will receive an invitation to the EEG101 Discord community where Working Group channels and meeting announcements are hosted.</p>
 </div>
 </div>
 <div class="join-step">
@@ -83,7 +83,6 @@ Contact the coordination team at [{{ site.data.site.email }}](mailto:{{ site.dat
 
 {::nomarkdown}
 <div class="text-center mt-5">
-  <a href="https://e-services.cost.eu/" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Register on e-COST ↗</a>
-  <a href="{{ site.data.site.discord_url }}" class="btn btn-gold btn-lg ms-3" target="_blank" rel="noopener">Join Discord ↗</a>
+  <a href="https://e-services.cost.eu/" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Join via e-COST ↗</a>
 </div>
 {:/nomarkdown}

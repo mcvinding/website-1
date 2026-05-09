@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Events"
-subtitle: "EEG101 meetings, schools, and conferences"
-description: "Upcoming and past events from the EEG101 COST Action — working group meetings, summer schools, and distributed conferences."
+subtitle: "EEG101 meetings and conferences"
+description: "Upcoming and past events from the EEG101 COST Action — working group meetings, distributed conferences, and community events."
 permalink: /events/
 ---
 
@@ -20,7 +20,7 @@ permalink: /events/
 {% endfor %}
 </div>
 {% else %}
-<p class="text-muted">No upcoming events are currently listed. Check back soon or join <a href="{{ site.data.site.discord_url }}" target="_blank" rel="noopener">Discord</a> for announcements.</p>
+<p class="text-muted">No upcoming events are currently listed. Check back soon or <a href="https://e-services.cost.eu/" target="_blank" rel="noopener">join via e-COST ↗</a> to stay connected with the network.</p>
 {% endif %}
 
 ---
@@ -42,8 +42,6 @@ permalink: /events/
 ## EEG101 event formats
 
 **Working Group meetings** are held regularly (online or hybrid) for each Working Group. All EEG101 members are welcome. Dates announced on [Discord]({{ site.data.site.discord_url }}).
-
-**EEG101 Summer Schools** provide immersive, hands-on training in state-of-the-art EEG methodologies. Three schools are planned from Year 2 (Months 18, 30, and 42). Priority places for Young Researchers & Innovators and ITC-based participants.
 
 **Distributed Conference** — EEG101 adopts and extends the CuttingGardens distributed conference model: simultaneous satellite events across Europe, connected through live streaming and shared programming.
 

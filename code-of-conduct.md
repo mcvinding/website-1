@@ -66,7 +66,7 @@ This Code of Conduct applies to:
 
 - EEG101 Discord server
 - EEG101 mailing lists and email communications
-- In-person EEG101 events (Management Committee meetings, Summer Schools, distributed conferences, working group meetings)
+- In-person EEG101 events (Management Committee meetings, distributed conferences, working group meetings)
 - Online EEG101 events (webinars, virtual meetings)
 - EEG101 collaborative projects (GitHub repositories, shared documents)
 - Any other space where someone is representing EEG101
