@@ -14,7 +14,8 @@
 {% endif %}
 </div>
 <div class="person-card__body">
-{% if person.tags and person.tags.size > 0 %}<div class="person-card__tags">{% for tag in person.tags %}<span class="person-tag">{{ tag }}</span>{% endfor %}</div>{% endif %}
+{% if person.tags and person.tags.size > 0 %}<div class="person-card__tags">{% for tag in person.tags %}<span class="person-tag">{{ tag }}</span>{% endfor %}
+</div>{% endif %}
 <h3 class="person-card__name">{{ person.name }}</h3>
 <p class="person-card__role">{{ person.role }}</p>
 {% if person.institution and person.institution != "" %}
