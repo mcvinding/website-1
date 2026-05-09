@@ -8,13 +8,18 @@ permalink: /coordination/
 
 EEG101 was officially launched in November 2025. The coordination team oversees scientific direction, grant administration, science communication, and network governance.
 
-{% assign coordination = site.data.people | sort: "order" %}
+<div class="people-filter" id="peopleFilter" role="group" aria-label="Filter by group"><button class="people-filter__btn active" data-filter="all">All</button><button class="people-filter__btn" data-filter="Leadership">Leadership</button><button class="people-filter__btn" data-filter="Core Group">Core Group</button><button class="people-filter__btn" data-filter="WG1">WG1</button><button class="people-filter__btn" data-filter="WG2">WG2</button><button class="people-filter__btn" data-filter="WG3">WG3</button></div>
 
-<div class="people-grid">
+<div class="people-grid" id="peopleGrid">
+{% assign coordination = site.data.people | sort: "order" %}
 {% for person in coordination %}
 {% include person-card.html person=person %}
 {% endfor %}
 </div>
+
+<script>
+(function(){var btns=document.querySelectorAll('#peopleFilter .people-filter__btn');btns.forEach(function(btn){btn.addEventListener('click',function(){btns.forEach(function(b){b.classList.remove('active');});this.classList.add('active');var f=this.dataset.filter;document.querySelectorAll('#peopleGrid .person-card').forEach(function(card){var tags=card.dataset.tags||'';card.style.display=(f==='all'||tags.split(',').indexOf(f)>-1)?'':'none';});});});})();
+</script>
 
 ---
 
@@ -36,48 +41,4 @@ EEG101 operates through a **Management Committee (MC)** comprising representativ
 
 ## Code of Conduct
 
-The EEG101 Code of Conduct is adapted from the [CuttingEEG Code of Conduct](https://cuttingeeg.org) and applies to all EEG101 spaces — including Discord, mailing lists, in-person and online events, working group meetings, and collaborative projects.
-
-### Our principles
-
-**1. Respect, empathy, and professionalism**
-
-All participants in EEG101 activities are expected to treat one another with respect, empathy, and professionalism. We value diverse viewpoints and approaches and are committed to creating an environment in which everyone feels welcome to contribute.
-
-**2. Diversity and inclusion**
-
-EEG101 is committed to being a community where everyone is welcome, regardless of gender, gender identity, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion, or career stage. We do not tolerate discrimination or harassment in any form.
-
-**3. Open collaboration**
-
-We foster an environment of open scientific collaboration. Ideas are shared constructively and credit is attributed appropriately. We encourage collaborative problem-solving and respect intellectual contributions from all members of the network.
-
-**4. Scientific integrity**
-
-We uphold the highest standards of scientific integrity, including transparency in methods and data, rigorous peer review, appropriate attribution of ideas and contributions, and honest reporting of findings and limitations.
-
-### Unacceptable behaviour
-
-The following behaviours are not acceptable in EEG101 community spaces:
-
-- Harassment, intimidation, or discrimination of any kind
-- Offensive, derogatory, or exclusionary comments
-- Personal or professional attacks
-- Publishing private information about others without consent
-- Deliberate misrepresentation or plagiarism
-- Any other conduct that creates a hostile environment
-
-### Reporting concerns
-
-If you experience or witness behaviour that violates this Code of Conduct, please report it to:
-
-- **Action Chair:** Prof. Faisal Mushtaq ([f.mushtaq@leeds.ac.uk](mailto:f.mushtaq@leeds.ac.uk))
-- **Vice Chair:** Dr Anne-Sophie Dubarry
-
-Reports will be handled confidentially and with care. Retaliation against anyone who reports a concern in good faith is itself a violation of this Code of Conduct.
-
-### Consequences
-
-EEG101 coordination reserves the right to take appropriate action in response to Code of Conduct violations, including warning the individual, temporary or permanent exclusion from EEG101 community spaces, or referral to the relevant institution.
-
-*Code of Conduct last reviewed: 2025. Adapted from the CuttingEEG Code of Conduct with permission.*
+EEG101 is committed to a respectful, inclusive, and scientifically rigorous community. Our full [Code of Conduct](/code-of-conduct/) applies to all EEG101 spaces — including mailing lists, in-person and online events, working group meetings, and collaborative projects.

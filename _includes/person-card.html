@@ -1,5 +1,5 @@
 {% assign person = include.person %}
-<div class="person-card">
+<div class="person-card" data-tags="{% if person.tags %}{{ person.tags | join: ',' }}{% endif %}">
 <div class="person-card__photo-wrap">
 {% if person.image %}
 <img src="{{ person.image | relative_url }}"
@@ -14,13 +14,14 @@
 {% endif %}
 </div>
 <div class="person-card__body">
+{% if person.tags and person.tags.size > 0 %}<div class="person-card__tags">{% for tag in person.tags %}<span class="person-tag">{{ tag }}</span>{% endfor %}</div>{% endif %}
 <h3 class="person-card__name">{{ person.name }}</h3>
 <p class="person-card__role">{{ person.role }}</p>
-{% if person.institution %}
-<p class="person-card__institution">{{ person.institution }}{% if person.country %}, {{ person.country }}{% endif %}</p>
+{% if person.institution and person.institution != "" %}
+<p class="person-card__institution">{{ person.institution }}{% if person.country and person.country != "" %}, {{ person.country }}{% endif %}</p>
 {% endif %}
 {% if person.bio and person.bio != "" %}
-<p class="person-card__bio">{{ person.bio | truncatewords: 30 }}</p>
+<p class="person-card__bio">{{ person.bio | truncatewords: 25 }}</p>
 {% endif %}
 <div class="person-card__links">
 {% if person.website and person.website != "" %}

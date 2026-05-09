@@ -22,6 +22,3 @@ Membership of EEG101 is managed through the [e-COST platform](https://e-services
 
 This website links to external services including YouTube, GitHub, and Discord. Please refer to those platforms' own privacy policies when using their services.
 
-## Contact
-
-For privacy enquiries, contact [{{ site.data.site.email }}](mailto:{{ site.data.site.email }}).

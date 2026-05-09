@@ -16,7 +16,7 @@ layout: default
         <p class="section-lead">{{ c.about.intro }}</p>
         <p>{{ c.about.body }}</p>
         <p>{{ c.about.mission }}</p>
-        <a href="{{ c.about.cta.url }}" class="btn btn-primary mt-3">{{ c.about.cta.label }}</a>
+        <a href="{{ c.about.cta.url | relative_url }}" class="btn btn-primary mt-3">{{ c.about.cta.label }}</a>
       </div>
       <div class="col-12 col-lg-6">
         <div class="cost-badge">
@@ -60,7 +60,7 @@ layout: default
         <h2 class="section-heading mb-0">{{ c.wg_preview.heading }}</h2>
         <p class="section-lead mt-2 mb-0">{{ c.wg_preview.intro }}</p>
       </div>
-      <a href="{{ c.wg_preview.cta.url }}" class="btn btn-outline-primary d-none d-md-inline-flex">{{ c.wg_preview.cta.label }}</a>
+      <a href="{{ c.wg_preview.cta.url | relative_url }}" class="btn btn-outline-primary d-none d-md-inline-flex">{{ c.wg_preview.cta.label }}</a>
     </div>
     <div class="row g-4">
       {% for wg in site.data.working_groups.working_groups %}
@@ -77,7 +77,7 @@ layout: default
       {% endfor %}
     </div>
     <div class="text-center mt-4 d-md-none">
-      <a href="{{ c.wg_preview.cta.url }}" class="btn btn-outline-primary">{{ c.wg_preview.cta.label }}</a>
+      <a href="{{ c.wg_preview.cta.url | relative_url }}" class="btn btn-outline-primary">{{ c.wg_preview.cta.label }}</a>
     </div>
   </div>
 </section>
@@ -88,7 +88,7 @@ layout: default
     <h2 class="join-cta__heading">{{ c.join_cta.heading }}</h2>
     <p class="join-cta__body mx-auto">{{ c.join_cta.body }}</p>
     <div class="mt-4">
-      <a href="{{ c.join_cta.cta.url }}" class="btn btn-gold btn-lg">{{ c.join_cta.cta.label }}</a>
+      <a href="{{ c.join_cta.cta.url | relative_url }}" class="btn btn-gold btn-lg">{{ c.join_cta.cta.label }}</a>
     </div>
   </div>
 </section>
