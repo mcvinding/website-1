@@ -18,7 +18,13 @@ A growing library of open resources developed by and for the EEG101 community. R
 {% for resource in all_resources %}
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="resource-card">
+{% if resource.image and resource.image != "" %}
+<div class="resource-card__thumb">
+<img src="{{ resource.image | relative_url }}" alt="{{ resource.title }}" loading="lazy" width="480" height="240">
+</div>
+{% else %}
 <span class="resource-card__icon" aria-hidden="true">{{ resource.icon }}</span>
+{% endif %}
 <span class="resource-card__type">{{ resource.type | capitalize }}</span>
 <h3 class="resource-card__title">{{ resource.title }}</h3>
 <p class="resource-card__desc">{{ resource.description }}</p>
