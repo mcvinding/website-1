@@ -94,7 +94,11 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 {% for activity in activities %}
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="activity-card">
+{% if activity.image and activity.image != "" %}
+<div class="activity-card__thumb"><img src="{{ activity.image | relative_url }}" alt="{{ activity.title }}" loading="lazy" width="480" height="240"></div>
+{% else %}
 <span class="activity-card__icon" aria-hidden="true">{{ activity.icon }}</span>
+{% endif %}
 <h3 class="activity-card__title">{{ activity.title }}</h3>
 <p class="activity-card__tagline">{{ activity.tagline }}</p>
 <p class="activity-card__desc">{{ activity.description }}</p>

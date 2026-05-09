@@ -113,6 +113,7 @@ activities:
       methodology, open science, career development, and the human stories behind
       the science. New episodes are released regularly from Year 1.
     icon: "🎙️"
+    image: ""
 
   - id: conference
     title: "Distributed Conference"
@@ -124,6 +125,7 @@ activities:
       geographic inclusivity, ensuring participation regardless of location or
       travel constraints.
     icon: "🏛️"
+    image: ""
 
   - id: inclusivity
     title: "Inclusivity Monitoring Committee"
@@ -134,6 +136,7 @@ activities:
       gender balance, ITC representation, and early career participation across
       all EEG101 activities, reporting transparently to the Management Committee.
     icon: "⚖️"
+    image: ""
 
   - id: stsm-vmg
     title: "STSMs & VMGs / Community Challenges"
@@ -145,3 +148,4 @@ activities:
       Groups and neuroscience societies — ensuring STSM and VMG activity addresses
       the most pressing issues in the field.
     icon: "🔬"
+    image: ""
