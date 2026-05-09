@@ -1079,9 +1079,14 @@ strong { font-weight: 600; }
 }
 
 @media (max-width: 768px) {
-  .hero__content { padding: 1.5rem 0 3rem; }
-  .hero__actions { flex-direction: column; align-items: center; }
-  .hero__actions .btn { width: 100%; max-width: 280px; justify-content: center; }
+  .hero { align-items: flex-start; min-height: auto; }
+  .hero__content { padding: 1.5rem 0 2rem; }
+  .hero__logo { height: 56px; }
+  .hero__badge { margin-bottom: 0.5rem; }
+  .hero__headline { margin-bottom: 0.75rem; }
+  .hero__strapline { margin-bottom: 1.25rem; }
+  .hero__actions { flex-direction: column; align-items: center; margin-bottom: 1.5rem; }
+  .hero__actions .btn { width: 100%; max-width: 320px; justify-content: center; }
   .wg-section__header { gap: 0.5rem; }
   .grant-detail { padding: 1.25rem; }
   .footer-main { padding: 3rem 0 1.5rem; }
