@@ -9,11 +9,11 @@ hero:
     label: "Join the network"
     url: "/join/"
   cta_secondary:
-    label: "Explore grants"
-    url: "/grants/"
+    label: "Learn More"
+    url: "/#about"
   cta_tertiary:
-    label: "Watch videos"
-    url: "/videos/"
+    label: "Resources"
+    url: "/resources/"
 
 about:
   heading: "About EEG101"
@@ -40,8 +40,8 @@ about:
     Countries (ITCs). An Inclusivity Monitoring Committee ensures our community
     reflects the diversity of European science.
   cta:
-    label: "Read more about EEG101"
-    url: "/about/"
+    label: "Meet the team"
+    url: "/coordination/"
 
 objectives:
   heading: "Our approach"

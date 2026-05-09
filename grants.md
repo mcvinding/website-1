@@ -69,9 +69,6 @@ EEG101 offers several COST grant schemes to support research collaboration, trai
 {% if grant.guidance_url and grant.guidance_url != "" %}
 <a href="{{ grant.guidance_url }}" class="btn btn-outline-primary" target="_blank" rel="noopener">COST guidance ↗</a>
 {% endif %}
-{% if grant.contact and grant.contact != "" %}
-<a href="mailto:{{ grant.contact }}" class="btn btn-outline-primary">Email grants team</a>
-{% endif %}
 </div>
 
 </section>
@@ -97,22 +94,86 @@ EEG101 offers several COST grant schemes to support research collaboration, trai
 
 ## Frequently asked questions
 
-**Who can apply for EEG101 grants?**
-Applicants must be affiliated with an institution in a COST Full Member or Cooperating Member country. You do not need to be from the same country as your host institution. Membership of EEG101 is free — [join first](/join/).
+<div class="accordion" id="faqAccordion">
 
-**Do I need to be a current EEG101 member?**
-Yes. Join the Action through e-COST before submitting a grant application.
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="faq1-heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+        Who can apply for EEG101 grants?
+      </button>
+    </h3>
+    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Applicants must be affiliated with an institution in a COST Full Member or Cooperating Member country. You do not need to be from the same country as your host institution. Membership of EEG101 is free — <a href="/join/">join first</a>.
+      </div>
+    </div>
+  </div>
 
-**Can early career researchers apply?**
-Absolutely — EEG101 prioritises Young Researchers & Innovators and ITC-based applicants for all grant schemes.
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="faq2-heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+        Do I need to be a current EEG101 member?
+      </button>
+    </h3>
+    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Yes. Join the Action through e-COST before submitting a grant application.
+      </div>
+    </div>
+  </div>
 
-**Can I apply for a STSM with an industry partner?**
-Yes. EEG101 has a dedicated industry engagement track. At least five funded projects will involve industry partners.
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="faq3-heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+        Can early career researchers apply?
+      </button>
+    </h3>
+    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Absolutely — EEG101 prioritises Young Researchers &amp; Innovators and ITC-based applicants for all grant schemes.
+      </div>
+    </div>
+  </div>
 
-**Where can I find host institutions?**
-Connect with the network on [Discord]({{ site.data.site.discord_url }}) to identify potential hosts, or contact the [coordination team](/contact/).
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="faq4-heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+        Can I apply for a STSM with an industry partner?
+      </button>
+    </h3>
+    <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Yes. EEG101 has a dedicated industry engagement track. At least five funded projects will involve industry partners.
+      </div>
+    </div>
+  </div>
 
-**What happens after my grant?**
-A short scientific report is required within 30 days of completion. Payment is released upon approval of your report.
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="faq5-heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+        Where can I find host institutions?
+      </button>
+    </h3>
+    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faq5-heading" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Connect with the network on <a href="{{ site.data.site.discord_url }}">Discord</a> to identify potential hosts, or email <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a>.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="faq6-heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+        What happens after my grant?
+      </button>
+    </h3>
+    <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faq6-heading" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        A short scientific report is required within 30 days of completion. Payment is released upon approval of your report.
+      </div>
+    </div>
+  </div>
+
+</div>
 
 For further guidance, contact the Grant Awarding Coordinator via [{{ site.data.site.email }}](mailto:{{ site.data.site.email }}) or consult the [COST funding pages](https://www.cost.eu/funding/funding-opportunities/).

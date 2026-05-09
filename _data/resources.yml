@@ -16,6 +16,145 @@
     - official
   icon: "📄"
 
+- id: manifesto
+  title: "EEG Community Framework"
+  type: "document"
+  description: >
+    A community-developed framework defining ethical, open, and sustainable
+    principles for EEG research. Browse resources, sign the pledge, and engage
+    with the broader community at the Community Framework portal.
+  url: "https://sign-cf.eeg101.eu"
+  file: ""
+  working_group: ""
+  tags:
+    - manifesto
+    - ethics
+    - open-science
+    - WG3
+  icon: "🌐"
+
+- id: cost-guide
+  title: "Guide to COST Grants (STSMs, VMGs, Conference Grants)"
+  type: "document"
+  description: >
+    A practical guide to applying for EEG101 and COST grant schemes, including
+    STSMs, VMGs, and Conference Grants. Covers eligibility, application process,
+    reporting requirements, and frequently asked questions.
+  url: "https://www.cost.eu/funding/funding-opportunities/"
+  file: ""
+  working_group: ""
+  tags:
+    - grants
+    - STSM
+    - VMG
+  icon: "💶"
+
+- id: discord
+  title: "EEG101 Discord Community"
+  type: "tool"
+  description: >
+    The main community space for EEG101 members. Join channels for each
+    Working Group, grant discussions, job postings, and general EEG
+    conversation. Free to join.
+  url: "https://discord.gg/eeg101"
+  file: ""
+  working_group: ""
+  tags:
+    - community
+    - discord
+  icon: "💬"
+
+- id: youtube
+  title: "EEG101 YouTube Channel"
+  type: "tool"
+  description: >
+    Talks, tutorials, podcast episodes, and event recordings from the
+    EEG101 community, freely available on YouTube.
+  url: "https://www.youtube.com/@eeg101costaction"
+  file: ""
+  working_group: ""
+  tags:
+    - videos
+    - podcast
+    - training
+  icon: "▶️"
+
+- id: github
+  title: "EEG101 on GitHub"
+  type: "tool"
+  description: >
+    The EEG101 GitHub organisation hosts open-source code, scripts, analysis
+    pipelines, and website source. Contributions welcome.
+  url: "https://github.com/eeg101-costaction"
+  file: ""
+  working_group: ""
+  tags:
+    - github
+    - open-source
+    - code
+  icon: "💻"
+
+- id: linkedin
+  title: "EEG101 on LinkedIn"
+  type: "tool"
+  description: >
+    Follow EEG101 on LinkedIn for network updates, job postings, and
+    announcements from the coordination team.
+  url: "https://www.linkedin.com/company/eeg101"
+  file: ""
+  working_group: ""
+  tags:
+    - linkedin
+    - social
+  icon: "🔗"
+
+- id: bluesky
+  title: "EEG101 on Bluesky"
+  type: "tool"
+  description: >
+    Follow @eeg101.bsky.social on Bluesky for community news,
+    events, and open science discussions.
+  url: "https://bsky.app/profile/eeg101.bsky.social"
+  file: ""
+  working_group: ""
+  tags:
+    - bluesky
+    - social
+  icon: "🦋"
+
+- id: brand-assets
+  title: "EEG101 Logos & Brand Assets"
+  type: "template"
+  description: >
+    Official EEG101 logos in various formats for use in presentations,
+    publications, and promotional materials. Use these on posters, slides,
+    and papers to acknowledge EEG101 membership.
+  url: ""
+  file: ""
+  working_group: ""
+  tags:
+    - brand
+    - logos
+    - design
+  icon: "🎨"
+  status: "Coming soon"
+
+- id: slide-templates
+  title: "Presentation Template Slides"
+  type: "template"
+  description: >
+    Branded PowerPoint / Keynote template slides for EEG101 network members
+    to use at conferences, seminars, and outreach events.
+  url: ""
+  file: ""
+  working_group: ""
+  tags:
+    - templates
+    - presentations
+    - brand
+  icon: "📊"
+  status: "Coming soon"
+
 - id: reporting-templates
   title: "EEG Reporting Templates"
   type: "template"
@@ -67,70 +206,6 @@
     - WG2
   icon: "🗄️"
   status: "In development — expected Month 12"
-
-- id: manifesto
-  title: "EEG Community Manifesto"
-  type: "document"
-  description: >
-    A community-developed manifesto outlining ethical principles, standards,
-    and best practices for EEG research. Developed by WG3 through broad
-    community consultation. Includes an online pledge platform.
-  url: ""
-  file: ""
-  working_group: "wg3"
-  tags:
-    - manifesto
-    - ethics
-    - open-science
-    - WG3
-  icon: "🌐"
-  status: "In development"
-
-- id: cost-guide
-  title: "Guide to COST Grants (STSMs, VMGs, Conference Grants)"
-  type: "document"
-  description: >
-    A practical guide to applying for EEG101 and COST grant schemes, including
-    STSMs, VMGs, and Conference Grants. Covers eligibility, application process,
-    reporting requirements, and frequently asked questions.
-  url: "https://www.cost.eu/funding/funding-opportunities/"
-  file: ""
-  working_group: ""
-  tags:
-    - grants
-    - STSM
-    - VMG
-  icon: "💶"
-
-- id: discord
-  title: "EEG101 Discord Community"
-  type: "tool"
-  description: >
-    The main community space for EEG101 members. Join channels for each
-    Working Group, grant discussions, job postings, and general EEG
-    conversation. Free to join.
-  url: "https://discord.gg/eeg101"
-  file: ""
-  working_group: ""
-  tags:
-    - community
-    - discord
-  icon: "💬"
-
-- id: youtube
-  title: "EEG101 YouTube Channel"
-  type: "tool"
-  description: >
-    Talks, tutorials, podcast episodes, and event recordings from the
-    EEG101 community, freely available on YouTube.
-  url: "https://www.youtube.com/@eeg101costaction"
-  file: ""
-  working_group: ""
-  tags:
-    - videos
-    - podcast
-    - training
-  icon: "▶️"
 
 # ---- EXAMPLE ENTRY ----
 # - id: your-resource-id

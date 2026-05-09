@@ -34,21 +34,6 @@
     Vice Chair and co-contact for Code of Conduct matters.
   order: 2
 
-- id: pinar
-  name: "Pınar S. Özbay"
-  role: "Science Communication Coordinator"
-  institution: ""
-  department: ""
-  country: "Turkey"
-  email: ""
-  website: ""
-  orcid: ""
-  image: "/assets/images/people/pinar.jpg"
-  bio: >
-    Pınar leads science communication for EEG101, overseeing the podcast series,
-    social media, and public engagement activities.
-  order: 3
-
 - id: amy
   name: "Amy R. Bland"
   role: "Grant Awarding Coordinator"
@@ -62,7 +47,7 @@
   bio: >
     Amy coordinates EEG101's grant schemes — including STSMs, VMGs, and
     conference grants — overseeing the application and review process.
-  order: 4
+  order: 3
 
 - id: markos
   name: "Markos Apostolakis"
@@ -77,15 +62,30 @@
   bio: >
     Markos represents EEG101's grant holder institution and supports
     administrative and financial coordination of the Action.
+  order: 4
+
+- id: pinar
+  name: "Pınar S. Özbay"
+  role: "Science Communication Coordinator"
+  institution: ""
+  department: ""
+  country: "Turkey"
+  email: ""
+  website: ""
+  orcid: ""
+  image: "/assets/images/people/pinar.jpg"
+  bio: >
+    Pınar leads science communication for EEG101, overseeing the podcast series,
+    social media, and public engagement activities.
   order: 5
 
 - id: vanja
   name: "Vanja Ković"
   role: "WG1 Leader — Reporting Standards"
-  institution: ""
+  institution: "University of Belgrade"
   department: ""
   country: "Serbia"
-  email: ""
+  email: "vanja.kovic@f.bg.ac.rs"
   website: ""
   orcid: ""
   image: "/assets/images/people/vanja.jpg"
@@ -97,10 +97,10 @@
 - id: andjela
   name: "Anđela Šoškić"
   role: "WG1 Co-leader — Reporting Standards"
-  institution: ""
+  institution: "University of Belgrade"
   department: ""
   country: "Serbia"
-  email: ""
+  email: "andjela.soskic@f.bg.ac.rs"
   website: ""
   orcid: ""
   image: "/assets/images/people/andjela.jpg"
@@ -110,10 +110,10 @@
 - id: mahnaz
   name: "Mahnaz Arvaneh"
   role: "WG2 Leader — Curation & Harmonisation"
-  institution: ""
+  institution: "University of Sheffield"
   department: ""
   country: "UK"
-  email: ""
+  email: "m.arvaneh@sheffield.ac.uk"
   website: ""
   orcid: ""
   image: "/assets/images/people/mahnaz.jpg"
@@ -125,10 +125,10 @@
 - id: xun
   name: "Xun He"
   role: "WG2 Co-leader — Curation & Harmonisation"
-  institution: ""
+  institution: "Bournemouth University"
   department: ""
   country: "UK"
-  email: ""
+  email: "xhe@bournemouth.ac.uk"
   website: ""
   orcid: ""
   image: "/assets/images/people/xun.jpg"
@@ -138,10 +138,10 @@
 - id: claudio
   name: "Claudio Babiloni"
   role: "WG2 Co-leader — Curation & Harmonisation"
-  institution: ""
+  institution: "Sapienza University of Rome"
   department: ""
   country: "Italy"
-  email: ""
+  email: "claudio.babiloni@uniroma1.it"
   website: ""
   orcid: ""
   image: "/assets/images/people/claudio.jpg"
@@ -151,25 +151,25 @@
 - id: maximilien
   name: "Maximilien Chaumon"
   role: "WG3 Leader — EEG Community Framework"
-  institution: ""
+  institution: "Paris Brain Institute"
   department: ""
   country: "France"
-  email: ""
+  email: "maximilien.chaumon@icm-institute.org"
   website: ""
   orcid: ""
   image: "/assets/images/people/maximilien.jpg"
   bio: >
     Maximilien leads Working Group 3, guiding the development of the EEG
-    Manifesto and Community Framework for ethical, open EEG research practice.
+    Community Framework for ethical, open EEG research practice.
   order: 11
 
 - id: alexandra
   name: "Alexandra Corneyllie"
   role: "WG3 Co-leader — EEG Community Framework"
-  institution: ""
+  institution: "Lyon Neuroscience Research Center"
   department: ""
   country: "France"
-  email: ""
+  email: "alexandra.corneyllie@cnrs.fr"
   website: ""
   orcid: ""
   image: "/assets/images/people/alexandra.jpg"

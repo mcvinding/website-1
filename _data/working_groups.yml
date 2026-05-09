@@ -8,9 +8,10 @@ working_groups:
     short_title: "WG1"
     tagline: "Standardised reporting for rigorous EEG research"
     aim: >
-      Develop and disseminate standardised reporting guidelines and templates to
-      promote transparency, reproducibility, and consistency across the European
-      EEG research community.
+      This work package develops standardized reporting guidelines and templates to
+      improve transparency, consistency, and reproducibility in EEG research across
+      diverse experimental designs. It works closely with journals and the research
+      community to pilot, refine, and promote widespread adoption of these standards.
     activities:
       - "Create standardised templates for reporting EEG studies, covering advanced experimental designs and methodologies beyond ERPs"
       - "Support complex EEG designs and advanced analyses through community feedback and iterative improvement"
@@ -39,9 +40,10 @@ working_groups:
     short_title: "WG2"
     tagline: "FAIR EEG data accessible to all"
     aim: >
-      Curate and harmonise EEG data across different laboratories and equipment,
-      developing standardised workflows and protocols to promote interoperability
-      and facilitate large-scale collaborative research.
+      This work package curates FAIR-compliant EEG datasets and develops standardized
+      analysis pipelines and harmonisation tools to make data comparable across
+      laboratories, devices, and populations. Its goal is to reduce methodological
+      variability and enable large-scale, collaborative, and reproducible EEG analyses.
     activities:
       - "Develop recommended pipelines for commonly studied EEG phenomena"
       - "Implement pipelines in open-source software platforms (MNE-Python, EEGLAB, FieldTrip, Brainlife.io)"
@@ -72,11 +74,12 @@ working_groups:
     number: 3
     title: "EEG Community Framework"
     short_title: "WG3"
-    tagline: "A shared framework for ethical, open EEG science"
+    tagline: "formerly EEG Manifesto for EEG Science"
     aim: >
-      Develop and promote a Manifesto for EEG Science, outlining ethical
-      principles, standards, and best practices for EEG research, to foster a
-      culture of transparency, openness, and reproducibility across the community.
+      This work package creates and promotes a Community Framework that defines
+      ethical, open, and sustainable principles for EEG research. It aims for
+      cultural change by engaging researchers, institutions, journals, and funders
+      to endorse and implement best practices in open and responsible EEG science.
     activities:
       - "Identify key issues through community consultation across the EEG research landscape"
       - "Collaborate with diverse stakeholders to ensure broad representation in the manifesto"

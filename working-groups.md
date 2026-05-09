@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Working Groups"
+title: "Our Work"
 subtitle: "Three focused groups driving EEG101's scientific programme"
 description: "EEG101 operates through three Working Groups addressing reporting standards, data curation, and a community framework for open EEG science."
 permalink: /working-groups/
@@ -11,6 +11,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 ---
 
 {% assign wgs = site.data.working_groups.working_groups %}
+{% assign all_people = site.data.people %}
 
 {% for wg in wgs %}
 <section class="wg-section" id="{{ wg.id }}">
@@ -21,45 +22,69 @@ EEG101's scientific programme is organised into three Working Groups, each addre
   <p class="wg-section__tagline">{{ wg.tagline }}</p>
 </div>
 
-**Aim:** {{ wg.aim }}
+{{ wg.aim }}
 
-<div class="row g-4 mt-2 mb-4">
-<div class="col-12 col-md-4">
-
-**Activities**
-{% for activity in wg.activities %}
-- {{ activity }}
-{% endfor %}
-
-</div>
-<div class="col-12 col-md-4">
-
-**Expected outputs**
-{% for output in wg.outputs %}
-- {{ output }}
-{% endfor %}
-
-</div>
-<div class="col-12 col-md-4">
-
-**MOU objectives**
-{% for obj in wg.mou_objectives %}
-- {{ obj }}
-{% endfor %}
-
-</div>
-</div>
-
-**Leadership:**
-{% assign all_people = site.data.people %}
+<div class="wg-leaders mt-3 mb-4">
 {% for leader_id in wg.leaders %}
 {% assign leader = all_people | where: "id", leader_id | first %}
-{% if leader %}*{{ leader.name }}* (WG Leader){% endif %}
+{% if leader %}
+<div class="wg-leader">
+  <strong>{{ leader.name }}</strong>
+  {% if leader.institution and leader.institution != "" %}<span class="wg-leader__inst">{{ leader.institution }}{% if leader.country and leader.country != "" %}, {{ leader.country }}{% endif %}</span>{% endif %}
+  {% if leader.email and leader.email != "" %}<a href="mailto:{{ leader.email }}" class="wg-leader__email">{{ leader.email }}</a>{% endif %}
+  <span class="wg-leader__badge">WG Leader</span>
+</div>
+{% endif %}
 {% endfor %}
 {% for coleader_id in wg.co_leaders %}
 {% assign coleader = all_people | where: "id", coleader_id | first %}
-{% if coleader %} · *{{ coleader.name }}* (Co-leader){% endif %}
+{% if coleader %}
+<div class="wg-leader">
+  <strong>{{ coleader.name }}</strong>
+  {% if coleader.institution and coleader.institution != "" %}<span class="wg-leader__inst">{{ coleader.institution }}{% if coleader.country and coleader.country != "" %}, {{ coleader.country }}{% endif %}</span>{% endif %}
+  {% if coleader.email and coleader.email != "" %}<a href="mailto:{{ coleader.email }}" class="wg-leader__email">{{ coleader.email }}</a>{% endif %}
+  <span class="wg-leader__badge wg-leader__badge--co">Co-leader</span>
+</div>
+{% endif %}
 {% endfor %}
+</div>
+
+<div class="row g-3 mb-4">
+
+<div class="col-12 col-md-4">
+<div class="wg-detail-card">
+  <h3 class="wg-detail-card__title">Activities</h3>
+  <ul class="wg-detail-card__list">
+  {% for activity in wg.activities %}
+  <li>{{ activity }}</li>
+  {% endfor %}
+  </ul>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="wg-detail-card">
+  <h3 class="wg-detail-card__title">Expected Outputs</h3>
+  <ul class="wg-detail-card__list">
+  {% for output in wg.outputs %}
+  <li>{{ output }}</li>
+  {% endfor %}
+  </ul>
+</div>
+</div>
+
+<div class="col-12 col-md-4">
+<div class="wg-detail-card">
+  <h3 class="wg-detail-card__title">MOU Objectives</h3>
+  <ul class="wg-detail-card__list">
+  {% for obj in wg.mou_objectives %}
+  <li>{{ obj }}</li>
+  {% endfor %}
+  </ul>
+</div>
+</div>
+
+</div>
 
 </section>
 <hr class="section-divider">
@@ -85,8 +110,4 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 
 ---
 
-## How to get involved
-
-All EEG101 members are welcome to participate in Working Group activities. Join the [EEG101 Discord]({{ site.data.site.discord_url }}) and find the channel for your Working Group of interest, or [contact the coordination team](/contact/).
-
-Working Group meetings are announced on [Discord](/join/) and the [Events page](/events/).
+All EEG101 members are welcome to participate in Working Group activities. Join the [EEG101 Discord]({{ site.data.site.discord_url }}) and find the channel for your Working Group of interest.

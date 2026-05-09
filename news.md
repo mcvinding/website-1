@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "News"
-subtitle: "Updates from the EEG101 network"
-description: "Latest news and announcements from EEG101 COST Action CA24148."
+title: "News & Events"
+subtitle: "Updates, announcements, and upcoming events from the EEG101 network"
+description: "Latest news and events from EEG101 COST Action CA24148."
 permalink: /news/
 ---
 
@@ -35,4 +35,31 @@ permalink: /news/
 
 ---
 
-*To add a news item, edit [`_data/news.yml`](https://github.com/eeg101-costaction/website/blob/main/_data/news.yml) — see the [README](https://github.com/eeg101-costaction/website#adding-a-news-item) for instructions.*
+## Events
+
+{% assign upcoming = site.data.events | where: "status", "upcoming" | sort: "start_date" %}
+{% assign past_events = site.data.events | where: "status", "past" | sort: "start_date" | reverse %}
+
+{% if upcoming.size > 0 %}
+### Upcoming
+
+<div class="row g-4">
+{% for event in upcoming %}
+<div class="col-12 col-md-6 col-lg-4">
+{% include event-card.html event=event %}
+</div>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if past_events.size > 0 %}
+### Past events
+
+<div class="row g-4 mt-2">
+{% for event in past_events %}
+<div class="col-12 col-md-6 col-lg-4">
+{% include event-card.html event=event %}
+</div>
+{% endfor %}
+</div>
+{% endif %}
