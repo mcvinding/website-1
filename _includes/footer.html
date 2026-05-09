@@ -1,7 +1,7 @@
 <footer class="site-footer" role="contentinfo">
   <div class="container">
 
-    <div class="row g-5 footer-main">
+    <div class="row g-4 footer-main">
 
       <!-- Brand column -->
       <div class="col-12 col-md-4">
@@ -12,9 +12,8 @@
                width="100" height="34">
           <span class="footer-brand__name">EEG101</span>
         </a>
-        <p class="footer-brand__desc mt-3">{{ site.data.site.tagline }}</p>
-        <p class="footer-brand__action">COST Action {{ site.data.site.action_number }}<br>{{ site.data.site.action_duration }}</p>
-        <div class="footer-social mt-3">
+        <p class="footer-brand__action mt-2">COST Action {{ site.data.site.action_number }}<br>{{ site.data.site.action_duration }}</p>
+        <div class="footer-social mt-2">
           {% if site.data.site.youtube_url %}
           <a href="{{ site.data.site.youtube_url }}" class="footer-social__link" target="_blank" rel="noopener" aria-label="EEG101 on YouTube">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
@@ -41,6 +40,19 @@
           </a>
           {% endif %}
         </div>
+        <!-- Funding logos -->
+        <div class="footer-fund-logos">
+          <img src="{{ '/assets/images/partners/cost-logo.jpg' | relative_url }}"
+               alt="COST — European Cooperation in Science and Technology"
+               class="footer-fund-logo"
+               width="60" height="20"
+               loading="lazy">
+          <img src="{{ '/assets/images/partners/eu-logo.png' | relative_url }}"
+               alt="Funded by the European Union — Horizon Europe"
+               class="footer-fund-logo"
+               width="50" height="34"
+               loading="lazy">
+        </div>
       </div>
 
       <!-- Navigation columns -->
@@ -65,18 +77,10 @@
       </div>
 
       <div class="col-12 col-md-4">
-        <h3 class="footer-nav__heading">Stay connected</h3>
-        <p class="footer-connect__text">
-          Join the EEG101 community on Discord — the main space for network
-          members, Working Group discussions, and grant updates.
-        </p>
-        <a href="{{ site.data.site.discord_url }}" class="btn btn-outline-light btn-sm mt-2" target="_blank" rel="noopener">
+        <h3 class="footer-nav__heading">Community</h3>
+        <a href="{{ site.data.site.discord_url }}" class="btn btn-outline-light btn-sm" target="_blank" rel="noopener">
           Join Discord ↗
         </a>
-        <p class="footer-connect__email mt-3">
-          General enquiries:<br>
-          <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a>
-        </p>
       </div>
 
     </div><!-- /footer-main -->
