@@ -98,7 +98,7 @@ Apply via <a href="{{ site.data.grants.schemes[0].application_url }}" target="_b
 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">Who can apply for EEG101 grants?</button>
 </h3>
 <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
-<div class="accordion-body">Applicants must be affiliated with an institution in a COST Full Member or Cooperating Member country. You do not need to be from the same country as your host institution. Membership of EEG101 is free — <a href="/join/">join first</a>.</div>
+<div class="accordion-body">Applicants must be affiliated with an institution in a COST Full Member or Cooperating Member country. You do not need to be from the same country as your host institution. Membership of EEG101 is free — <a href="{{ '/join/' | relative_url }}">join first</a>.</div>
 </div>
 </div>
 <div class="accordion-item">

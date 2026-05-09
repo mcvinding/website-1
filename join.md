@@ -27,7 +27,7 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <div class="join-step__number">1</div>
 <div class="join-step__body">
 <h3>Read about EEG101</h3>
-<p>Familiarise yourself with the <a href="/about/">EEG101 aims and objectives</a> and the <a href="/working-groups/">Working Group activities</a> to find where you can contribute.</p>
+<p>Familiarise yourself with the <a href="{{ '/about/' | relative_url }}">EEG101 aims and objectives</a> and the <a href="{{ '/working-groups/' | relative_url }}">Working Group activities</a> to find where you can contribute.</p>
 </div>
 </div>
 <div class="join-step">
@@ -48,14 +48,14 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <div class="join-step__number">4</div>
 <div class="join-step__body">
 <h3>Get involved in a Working Group</h3>
-<p>Browse the <a href="/working-groups/">Working Groups page</a> and choose the group that matches your interests. Once your e-COST membership is approved, you will receive an invitation to the EEG101 Discord community where Working Group channels and meeting announcements are hosted.</p>
+<p>Browse the <a href="{{ '/working-groups/' | relative_url }}">Working Groups page</a> and choose the group that matches your interests. Once your e-COST membership is approved, you will receive an invitation to the EEG101 Discord community where Working Group channels and meeting announcements are hosted.</p>
 </div>
 </div>
 <div class="join-step">
 <div class="join-step__number">5</div>
 <div class="join-step__body">
 <h3>Apply for grants</h3>
-<p>Once you are a registered e-COST member, you are eligible to apply for <a href="/grants/">EEG101 grant schemes</a>. Check the Grants page for open calls and deadlines.</p>
+<p>Once you are a registered e-COST member, you are eligible to apply for <a href="{{ '/grants/' | relative_url }}">EEG101 grant schemes</a>. Check the Grants page for open calls and deadlines.</p>
 </div>
 </div>
 </div>
@@ -65,7 +65,7 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 
 ## Management Committee nominations
 
-National Management Committee (MC) representatives are nominated through COST National Coordinators in each country. If you are interested in representing your country on the EEG101 MC, contact your [COST National Coordinator](https://www.cost.eu/who-we-are/national-coordinators/) and the [Action Chair](/coordination/).
+National Management Committee (MC) representatives are nominated through COST National Coordinators in each country. If you are interested in representing your country on the EEG101 MC, contact your [COST National Coordinator](https://www.cost.eu/who-we-are/national-coordinators/){:target="_blank" rel="noopener"} and the <a href="{{ '/coordination/' | relative_url }}">Action Chair</a>.
 
 ---
 

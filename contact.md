@@ -23,12 +23,12 @@ We welcome enquiries from researchers, institutions, industry partners, and anyo
 
 <div class="contact-route">
 <h3>Joining the network</h3>
-<p>See the <a href="/join/">How to Join page</a> for step-by-step instructions, or join the <a href="{{ site.data.site.discord_url }}" target="_blank" rel="noopener">EEG101 Discord ↗</a> to connect with the community immediately.</p>
+<p>See the <a href="{{ '/join/' | relative_url }}">How to Join page</a> for step-by-step instructions, or join the <a href="{{ site.data.site.discord_url }}" target="_blank" rel="noopener">EEG101 Discord ↗</a> to connect with the community immediately.</p>
 </div>
 
 <div class="contact-route">
 <h3>Grant enquiries</h3>
-<p>For questions about STSMs, VMGs, and Conference Grants, see the <a href="/grants/">Grants page</a> or email the Grant Awarding Coordinator: <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
+<p>For questions about STSMs, VMGs, and Conference Grants, see the <a href="{{ '/grants/' | relative_url }}">Grants page</a> or email the Grant Awarding Coordinator: <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
 </div>
 
 <div class="contact-route">
@@ -43,7 +43,7 @@ We welcome enquiries from researchers, institutions, industry partners, and anyo
 
 <div class="contact-route">
 <h3>Code of Conduct concerns</h3>
-<p>For Code of Conduct matters, contact the <a href="/coordination/">Action Chair or Vice Chair</a> directly and in confidence.</p>
+<p>For Code of Conduct matters, contact the <a href="{{ '/coordination/' | relative_url }}">Action Chair or Vice Chair</a> directly and in confidence.</p>
 </div>
 
 </div>

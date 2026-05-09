@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: "/"
   - title: "About"
-    url: "/#about"
+    url: "/about/"
   - title: "Coordination"
     url: "/coordination/"
   - title: "Our Work"
@@ -18,7 +18,7 @@ main:
 
 footer:
   - title: "About"
-    url: "/#about"
+    url: "/about/"
   - title: "Coordination"
     url: "/coordination/"
   - title: "Our Work"
@@ -33,5 +33,7 @@ footer:
     url: "/resources/"
   - title: "Partners"
     url: "/partners/"
+  - title: "Contact"
+    url: "/contact/"
   - title: "Privacy"
     url: "/privacy/"

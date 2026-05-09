@@ -45,4 +45,4 @@ EEG101 operates through a **Management Committee (MC)** comprising representativ
 
 ## Code of Conduct
 
-EEG101 is committed to a respectful, inclusive, and scientifically rigorous community. Our full [Code of Conduct](/code-of-conduct/) applies to all EEG101 spaces — including mailing lists, in-person and online events, working group meetings, and collaborative projects.
+EEG101 is committed to a respectful, inclusive, and scientifically rigorous community. Our full <a href="{{ '/code-of-conduct/' | relative_url }}">Code of Conduct</a> applies to all EEG101 spaces — including mailing lists, in-person and online events, working group meetings, and collaborative projects.
