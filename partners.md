@@ -20,20 +20,20 @@ EEG101 works alongside a growing network of partner organisations and initiative
 {% for partner in initiatives %}
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="partner-card">
-  <div class="partner-card__logo-wrap">
-    {% if partner.logo and partner.logo != "" %}
-    <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} logo" class="partner-card__logo" loading="lazy">
-    {% else %}
-    <div class="partner-card__logo-placeholder">{{ partner.name | slice: 0, 2 | upcase }}</div>
-    {% endif %}
-  </div>
-  <div class="partner-card__body">
-    <h3 class="partner-card__name">{{ partner.name }}</h3>
-    <p class="partner-card__desc">{{ partner.description }}</p>
-    {% if partner.url and partner.url != "" %}
-    <a href="{{ partner.url }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">Visit website ↗</a>
-    {% endif %}
-  </div>
+<div class="partner-card__logo-wrap">
+{% if partner.logo and partner.logo != "" %}
+<img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} logo" class="partner-card__logo" loading="lazy">
+{% else %}
+<div class="partner-card__logo-placeholder">{{ partner.name | slice: 0, 2 | upcase }}</div>
+{% endif %}
+</div>
+<div class="partner-card__body">
+<h3 class="partner-card__name">{{ partner.name }}</h3>
+<p class="partner-card__desc">{{ partner.description }}</p>
+{% if partner.url and partner.url != "" %}
+<a href="{{ partner.url }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">Visit website ↗</a>
+{% endif %}
+</div>
 </div>
 </div>
 {% endfor %}
@@ -49,20 +49,20 @@ EEG101 works alongside a growing network of partner organisations and initiative
 {% for partner in tools %}
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="partner-card">
-  <div class="partner-card__logo-wrap">
-    {% if partner.logo and partner.logo != "" %}
-    <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} logo" class="partner-card__logo" loading="lazy">
-    {% else %}
-    <div class="partner-card__logo-placeholder">{{ partner.name | slice: 0, 2 | upcase }}</div>
-    {% endif %}
-  </div>
-  <div class="partner-card__body">
-    <h3 class="partner-card__name">{{ partner.name }}</h3>
-    <p class="partner-card__desc">{{ partner.description }}</p>
-    {% if partner.url and partner.url != "" %}
-    <a href="{{ partner.url }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">Visit website ↗</a>
-    {% endif %}
-  </div>
+<div class="partner-card__logo-wrap">
+{% if partner.logo and partner.logo != "" %}
+<img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }} logo" class="partner-card__logo" loading="lazy">
+{% else %}
+<div class="partner-card__logo-placeholder">{{ partner.name | slice: 0, 2 | upcase }}</div>
+{% endif %}
+</div>
+<div class="partner-card__body">
+<h3 class="partner-card__name">{{ partner.name }}</h3>
+<p class="partner-card__desc">{{ partner.description }}</p>
+{% if partner.url and partner.url != "" %}
+<a href="{{ partner.url }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">Visit website ↗</a>
+{% endif %}
+</div>
 </div>
 </div>
 {% endfor %}

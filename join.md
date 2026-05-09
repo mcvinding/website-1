@@ -21,8 +21,8 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 
 ## How to join
 
+{::nomarkdown}
 <div class="join-steps">
-
 <div class="join-step">
 <div class="join-step__number">1</div>
 <div class="join-step__body">
@@ -30,7 +30,6 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <p>Familiarise yourself with the <a href="/about/">EEG101 aims and objectives</a> and the <a href="/working-groups/">Working Group activities</a> to find where you can contribute.</p>
 </div>
 </div>
-
 <div class="join-step">
 <div class="join-step__number">2</div>
 <div class="join-step__body">
@@ -38,15 +37,13 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <p>Official COST membership is managed through the <a href="https://e-services.cost.eu/" target="_blank" rel="noopener">e-COST platform ↗</a>. Search for Action <strong>CA24148</strong> and submit a membership application. This gives you access to grant applications and official COST activities.</p>
 </div>
 </div>
-
 <div class="join-step">
 <div class="join-step__number">3</div>
 <div class="join-step__body">
 <h3>Join the Discord community</h3>
-<p>The <a href="{{ site.data.site.discord_url }}" target="_blank" rel="noopener">EEG101 Discord ↗</a> is where the day-to-day community lives. You can join Discord immediately — no waiting for e-COST approval. Find channels for each Working Group, grants discussion, events, and general EEG conversation.</p>
+<p>The EEG101 Discord is where the day-to-day community lives. You can join Discord immediately — no waiting for e-COST approval. Find channels for each Working Group, grants discussion, events, and general EEG conversation.</p>
 </div>
 </div>
-
 <div class="join-step">
 <div class="join-step__number">4</div>
 <div class="join-step__body">
@@ -54,7 +51,6 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <p>Browse the <a href="/working-groups/">Working Groups page</a> and join the Discord channels that match your interests. Working Group meetings are announced in Discord and on the <a href="/events/">Events page</a>.</p>
 </div>
 </div>
-
 <div class="join-step">
 <div class="join-step__number">5</div>
 <div class="join-step__body">
@@ -62,8 +58,8 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <p>Once you are a registered e-COST member, you are eligible to apply for <a href="/grants/">EEG101 grant schemes</a>. Check the Grants page for open calls and deadlines.</p>
 </div>
 </div>
-
 </div>
+{:/nomarkdown}
 
 ---
 
@@ -85,7 +81,9 @@ Researchers from non-member countries may participate as observers and collabora
 
 Contact the coordination team at [{{ site.data.site.email }}](mailto:{{ site.data.site.email }}) or ask in the [EEG101 Discord]({{ site.data.site.discord_url }}).
 
+{::nomarkdown}
 <div class="text-center mt-5">
   <a href="https://e-services.cost.eu/" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Register on e-COST ↗</a>
   <a href="{{ site.data.site.discord_url }}" class="btn btn-gold btn-lg ms-3" target="_blank" rel="noopener">Join Discord ↗</a>
 </div>
+{:/nomarkdown}
