@@ -174,7 +174,7 @@
     beyond basic ERPs.
   url: ""
   file: ""
-  image: ""
+  image: "/assets/images/resources/toolkit.png"
   working_group: "wg1"
   tags:
     - reporting
@@ -210,7 +210,7 @@
     open-source EEG software and tools.
   url: ""
   file: ""
-  image: ""
+  image: "/assets/images/resources/data-platform.png"
   working_group: "wg2"
   tags:
     - platform

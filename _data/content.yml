@@ -50,35 +50,35 @@ objectives:
     EEG science across Europe.
   items:
     - icon: "📐"
-      image: ""
+      image: "/assets/images/objectives/standardise.png"
       title: "Standardise"
       body: >
         Develop and disseminate standardised reporting guidelines, pre-registration
         templates, and analytical workflows to promote consistency and reproducibility
         across European EEG laboratories.
     - icon: "🔗"
-      image: ""
+      image: "/assets/images/objectives/integrate.png"
       title: "Integrate"
       body: >
         Build a centralised platform hosting a meta-directory of FAIR-compliant
         datasets, standardised pipelines, and a database of open-source software
         tools — making EEG data accessible and interoperable.
     - icon: "🚀"
-      image: ""
+      image: "/assets/images/objectives/advance.png"
       title: "Advance"
       body: >
         Drive innovation through Short-Term Scientific Missions, Virtual Mobility
         Grants, and a distributed conference model — building capacity
         and connecting the next generation of EEG researchers.
     - icon: "🌍"
-      image: ""
+      image: "/assets/images/objectives/collaborate.png"
       title: "Collaborate"
       body: >
         Connect researchers across disciplines, countries, and sectors. EEG101 builds
         on the extensive networks of existing initiatives engaging over 3,000 scientists
         worldwide.
     - icon: "🎓"
-      image: ""
+      image: "/assets/images/objectives/capacity.png"
       title: "Capacity-build"
       body: >
         Prioritise Young Researchers & Innovators and researchers from Inclusiveness

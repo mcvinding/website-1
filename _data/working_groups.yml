@@ -32,7 +32,7 @@ working_groups:
     co_leaders:
       - andjela
     icon: "📋"
-    image: ""
+    image: "/assets/images/working-groups/wg1.png"
 
   - id: wg2
     number: 2
@@ -68,7 +68,7 @@ working_groups:
       - xun
       - claudio
     icon: "🗄️"
-    image: ""
+    image: "/assets/images/working-groups/wg2.png"
 
   - id: wg3
     number: 3
@@ -100,7 +100,7 @@ working_groups:
     co_leaders:
       - alexandra
     icon: "🌐"
-    image: ""
+    image: "/assets/images/working-groups/wg3.png"
 
 # Activity areas coordinated by the Management Committee
 activities:
@@ -113,7 +113,7 @@ activities:
       methodology, open science, career development, and the human stories behind
       the science. New episodes are released regularly from Year 1.
     icon: "🎙️"
-    image: ""
+    image: "/assets/images/activities/podcast.png"
 
   - id: conference
     title: "Distributed Conference"
@@ -125,7 +125,7 @@ activities:
       geographic inclusivity, ensuring participation regardless of location or
       travel constraints.
     icon: "🏛️"
-    image: ""
+    image: "/assets/images/activities/conference.png"
 
   - id: inclusivity
     title: "Inclusivity Monitoring Committee"
@@ -136,7 +136,7 @@ activities:
       gender balance, ITC representation, and early career participation across
       all EEG101 activities, reporting transparently to the Management Committee.
     icon: "⚖️"
-    image: ""
+    image: "/assets/images/activities/inclusivity.png"
 
   - id: stsm-vmg
     title: "STSMs & VMGs / Community Challenges"
@@ -148,4 +148,4 @@ activities:
       Groups and neuroscience societies — ensuring STSM and VMG activity addresses
       the most pressing issues in the field.
     icon: "🔬"
-    image: ""
+    image: "/assets/images/activities/stsm.png"
