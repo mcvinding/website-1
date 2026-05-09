@@ -1,4 +1,4 @@
----
+lol---
 layout: page
 title: "Our Work"
 subtitle: "Three focused groups driving EEG101's scientific programme"
@@ -111,4 +111,3 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 
 ---
 
-All EEG101 members are welcome to participate in Working Group activities. [Join via e-COST](https://e-services.cost.eu/){:target="_blank" rel="noopener"} to register and get involved in the Working Group of your choice.
