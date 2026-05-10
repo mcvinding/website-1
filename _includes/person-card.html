@@ -15,6 +15,7 @@
 </div>
 <div class="person-card__body">
 <h3 class="person-card__name">{{ person.name }}</h3>
+<p class="person-card__role">{{ person.role }}</p>
 {% if person.institution and person.institution != "" %}
 <p class="person-card__institution">{{ person.institution }}{% if person.country and person.country != "" %}, {{ person.country }}{% endif %}</p>
 {% endif %}
