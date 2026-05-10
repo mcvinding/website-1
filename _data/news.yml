@@ -5,7 +5,7 @@
 # Fields:
 #   title       — headline (required)
 #   date        — YYYY-MM-DD (required)
-#   category    — e.g. Announcement | Grants | Events | Research | Community
+#   category    — e.g. Announcement | Grants | Research | Community
 #   summary     — 1–3 sentences shown on the card (required)
 #   image       — path to image in assets/images/news/ (required)
 #   alt         — descriptive alt text for the image (required)
@@ -33,24 +33,6 @@
     - STSM
     - VMG
 
-- title: "Virtual working group meeting: EEG data curation and harmonisation"
-  date: 2026-04-13
-  category: "Events"
-  summary: >
-    WG2 hosts a virtual meeting on 13 April 2026 to discuss current approaches
-    to EEG data curation and harmonisation. All network members are welcome.
-    Connection details shared via Discord.
-  image: "/assets/images/news/wg2-meeting-april2026.jpg"
-  alt: "Virtual meeting connecting EEG researchers across Europe"
-  featured: false
-  external_url: ""
-  internal_url: "/events/"
-  button_label: "Event details"
-  tags:
-    - working-groups
-    - WG2
-    - events
-
 - title: "First in-person Management Committee meeting in Brussels"
   date: 2025-09-01
   category: "Announcement"
@@ -62,8 +44,8 @@
   alt: "EEG101 Management Committee first in-person meeting Brussels 2025"
   featured: false
   external_url: ""
-  internal_url: ""
-  button_label: "Read more"
+  internal_url: "/events/"
+  button_label: "Event details"
   tags:
     - management-committee
     - milestone
@@ -79,24 +61,8 @@
   alt: "COST Action approval announcement for EEG101"
   featured: false
   external_url: ""
-  internal_url: ""
+  internal_url: "/events/"
   button_label: "Read more"
   tags:
     - milestone
     - announcement
-
-# ---- EXAMPLE CARD (copy this to add new news) ----
-# - title: "Your news headline here"
-#   date: 2026-06-01
-#   category: "Announcement"
-#   summary: >
-#     A 1–3 sentence summary of the news item. Keep it concise and informative.
-#   image: "/assets/images/news/your-image-filename.jpg"
-#   alt: "Descriptive alt text for the image"
-#   featured: false
-#   external_url: "https://example.com/article"   # or leave blank
-#   internal_url: ""                                # or leave as relative path
-#   button_label: "Read more"
-#   tags:
-#     - tag1
-#     - tag2
