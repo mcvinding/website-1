@@ -1,5 +1,7 @@
-# Events — upcoming first, then past.
-# status options: upcoming | ongoing | past
+# Events — categorised automatically at build time based on date.
+# Events with dates in the future → Upcoming
+# Events within the last 30 days → Recent Announcements
+# Everything else → Past
 # format options: in-person | online | hybrid
 
 - id: funding-round-2-announcement
@@ -17,7 +19,6 @@
   recording_url: ""
   slides_url: ""
   related_wg: ""
-  status: "upcoming"
   tags:
     - announcement
     - grants
@@ -39,7 +40,6 @@
   recording_url: ""
   slides_url: ""
   related_wg: "wg2"
-  status: "upcoming"
   tags:
     - working-groups
     - WG2
@@ -61,7 +61,6 @@
   recording_url: ""
   slides_url: ""
   related_wg: ""
-  status: "past"
   tags:
     - grants
     - funding
@@ -81,7 +80,6 @@
   recording_url: ""
   slides_url: ""
   related_wg: ""
-  status: "past"
   tags:
     - management-committee
     - in-person
@@ -101,7 +99,6 @@
   recording_url: ""
   slides_url: ""
   related_wg: ""
-  status: "past"
   tags:
     - grants
     - funding
@@ -121,7 +118,6 @@
   recording_url: ""
   slides_url: ""
   related_wg: ""
-  status: "past"
   tags:
     - announcement
     - milestone

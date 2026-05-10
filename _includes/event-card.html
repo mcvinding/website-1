@@ -1,5 +1,6 @@
 {% assign event = include.event %}
-<article class="event-card event-card--{{ event.status }}">
+{% assign status = include.computed_status | default: event.status %}
+<article class="event-card event-card--{{ status }}">
 {% if event.image %}
 <div class="event-card__img-wrap">
 <img src="{{ event.image | relative_url }}" alt="{{ event.alt }}" class="event-card__img" loading="lazy" width="800" height="450">
@@ -8,14 +9,17 @@
 <div class="event-card__body">
 <div class="event-card__meta">
 <span class="event-card__format event-card__format--{{ event.format }}">{% if event.format == "online" %}Online{% elsif event.format == "hybrid" %}Hybrid{% else %}In-person{% endif %}</span>
-{% if event.status == "past" %}<span class="event-card__past-badge">Past event</span>{% endif %}
+{% if status == "past" %}<span class="event-card__past-badge">Past event</span>{% elsif status == "recent" %}<span class="event-card__recent-badge">Recent</span>{% endif %}
 </div>
 <time class="event-card__date" datetime="{{ event.start_date | date: '%Y-%m-%d' }}">{{ event.start_date | date: "%-d %B %Y" }}{% if event.end_date and event.end_date != event.start_date %} – {{ event.end_date | date: "%-d %B %Y" }}{% endif %}</time>
 <h3 class="event-card__title">{{ event.title }}</h3>
 <p class="event-card__location">📍 {{ event.location }}</p>
+{% if event.time and event.time != "" %}
+<p class="event-card__time">🕑 {{ event.time }}</p>
+{% endif %}
 <p class="event-card__summary">{{ event.summary | truncatewords: 30 }}</p>
 <div class="event-card__links">
-{% if event.registration_url and event.registration_url != "" and event.status != "past" %}
+{% if event.registration_url and event.registration_url != "" and status == "upcoming" %}
 <a href="{{ event.registration_url }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Register ↗</a>
 {% endif %}
 {% if event.programme_url and event.programme_url != "" %}
