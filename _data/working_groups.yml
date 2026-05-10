@@ -28,9 +28,9 @@ working_groups:
       - "S2: Provide pre-registered study templates and workflows by Month 18"
       - "S3: Develop comprehensive training materials by Month 24"
     leaders:
-      - vanja
-    co_leaders:
       - andjela
+    co_leaders:
+      - vanja
     icon: "📋"
     image: "/assets/images/working-groups/wg1.png"
 
