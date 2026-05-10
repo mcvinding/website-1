@@ -1,29 +1,31 @@
 {% assign item = include.item %}
 {% if item.external_url and item.external_url != "" %}
-{% assign card_url = item.external_url %}
-{% assign card_external = true %}
+  {% assign card_url = item.external_url %}
+  {% assign card_external = true %}
 {% elsif item.internal_url and item.internal_url != "" %}
-{% assign card_url = item.internal_url %}
-{% assign card_external = false %}
+  {% assign card_url = item.internal_url %}
+  {% assign card_external = false %}
 {% else %}
-{% assign card_url = "" %}
-{% assign card_external = false %}
+  {% assign card_url = "" %}
+  {% assign card_external = false %}
 {% endif %}
 <article class="news-card{% if item.featured %} news-card--featured{% endif %}">
-<div class="news-card__img-wrap">
-{% if item.image %}
-<img src="{{ item.image | relative_url }}" alt="{{ item.alt }}" class="news-card__img" loading="lazy" width="800" height="450">
-{% endif %}
-{% if item.category %}
-<span class="news-card__category">{{ item.category }}</span>
-{% endif %}
-</div>
-<div class="news-card__body">
-<time class="news-card__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %B %Y" }}</time>
-<h3 class="news-card__title">{{ item.title }}</h3>
-<p class="news-card__summary">{{ item.summary }}</p>
-{% if card_url != "" %}
-<a href="{{ card_url }}" class="news-card__link" {% if card_external %}target="_blank" rel="noopener"{% endif %} aria-label="{{ item.button_label | default: 'Read more' }}: {{ item.title }}">{{ item.button_label | default: "Read more" }}{% if card_external %} ↗{% else %} →{% endif %}</a>
-{% endif %}
-</div>
+  <div class="news-card__img-wrap">
+    {% if item.image %}
+      <img src="{{ item.image | relative_url }}" alt="{{ item.alt }}" class="news-card__img" loading="lazy" width="800" height="450">
+    {% endif %}
+  </div>
+  <div class="news-card__body">
+    <div class="news-card__meta mb-2">
+      {% if item.category %}
+        <span class="news-card__category-tag">{{ item.category }}</span>
+      {% endif %}
+    </div>
+    <time class="news-card__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %B %Y" }}</time>
+    <h3 class="news-card__title" style="margin-top: 0.1rem;">{{ item.title }}</h3>
+    <p class="news-card__summary">{{ item.summary }}</p>
+    {% if card_url != "" %}
+      <a href="{{ card_url }}" class="news-card__link" {% if card_external %}target="_blank" rel="noopener"{% endif %} aria-label="{{ item.button_label | default: 'Read more' }}: {{ item.title }}">{{ item.button_label | default: "Read more" }}{% if card_external %} ↗{% else %} →{% endif %}</a>
+    {% endif %}
+  </div>
 </article>

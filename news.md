@@ -52,12 +52,11 @@ permalink: /news/
     {% if item.start_date %}
       {% assign item_date = item.start_date %}
       {% assign is_event = true %}
-      {% assign topic = "Events" %}
     {% else %}
       {% assign item_date = item.date %}
       {% assign is_event = false %}
-      {% assign topic = item.category %}
     {% endif %}
+    {% assign topic = item.category %}
 
     {% assign item_epoch = item_date | date: "%s" | plus: 0 %}
     {% if item_epoch >= now_epoch %}
