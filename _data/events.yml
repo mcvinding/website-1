@@ -2,16 +2,36 @@
 # status options: upcoming | ongoing | past
 # format options: in-person | online | hybrid
 
-- id: wg2-virtual-apr2026
-  title: "WG2 Virtual Meeting: EEG Data Curation & Harmonisation"
-  start_date: 2026-04-13
-  end_date: 2026-04-13
-  location: "Online"
+- id: funding-round-2-announcement
+  title: "Funding Round 2 Opening Shortly"
+  start_date: 2026-06-01
+  end_date: 2026-06-01
+  location: "Announcement"
   format: "online"
   summary: >
-    Working Group 2 hosts a virtual meeting to discuss current challenges
-    and approaches in EEG data curation and harmonisation. All EEG101
-    network members are welcome to attend.
+    Funding Round 2 will open shortly. Make sure you are signed up to EEG101 via e-COST and eligible to apply for our range of grant schemes.
+  image: "/assets/images/news/grants-update.jpg"
+  alt: "Funding Round 2 Announcement"
+  registration_url: "/join/"
+  programme_url: "/grants/"
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  status: "upcoming"
+  tags:
+    - announcement
+    - grants
+    - funding
+
+- id: wg2-virtual-apr2026
+  title: "First EEG101 WG2 Virtual Meeting"
+  start_date: 2026-04-13
+  end_date: 2026-04-13
+  location: "Online (Virtual Event)"
+  format: "online"
+  time: "15:00 – 17:00 (Central European Time)"
+  summary: >
+    This first EEG101 WG2 virtual meeting brings together researchers and practitioners working on EEG data curation, preprocessing, harmonization, and open data infrastructures. The symposium aims to foster discussion, share ongoing work, and build alignment around best practices within the EEG101 COST Action. The program and signup link will be posted here soon, and you will receive information over the online location by email.
   image: "/assets/images/events/wg2-virtual-apr2026.jpg"
   alt: "Virtual meeting icon — EEG101 WG2 online meeting"
   registration_url: ""
@@ -25,16 +45,35 @@
     - WG2
     - online
 
+- id: funding-round-1-closed
+  title: "Funding Round 1: Application Window Closed"
+  start_date: 2026-04-03
+  end_date: 2026-04-03
+  location: "e-COST Platform"
+  format: "online"
+  time: "Closed 17:00 CET"
+  summary: >
+    The application window for Funding Round 1 has now closed. The coordination team is currently reviewing applications for STSMs, VMGs, and Conference Grants.
+  image: "/assets/images/news/grants-update.jpg"
+  alt: "Grants deadline icon"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  status: "past"
+  tags:
+    - grants
+    - funding
+
 - id: mc-brussels-2025
-  title: "Management Committee Meeting — Brussels"
-  start_date: 2025-09-01
-  end_date: 2025-09-02
-  location: "Brussels, Belgium"
+  title: "MC1 Meeting — Brussels"
+  start_date: 2025-09-24
+  end_date: 2025-09-24
+  location: "COST Headquarters, Brussels"
   format: "in-person"
   summary: >
-    The first in-person Management Committee meeting brought together
-    representatives from 24 COST Full Member countries to launch EEG101's
-    scientific programme and governance structure.
+    The first management committee (MC) meeting was hosted on 24 September 2025 at the COST headquarters in Brussels. The COST action was explained to all members by Wioleta Walentowska (Science Officer) and Flavya Ricci (Administrative Officer), including the networking tools and financial support. We discussed the initial actions to be undertaken by the working groups. Furthermore, the action chair, vice chair and others of the core team were selected and voted into position.
   image: "/assets/images/news/brussels-mc-meeting.jpg"
   alt: "Group photo from EEG101 Management Committee meeting in Brussels"
   registration_url: ""
@@ -47,22 +86,42 @@
     - management-committee
     - in-person
 
-# ---- EXAMPLE EVENT (copy this to add a new event) ----
-# - id: your-event-id
-#   title: "Your Event Title"
-#   start_date: 2027-03-10
-#   end_date: 2027-03-12
-#   location: "City, Country"
-#   format: "hybrid"           # in-person | online | hybrid
-#   summary: >
-#     A short description of the event.
-#   image: "/assets/images/events/your-image.jpg"
-#   alt: "Descriptive alt text"
-#   registration_url: "https://..."
-#   programme_url: ""
-#   recording_url: ""
-#   slides_url: ""
-#   related_wg: "wg1"          # wg1 | wg2 | wg3 | "" for general events
-#   status: "upcoming"         # upcoming | ongoing | past
-#   tags:
-#     - tag1
+- id: funding-round-1-opened
+  title: "Funding Round 1: Application Window Opened"
+  start_date: 2025-05-20
+  end_date: 2025-05-20
+  location: "e-COST Platform"
+  format: "online"
+  summary: >
+    Funding Round 1 for EEG101 grants (STSMs, VMGs, and ITC Conference Grants) opened for applications.
+  image: "/assets/images/news/grants-update.jpg"
+  alt: "Grants opening icon"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  status: "past"
+  tags:
+    - grants
+    - funding
+
+- id: eeg101-approved
+  title: "EEG101 Approved"
+  start_date: 2025-05-20
+  end_date: 2025-05-20
+  location: "COST Committee of Senior Officials"
+  format: "online"
+  summary: >
+    We are happy that our proposal Fundamentals of Open & Rigorous EEG Science (EEG101) was approved by the COST Committee of Senior Officials.
+  image: "/assets/images/news/approval.jpg"
+  alt: "EEG101 Approval Announcement"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  status: "past"
+  tags:
+    - announcement
+    - milestone

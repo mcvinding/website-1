@@ -9,9 +9,9 @@ permalink: /grants/
 EEG101 offers several COST grant schemes to support research collaboration, training, and dissemination. Grants are open to researchers affiliated with institutions in COST Full Member or Cooperating Member countries.
 
 <div class="grants-status-banner">
-<strong>Round 1 deadline: 31 October 2026, 17:00 CET.</strong>
-Decisions will be communicated by 30 April 2026.
-Apply via <a href="{{ site.data.grants.schemes[0].application_url }}" target="_blank" rel="noopener">e-COST ↗</a>
+<strong>Funding Round 2 opening shortly.</strong>
+Round 1 applications are currently under review. 
+Make sure you are <a href="{{ '/join/' | relative_url }}">signed up</a> to EEG101 via e-COST to be eligible to apply.
 </div>
 
 ---
