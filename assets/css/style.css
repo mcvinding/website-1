@@ -785,7 +785,7 @@ strong { font-weight: 600; }
 .wg-section { margin: 2.5rem 0; }
 .wg-section__header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
   flex-wrap: wrap;
@@ -797,8 +797,10 @@ strong { font-weight: 600; }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 0.3rem 0.75rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 100px;
+  position: relative;
+  top: -2px;
 }
 .wg-section__title { font-family: var(--font-heading); font-size: var(--step-2); font-weight: 700; margin: 0; color: var(--color-primary); }
 .wg-section__tagline { font-size: var(--step-0); color: var(--color-text-muted); margin: 0; flex-basis: 100%; }
