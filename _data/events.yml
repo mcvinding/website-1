@@ -4,7 +4,7 @@
 # Everything else → Past
 # format options: in-person | online | hybrid
 
--  id: funding-round-2-announcement
+- id: funding-round-2-announcement
   title: "Funding Round 2 Opening Shortly"
   start_date: 2026-06-01
   end_date: 2026-06-01
@@ -24,7 +24,7 @@
     - announcement
     - grants
     - funding
--  id: wg2-virtual-apr2026
+- id: wg2-virtual-apr2026
   title: "First EEG101 WG2 Virtual Meeting"
   start_date: 2026-04-13
   end_date: 2026-04-13
@@ -45,7 +45,7 @@
     - working-groups
     - WG2
     - online
--  id: funding-round-1-closed
+- id: funding-round-1-closed
   title: "Funding Round 1: Application Window Closed"
   start_date: 2026-04-03
   end_date: 2026-04-03
