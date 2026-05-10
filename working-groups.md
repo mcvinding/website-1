@@ -21,7 +21,6 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 {% endif %}
 <div class="wg-section__header">
 <span class="wg-section__number">WG{{ wg.number }}</span>
-<span class="wg-section__icon" aria-hidden="true">{{ wg.icon }}</span>
 <h2 class="wg-section__title">{{ wg.title }}</h2>
 <p class="wg-section__tagline">{{ wg.tagline }}</p>
 </div>

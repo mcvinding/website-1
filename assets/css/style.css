@@ -786,8 +786,8 @@ strong { font-weight: 600; }
 .wg-section__header {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.25rem;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
   flex-wrap: wrap;
 }
 .wg-section__number {
@@ -800,7 +800,6 @@ strong { font-weight: 600; }
   padding: 0.3rem 0.75rem;
   border-radius: 100px;
 }
-.wg-section__icon { font-size: 1.75rem; }
 .wg-section__title { font-family: var(--font-heading); font-size: var(--step-2); font-weight: 700; margin: 0; color: var(--color-primary); }
 .wg-section__tagline { font-size: var(--step-0); color: var(--color-text-muted); margin: 0; flex-basis: 100%; }
 .wg-section__thumb { overflow: hidden; border-radius: var(--radius); margin-bottom: 0.5rem; aspect-ratio: 16/9; }
@@ -816,8 +815,8 @@ strong { font-weight: 600; }
   height: 100%;
   box-shadow: var(--shadow-sm);
 }
-.activity-card__thumb { margin: -1.5rem -1.5rem 0.5rem; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
-.activity-card__thumb img { width: 100%; height: 140px; object-fit: cover; display: block; }
+.activity-card__thumb { margin: -1.5rem -1.5rem 0; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; aspect-ratio: 16/9; }
+.activity-card__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .activity-card__icon { font-size: 1.75rem; margin-bottom: 0.75rem; display: block; }
 .activity-card__title { font-family: var(--font-heading); font-size: var(--step-1); font-weight: 700; color: var(--color-text); margin-top: 0; margin-bottom: 0.25rem; }
 .activity-card__tagline { font-size: 0.82rem; font-weight: 600; color: var(--color-gold-dark); margin-bottom: 0.6rem; }
