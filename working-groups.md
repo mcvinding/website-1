@@ -17,7 +17,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 {% for wg in wgs %}
 <section class="wg-section" id="{{ wg.id }}">
 {% if wg.image and wg.image != "" %}
-<div class="wg-card__thumb mb-3"><img src="{{ wg.image | relative_url }}" alt="{{ wg.title }}" loading="lazy" width="480" height="240"></div>
+<div class="wg-section__thumb"><img src="{{ wg.image | relative_url }}" alt="{{ wg.title }}" loading="lazy" width="480" height="240"></div>
 {% endif %}
 <div class="wg-section__header">
 <span class="wg-section__number">WG{{ wg.number }}</span>
