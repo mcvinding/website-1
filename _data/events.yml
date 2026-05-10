@@ -86,8 +86,8 @@
 
 - id: funding-round-1-opened
   title: "Funding Round 1: Application Window Opened"
-  start_date: 2025-05-20
-  end_date: 2025-05-20
+  start_date: 2026-03-01
+  end_date: 2026-03-01
   location: "e-COST Platform"
   format: "online"
   summary: >
