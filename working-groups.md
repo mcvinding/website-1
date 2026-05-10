@@ -10,8 +10,9 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 
 ---
 
-{% assign wgs = site.data.working\_groups.working\_groups %}
-{% assign all\_people = site.data.people %}
+{::nomarkdown}
+{% assign wgs = site.data.working_groups.working_groups %}
+{% assign all_people = site.data.people %}
 
 {% for wg in wgs %}
 <section class="wg-section" id="{{ wg.id }}">
@@ -25,7 +26,7 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 <p class="wg-section__tagline">{{ wg.tagline }}</p>
 </div>
 
-{{ wg.aim }}
+<p>{{ wg.aim }}</p>
 
 <div class="wg-leaders mt-3 mb-4">
 {% for leader_id in wg.leaders %}
@@ -87,13 +88,14 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 </section>
 <hr class="section-divider">
 {% endfor %}
+{:/nomarkdown}
 
 ## Activities and community programmes
 
 In addition to the three Working Groups, EEG101 delivers a range of community activities coordinated by the Management Committee.
 
-{% assign activities = site.data.working\_groups.activities %}
 {::nomarkdown}
+{% assign activities = site.data.working_groups.activities %}
 <div class="row g-4 mt-2">
 {% for activity in activities %}
 <div class="col-12 col-sm-6 col-lg-4">
