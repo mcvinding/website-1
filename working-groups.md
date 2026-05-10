@@ -15,6 +15,9 @@ EEG101's scientific programme is organised into three Working Groups, each addre
 
 {% for wg in wgs %}
 <section class="wg-section" id="{{ wg.id }}">
+{% if wg.image and wg.image != "" %}
+<div class="wg-card__thumb mb-3"><img src="{{ wg.image | relative_url }}" alt="{{ wg.title }}" loading="lazy" width="480" height="240"></div>
+{% endif %}
 <div class="wg-section__header">
 <span class="wg-section__number">WG{{ wg.number }}</span>
 <span class="wg-section__icon" aria-hidden="true">{{ wg.icon }}</span>
@@ -96,7 +99,7 @@ In addition to the three Working Groups, EEG101 delivers a range of community ac
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="activity-card">
 {% if activity.image and activity.image != "" %}
-<div class="activity-card__thumb"><img src="/assets/images/working-groups/wg1.png" alt="WorkingGroup1” loading="lazy" width="480" height="240"></div>
+<div class="activity-card__thumb"><img src="{{ activity.image | relative_url }}" alt="{{ activity.title }}" loading="lazy" width="480" height="240"></div>
 {% else %}
 <span class="activity-card__icon" aria-hidden="true">{{ activity.icon }}</span>
 {% endif %}
