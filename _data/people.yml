@@ -64,6 +64,20 @@
   tags: [Core Group, MC]
   order: 4
 
+- id: marie-constance
+  name: "Marie-Constance Corsi"
+  role: "Open Science Coordinator"
+  institution: "Inria / Paris Brain Institute"
+  department: ""
+  country: "France"
+  email: ""
+  website: ""
+  orcid: ""
+  image: "/assets/images/people/marie-constance.jpg"
+  bio: ""
+  tags: [Core Group]
+  order: 5
+
 - id: pinar
   name: "Pınar S. Özbay"
   role: "Science Communication Coordinator"
@@ -77,7 +91,7 @@
     Pınar leads science communication for EEG101, overseeing the podcast series,
     social media, and public engagement activities.
   tags: [Core Group, MC]
-  order: 5
+  order: 6
 
 - id: vanja
   name: "Vanja Ković"
@@ -92,7 +106,7 @@
     Vanja leads Working Group 1 on Reporting Standards, developing standardised
     templates and guidelines to improve transparency and reproducibility in EEG research.
   tags: [WG1, Core Group, MC]
-  order: 6
+  order: 7
 
 - id: andjela
   name: "Anđela Šoškić"
@@ -105,7 +119,7 @@
   image: "/assets/images/people/andjela.jpg"
   bio: ""
   tags: [WG1, Core Group, MC]
-  order: 7
+  order: 8
 
 - id: mahnaz
   name: "Mahnaz Arvaneh"
@@ -120,7 +134,7 @@
     Mahnaz leads Working Group 2, overseeing the curation and harmonisation of
     EEG datasets across laboratories and device manufacturers.
   tags: [WG2, Core Group, MC]
-  order: 8
+  order: 9
 
 - id: xun
   name: "Xun He"
@@ -133,7 +147,7 @@
   image: "/assets/images/people/xun.jpg"
   bio: ""
   tags: [WG2, Core Group]
-  order: 9
+  order: 10
 
 - id: claudio
   name: "Claudio Babiloni"
@@ -146,7 +160,7 @@
   image: "/assets/images/people/claudio.jpg"
   bio: ""
   tags: [WG2, Core Group, MC]
-  order: 10
+  order: 11
 
 - id: maximilien
   name: "Maximilien Chaumon"
@@ -161,7 +175,7 @@
     Maximilien leads Working Group 3, guiding the development of the EEG
     Community Framework for ethical, open EEG research practice.
   tags: [WG3, Core Group, MC]
-  order: 11
+  order: 12
 
 - id: alexandra
   name: "Alexandra Corneyllie"
@@ -174,4 +188,4 @@
   image: "/assets/images/people/alexandra.jpg"
   bio: ""
   tags: [WG3, Core Group, MC]
-  order: 12
+  order: 13
