@@ -6,7 +6,6 @@
   name: "Faisal Mushtaq"
   role: "Action Chair"
   institution: "University of Leeds"
-  department: "School of Psychology"
   country: "UK"
   email: "f.mushtaq@leeds.ac.uk"
   website: "https://psychologicalsciences.leeds.ac.uk/psychology-staff/faisal-mushtaq/"
@@ -16,14 +15,13 @@
     Professor of Cognitive Neuroscience at the University of Leeds. Faisal's
     research focuses on sensorimotor learning, neural plasticity, and open
     science. He leads EEG101 as COST Action Chair.
-  tags: [Core Group, MC]
+  tags: [Leadership, Core Group, Management Committee]
   order: 1
 
 - id: anneso
   name: "Anne-Sophie Dubarry"
   role: "Vice Chair"
   institution: "Aix-Marseille Université"
-  department: ""
   country: "France"
   email: ""
   website: ""
@@ -33,14 +31,13 @@
     Cognitive neuroscientist at Aix-Marseille Université. Anne-Sophie's research
     focuses on language processing and EEG methodology. She serves as EEG101
     Vice Chair and co-contact for Code of Conduct matters.
-  tags: [Core Group, MC]
+  tags: [Leadership, Core Group, Management Committee]
   order: 2
 
 - id: amy
   name: "Amy R. Bland"
   role: "Grant Awarding Coordinator"
   institution: ""
-  department: ""
   country: "UK"
   email: ""
   website: ""
@@ -49,14 +46,13 @@
   bio: >
     Amy coordinates EEG101's grant schemes — including STSMs, VMGs, and
     conference grants — overseeing the application and review process.
-  tags: [Core Group, MC]
+  tags: [Core Group, Management Committee]
   order: 3
 
 - id: markos
   name: "Markos Apostolakis"
   role: "Grant Holder Scientific Representative"
   institution: ""
-  department: ""
   country: "Cyprus"
   email: ""
   website: ""
@@ -65,14 +61,13 @@
   bio: >
     Markos represents EEG101's grant holder institution and supports
     administrative and financial coordination of the Action.
-  tags: [Core Group, MC]
+  tags: [Core Group, Management Committee]
   order: 4
 
 - id: pinar
   name: "Pınar S. Özbay"
   role: "Science Communication Coordinator"
   institution: ""
-  department: ""
   country: "Turkey"
   email: ""
   website: ""
@@ -81,14 +76,13 @@
   bio: >
     Pınar leads science communication for EEG101, overseeing the podcast series,
     social media, and public engagement activities.
-  tags: [Core Group, MC]
+  tags: [Core Group, Management Committee]
   order: 5
 
 - id: vanja
   name: "Vanja Ković"
-  role: "WG1 Co-leader — Reporting Standards"
+  role: "WG1 Leader — Reporting Standards"
   institution: "University of Belgrade"
-  department: ""
   country: "Serbia"
   email: "vanja.kovic@f.bg.ac.rs"
   website: ""
@@ -97,28 +91,26 @@
   bio: >
     Vanja leads Working Group 1 on Reporting Standards, developing standardised
     templates and guidelines to improve transparency and reproducibility in EEG research.
-  tags: [WG1, Core Group, MC]
+  tags: [WG1, Core Group, Management Committee]
   order: 6
 
 - id: andjela
   name: "Anđela Šoškić"
-  role: "WG1 Leader — Reporting Standards"
+  role: "WG1 Co-leader — Reporting Standards"
   institution: "University of Belgrade"
-  department: ""
   country: "Serbia"
   email: "andjela.soskic@f.bg.ac.rs"
   website: ""
   orcid: ""
   image: "/assets/images/people/andjela.jpg"
   bio: ""
-  tags: [WG1, Core Group]
+  tags: [WG1, Core Group, Management Committee]
   order: 7
 
 - id: mahnaz
   name: "Mahnaz Arvaneh"
   role: "WG2 Leader — Curation & Harmonisation"
   institution: "University of Sheffield"
-  department: ""
   country: "UK"
   email: "m.arvaneh@sheffield.ac.uk"
   website: ""
@@ -127,14 +119,13 @@
   bio: >
     Mahnaz leads Working Group 2, overseeing the curation and harmonisation of
     EEG datasets across laboratories and device manufacturers.
-  tags: [WG2, Core Group, MC]
+  tags: [WG2, Core Group, Management Committee]
   order: 8
 
 - id: xun
   name: "Xun He"
   role: "WG2 Co-leader — Curation & Harmonisation"
   institution: "Bournemouth University"
-  department: ""
   country: "UK"
   email: "xhe@bournemouth.ac.uk"
   website: ""
@@ -148,21 +139,19 @@
   name: "Claudio Babiloni"
   role: "WG2 Co-leader — Curation & Harmonisation"
   institution: "Sapienza University of Rome"
-  department: ""
   country: "Italy"
   email: "claudio.babiloni@uniroma1.it"
   website: ""
   orcid: ""
   image: "/assets/images/people/claudio.jpg"
   bio: ""
-  tags: [WG2, Core Group, MC]
+  tags: [WG2, Core Group, Management Committee]
   order: 10
 
 - id: maximilien
   name: "Maximilien Chaumon"
   role: "WG3 Leader — EEG Community Framework"
   institution: "Paris Brain Institute"
-  department: ""
   country: "France"
   email: "maximilien.chaumon@icm-institute.org"
   website: ""
@@ -171,19 +160,18 @@
   bio: >
     Maximilien leads Working Group 3, guiding the development of the EEG
     Community Framework for ethical, open EEG research practice.
-  tags: [WG3, Core Group, MC]
+  tags: [WG3, Core Group, Management Committee]
   order: 11
 
 - id: alexandra
   name: "Alexandra Corneyllie"
   role: "WG3 Co-leader — EEG Community Framework"
   institution: "Lyon Neuroscience Research Center"
-  department: ""
   country: "France"
   email: "alexandra.corneyllie@cnrs.fr"
   website: ""
   orcid: ""
   image: "/assets/images/people/alexandra.jpg"
   bio: ""
-  tags: [WG3, Core Group]
+  tags: [WG3, Core Group, Management Committee]
   order: 12

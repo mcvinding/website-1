@@ -1,0 +1,13 @@
+<div class="wg-card">
+  {% if include.wg.image and include.wg.image != "" %}
+  <div class="wg-card__thumb"><img src="{{ include.wg.image | relative_url }}" alt="{{ include.wg.title }}" loading="lazy" width="480" height="240"></div>
+  {% endif %}
+  <div class="wg-card__number">WG{{ include.wg.number }}</div>
+  {% unless include.wg.image and include.wg.image != "" %}
+  <div class="wg-card__icon" aria-hidden="true">{{ include.wg.icon }}</div>
+  {% endunless %}
+  <h3 class="wg-card__title">{{ include.wg.title }}</h3>
+  <p class="wg-card__tagline">{{ include.wg.tagline }}</p>
+  <p class="wg-card__aim">{{ include.wg.aim | truncatewords: 30 }}</p>
+  <a href="{{ '/working-groups/' | relative_url }}#{{ include.wg.id }}" class="wg-card__link">Learn more →</a>
+</div>

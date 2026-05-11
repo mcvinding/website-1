@@ -1,0 +1,9 @@
+<div class="obj-card">
+  {% if include.obj.image and include.obj.image != "" %}
+  <div class="obj-card__thumb"><img src="{{ include.obj.image | relative_url }}" alt="{{ include.obj.title }}" loading="lazy" width="480" height="240"></div>
+  {% else %}
+  <div class="obj-card__icon" aria-hidden="true">{{ include.obj.icon }}</div>
+  {% endif %}
+  <h3 class="obj-card__title">{{ include.obj.title }}</h3>
+  <p class="obj-card__body">{{ include.obj.body }}</p>
+</div>

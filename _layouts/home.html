@@ -40,15 +40,7 @@ layout: default
     <div class="row g-4 mt-2">
       {% for obj in c.objectives.items %}
       <div class="col-12 col-sm-6 col-lg-4">
-        <div class="obj-card">
-          {% if obj.image and obj.image != "" %}
-          <div class="obj-card__thumb"><img src="{{ obj.image | relative_url }}" alt="{{ obj.title }}" loading="lazy" width="480" height="240"></div>
-          {% else %}
-          <div class="obj-card__icon" aria-hidden="true">{{ obj.icon }}</div>
-          {% endif %}
-          <h3 class="obj-card__title">{{ obj.title }}</h3>
-          <p class="obj-card__body">{{ obj.body }}</p>
-        </div>
+        {% include obj-card.html obj=obj %}
       </div>
       {% endfor %}
     </div>
@@ -69,19 +61,7 @@ layout: default
     <div class="row g-4">
       {% for wg in site.data.working_groups.working_groups %}
       <div class="col-12 col-md-4">
-        <div class="wg-card">
-          {% if wg.image and wg.image != "" %}
-          <div class="wg-card__thumb"><img src="{{ wg.image | relative_url }}" alt="{{ wg.title }}" loading="lazy" width="480" height="240"></div>
-          {% endif %}
-          <div class="wg-card__number">WG{{ wg.number }}</div>
-          {% unless wg.image and wg.image != "" %}
-          <div class="wg-card__icon" aria-hidden="true">{{ wg.icon }}</div>
-          {% endunless %}
-          <h3 class="wg-card__title">{{ wg.title }}</h3>
-          <p class="wg-card__tagline">{{ wg.tagline }}</p>
-          <p class="wg-card__aim">{{ wg.aim | truncatewords: 30 }}</p>
-          <a href="{{ '/working-groups/' | relative_url }}#{{ wg.id }}" class="wg-card__link">Learn more →</a>
-        </div>
+        {% include wg-card.html wg=wg %}
       </div>
       {% endfor %}
     </div>
