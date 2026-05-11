@@ -839,8 +839,8 @@ strong { font-weight: 600; }
 .resource-card__thumb { margin: -1.5rem -1.5rem 0; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
 .resource-card__thumb img { width: 100%; aspect-ratio: 16/9; height: auto; object-fit: cover; display: block; }
 .resource-card__icon { font-size: 2rem; display: block; margin-bottom: 0.75rem; }
-.resource-card__type { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-muted); display: block; margin-top: 1rem; margin-bottom: 0.4rem; }
-.resource-card__title { font-size: var(--step-0); font-weight: 600; color: var(--color-text); margin-bottom: 0.6rem; }
+.resource-card__type { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-muted); display: block; margin-top: 0.75rem; margin-bottom: 0.15rem; }
+.resource-card__title { font-size: var(--step-0); font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem; }
 .resource-card__desc { font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 1rem; line-height: 1.65; }
 .resource-card__status { font-size: 0.8rem; color: var(--color-gold-dark); font-style: italic; margin-bottom: 0.75rem; }
 .resource-card__links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
