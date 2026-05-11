@@ -734,6 +734,8 @@ strong { font-weight: 600; }
   padding: 0.3rem 0.75rem;
   border-radius: 100px;
 }
+.wg-section__thumb { border-radius: var(--radius); overflow: hidden; margin-bottom: 1.5rem; }
+.wg-section__thumb img { width: 100%; height: 240px; object-fit: cover; display: block; }
 .wg-section__icon { font-size: 1.75rem; }
 .wg-section__title { font-family: var(--font-heading); font-size: var(--step-2); font-weight: 700; margin: 0; color: var(--color-primary); }
 .wg-section__tagline { font-size: var(--step-0); color: var(--color-text-muted); margin: 0; flex-basis: 100%; }
