@@ -10,7 +10,7 @@
     aims, objectives, working groups, milestones, and governance.
   url: ""
   file: "/assets/docs/EEG101-MOU-CA24148.pdf"
-  image: ""
+  image: "/assets/images/resources/mou.png"
   working_group: ""
   tags:
     - governance
@@ -26,7 +26,7 @@
     with the broader community at the Community Framework portal.
   url: "https://sign-cf.eeg101.eu"
   file: ""
-  image: ""
+  image: "/assets/images/resources/framework.png"
   working_group: ""
   tags:
     - manifesto
@@ -36,7 +36,7 @@
   icon: "🌐"
 
 - id: cost-guide
-  title: "Guide to COST Grants (STSMs, VMGs, Conference Grants)"
+  title: "Guide to COST Grants"
   type: "document"
   description: >
     A practical guide to applying for EEG101 and COST grant schemes, including
@@ -44,13 +44,30 @@
     reporting requirements, and frequently asked questions.
   url: "https://www.cost.eu/funding/funding-opportunities/"
   file: ""
-  image: ""
+  image: "/assets/images/resources/grants.png"
   working_group: ""
   tags:
     - grants
     - STSM
     - VMG
   icon: "💶"
+
+- id: network
+  title: "Join the EEG101 Network"
+  type: "tool"
+  description: >
+    Membership is free and open to researchers at all career stages from any
+    country. Register via e-COST to access grants, Working Group activities,
+    and the full EEG101 community.
+  url: "https://e-services.cost.eu/"
+  file: ""
+  image: "/assets/images/resources/network.png"
+  working_group: ""
+  tags:
+    - join
+    - membership
+    - community
+  icon: "🌍"
 
 - id: discord
   title: "EEG101 Discord Community"
@@ -61,7 +78,7 @@
     conversation. Free to join.
   url: "https://discord.gg/eeg101"
   file: ""
-  image: ""
+  image: "/assets/images/resources/discord.png"
   working_group: ""
   tags:
     - community
@@ -76,7 +93,7 @@
     EEG101 community, freely available on YouTube.
   url: "https://www.youtube.com/@eeg101costaction"
   file: ""
-  image: ""
+  image: "/assets/images/resources/youtube.png"
   working_group: ""
   tags:
     - videos
@@ -92,7 +109,7 @@
     pipelines, and website source. Contributions welcome.
   url: "https://github.com/eeg101-costaction"
   file: ""
-  image: ""
+  image: "/assets/images/resources/github.png"
   working_group: ""
   tags:
     - github
@@ -108,7 +125,7 @@
     announcements from the coordination team.
   url: "https://www.linkedin.com/company/eeg101"
   file: ""
-  image: ""
+  image: "/assets/images/resources/linkedin.png"
   working_group: ""
   tags:
     - linkedin
@@ -123,7 +140,7 @@
     events, and open science discussions.
   url: "https://bsky.app/profile/eeg101.bsky.social"
   file: ""
-  image: ""
+  image: "/assets/images/resources/bluesky.png"
   working_group: ""
   tags:
     - bluesky
@@ -139,7 +156,7 @@
     and papers to acknowledge EEG101 membership.
   url: ""
   file: ""
-  image: ""
+  image: "/assets/images/resources/logos.png"
   working_group: ""
   tags:
     - brand
@@ -156,7 +173,7 @@
     to use at conferences, seminars, and outreach events.
   url: ""
   file: ""
-  image: ""
+  image: "/assets/images/resources/slides.png"
   working_group: ""
   tags:
     - templates
@@ -174,7 +191,7 @@
     beyond basic ERPs.
   url: ""
   file: ""
-  image: "/assets/images/resources/toolkit.png"
+  image: "/assets/images/resources/templates.png"
   working_group: "wg1"
   tags:
     - reporting
@@ -192,7 +209,7 @@
     preprocessing steps and interactive analytical tools.
   url: ""
   file: ""
-  image: ""
+  image: "/assets/images/resources/toolkit.png"
   working_group: "wg1"
   tags:
     - pre-registration
