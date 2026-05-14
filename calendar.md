@@ -29,17 +29,17 @@ permalink: /calendar/
 <script>
 (function () {
   var EVENTS = {{ site.data.events | jsonify }};
-  var MONTHS = ['January','February','March','April','May','June',
-                'July','August','September','October','November','December'];
+  var MONTHS = ["January","February","March","April","May","June",
+                "July","August","September","October","November","December"];
 
   var curYear, curMonth;
-  var grid     = document.getElementById('cal-grid');
-  var titleEl  = document.getElementById('cal-title');
-  var popover  = document.getElementById('cal-popover');
+  var grid     = document.getElementById("cal-grid");
+  var titleEl  = document.getElementById("cal-title");
+  var popover  = document.getElementById("cal-popover");
 
   function parseLocalDate(str) {
     if (!str) return null;
-    var p = String(str).split('-');
+    var p = String(str).split("-");
     if (p.length < 3) return null;
     return new Date(parseInt(p[0], 10), parseInt(p[1], 10) - 1, parseInt(p[2], 10));
   }
@@ -53,19 +53,19 @@ permalink: /calendar/
   }
 
   function esc(str) {
-    return String(str || '')
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;');
+    return String(str || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
   }
 
   function makeChip(ev) {
-    var btn = document.createElement('button');
-    var fmt = (ev.format || 'online').toLowerCase().replace(/[^a-z-]/g, '');
-    btn.type = 'button';
-    btn.className = 'cal-event-chip cal-event-chip--' + fmt;
+    var btn = document.createElement("button");
+    var fmt = (ev.format || "online").toLowerCase().replace(/[^a-z-]/g, "");
+    btn.type = "button";
+    btn.className = "cal-event-chip cal-event-chip--" + fmt;
     btn.textContent = ev.title;
-    btn.addEventListener('click', function (e) {
+    btn.addEventListener("click", function (e) {
       e.stopPropagation();
       showPopover(ev);
     });
@@ -73,16 +73,16 @@ permalink: /calendar/
   }
 
   function makeCell(year, month, day, otherMonth, isToday) {
-    var cell = document.createElement('div');
+    var cell = document.createElement("div");
     var dow  = new Date(year, month, day).getDay(); // 0=Sun ... 6=Sat
-    var cls  = 'cal-cell';
-    if (otherMonth) cls += ' cal-cell--other-month';
-    if (isToday)    cls += ' cal-cell--today';
-    if (dow === 0 || dow === 6) cls += ' cal-cell--weekend';
+    var cls  = "cal-cell";
+    if (otherMonth) cls += " cal-cell--other-month";
+    if (isToday)    cls += " cal-cell--today";
+    if (dow === 0 || dow === 6) cls += " cal-cell--weekend";
     cell.className = cls;
 
-    var num = document.createElement('span');
-    num.className = 'cal-day-num';
+    var num = document.createElement("span");
+    num.className = "cal-day-num";
     num.textContent = day;
     cell.appendChild(num);
 
@@ -95,7 +95,7 @@ permalink: /calendar/
   }
 
   function render() {
-    titleEl.textContent = MONTHS[curMonth] + ' ' + curYear;
+    titleEl.textContent = MONTHS[curMonth] + " " + curYear;
 
     // Remove day cells but keep the 7 fixed header cells
     while (grid.children.length > 7) {
@@ -133,36 +133,36 @@ permalink: /calendar/
   }
 
   function showPopover(ev) {
-    var fmt      = (ev.format || 'online').toLowerCase();
-    var fmtLabel = { 'online': 'Online', 'in-person': 'In Person', 'hybrid': 'Hybrid' }[fmt] || fmt;
-    var dateLine = esc(ev.start_date || '');
-    if (ev.time)     dateLine += ' &middot; ' + esc(ev.time);
-    if (ev.location) dateLine += '<br>' + esc(ev.location);
+    var fmt      = (ev.format || "online").toLowerCase();
+    var fmtLabel = { "online": "Online", "in-person": "In Person", "hybrid": "Hybrid" }[fmt] || fmt;
+    var dateLine = esc(ev.start_date || "");
+    if (ev.time)     dateLine += " &middot; " + esc(ev.time);
+    if (ev.location) dateLine += "<br>" + esc(ev.location);
 
     popover.innerHTML =
-      '<button class="cal-popover__close" type="button" aria-label="Close">&times;</button>' +
-      '<span class="event-card__format event-card__format--' + fmt + '">' + esc(fmtLabel) + '</span>' +
-      '<h3 class="cal-popover__title">' + esc(ev.title) + '</h3>' +
-      '<p class="cal-popover__meta">' + dateLine + '</p>' +
-      (ev.summary ? '<p class="cal-popover__summary">' + esc(ev.summary) + '</p>' : '') +
-      '<a href="/news/" class="btn btn-primary btn-sm mt-2">View all events &rarr;</a>';
+      "<button class=\"cal-popover__close\" type=\"button\" aria-label=\"Close\">&times;</button>" +
+      "<span class=\"event-card__format event-card__format--" + fmt + "\">" + esc(fmtLabel) + "</span>" +
+      "<h3 class=\"cal-popover__title\">" + esc(ev.title) + "</h3>" +
+      "<p class=\"cal-popover__meta\">" + dateLine + "</p>" +
+      (ev.summary ? "<p class=\"cal-popover__summary\">" + esc(ev.summary) + "</p>" : "") +
+      "<a href=\"{{ \"/news/\" | relative_url }}\" class=\"btn btn-primary btn-sm mt-2\">View all events &rarr;</a>";
 
     popover.hidden = false;
-    popover.querySelector('.cal-popover__close').addEventListener('click', function () {
+    popover.querySelector(".cal-popover__close").addEventListener("click", function () {
       popover.hidden = true;
     });
   }
 
   // Close popover when clicking outside
-  document.addEventListener('click', function () { popover.hidden = true; });
-  popover.addEventListener('click', function (e) { e.stopPropagation(); });
+  document.addEventListener("click", function () { popover.hidden = true; });
+  popover.addEventListener("click", function (e) { e.stopPropagation(); });
 
-  document.getElementById('cal-prev').addEventListener('click', function () {
+  document.getElementById("cal-prev").addEventListener("click", function () {
     curMonth--;
     if (curMonth < 0) { curMonth = 11; curYear--; }
     render();
   });
-  document.getElementById('cal-next').addEventListener('click', function () {
+  document.getElementById("cal-next").addEventListener("click", function () {
     curMonth++;
     if (curMonth > 11) { curMonth = 0; curYear++; }
     render();

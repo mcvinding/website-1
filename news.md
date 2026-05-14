@@ -7,6 +7,8 @@ permalink: /news/
 ---
 
 {::nomarkdown}
+<p class="lead text-center">Prefer a month view? Browse all events on the <a href="/calendar/">Calendar page</a> — or subscribe to add them to your own calendar.</p>
+
 {% assign now_epoch = "now" | date: "%s" | plus: 0 %}
 {% assign thirty_days_ago_epoch = now_epoch | minus: 2592000 %}
 
