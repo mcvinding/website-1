@@ -29,6 +29,13 @@
   logo: "/assets/images/partners/gbc-logo.png"
   type: "initiative"
 
+- id: global-brain-health-institute
+  name: "Global Brain Health Institute"
+  description: "International organisation dedicated to protecting the world’s ageing populations from threats to brain health."
+  url: "https://www.gbhi.org"
+  logo: ""
+  type: "initiative"
+
 - id: fieldtrip
   name: "FieldTrip"
   description: "Open-source MATLAB toolbox for advanced analysis of MEG, EEG, and invasive electrophysiological data."
