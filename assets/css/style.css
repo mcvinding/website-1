@@ -1021,6 +1021,21 @@ strong { font-weight: 600; }
 }
 
 /* --- Calendar --- */
+.cal-callout {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--color-primary-light);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 0.85rem 1.25rem;
+  font-size: 0.93rem;
+  color: var(--color-text-muted);
+}
+.cal-callout__icon { font-size: 1.15rem; flex-shrink: 0; }
+.cal-callout__text a { color: var(--color-primary); font-weight: 600; }
+.cal-callout__text a:hover { text-decoration: underline; }
+
 .cal-subscribe {
   background: var(--color-primary-light);
   border: 1px solid var(--color-border);
