@@ -13,7 +13,7 @@ permalink: /news/
 <!-- Calendar Callout -->
 <div class="cal-callout mb-4">
   <span class="cal-callout__icon">&#128197;</span>
-  <span class="cal-callout__text">Prefer a month view? Browse all events on the <a href="/calendar/">Calendar page</a>.</span>
+  <span class="cal-callout__text">Prefer a month view? Browse all events on the <a href="/calendar/">Calendar page</a> &mdash; or subscribe to add them directly to Google&nbsp;/&nbsp;Apple&nbsp;/&nbsp;Outlook Calendar.</span>
 </div>
 
 <!-- Filter Section -->
