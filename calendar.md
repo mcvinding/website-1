@@ -5,25 +5,8 @@ subtitle: "EEG101 events at a glance"
 permalink: /calendar/
 ---
 
-Subscribe to stay up to date with all EEG101 events in your own calendar application.
-
 {::nomarkdown}
-<div class="cal-subscribe">
-  <div class="cal-subscribe__main">
-    <a href="/calendar.ics" class="btn btn-primary" download>&#8659;&nbsp;Download .ics file</a>
-    <span class="cal-subscribe__or">or subscribe for automatic updates:</span>
-  </div>
-  <details class="cal-subscribe__details mt-2">
-    <summary class="cal-subscribe__summary">How to add to Google&nbsp;/&nbsp;Apple&nbsp;/&nbsp;Outlook Calendar</summary>
-    <ol class="cal-subscribe__list mt-2">
-      <li><strong>Google Calendar:</strong> Other calendars &rarr; <kbd>+</kbd> &rarr; From URL &rarr; paste <code>https://www.eeg101.eu/calendar.ics</code></li>
-      <li><strong>Apple Calendar:</strong> File &rarr; New Calendar Subscription &rarr; paste the URL above</li>
-      <li><strong>Outlook:</strong> Add calendar &rarr; Subscribe from web &rarr; paste the URL above</li>
-    </ol>
-  </details>
-</div>
-
-<div class="cal-nav mt-4 mb-2">
+<div class="cal-nav mb-2">
   <button class="btn btn-outline-primary btn-sm" id="cal-prev" type="button">&#8592; Prev</button>
   <h2 class="cal-nav__title mb-0" id="cal-title"></h2>
   <button class="btn btn-outline-primary btn-sm" id="cal-next" type="button">Next &#8594;</button>
