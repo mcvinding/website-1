@@ -2,7 +2,7 @@
 layout: page
 title: "Partners"
 subtitle: "Initiatives and tools that EEG101 works with and supports"
-description: "EEG101 partner organisations and initiatives — EEGManyLabs, CuttingEEG, INDOS, Global Brain Consortium, FieldTrip, ARTEM-IS, African Brain Data Network."
+description: "EEG101 partner organisations and initiatives — EEGManyLabs, CuttingEEG, INDOS, Global Brain Consortium, Global Brain Health Institute, FieldTrip, ARTEM-IS, African Brain Data Network."
 permalink: /partners/
 ---
 
