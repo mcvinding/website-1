@@ -49,3 +49,10 @@
   url: "https://africanbraindatanetwork.com"
   logo: "/assets/images/partners/abdn-logo.png"
   type: "initiative"
+
+- id: eegnet
+  name: "EEGNet"
+  description: "EEGNet is an initiative that facilitates national and international collaborative EEG-based neuroscience research. At the core of EEGNet is the development of a scalable neuroinformatics hub for data sharing and analytics for the investigation of biomarkers of brain disorders."
+  url: "https://eegnet.org"
+  logo: "/assets/images/partners/eegnet-logo.png"
+  type: "initiative"
