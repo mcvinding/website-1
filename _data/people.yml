@@ -33,7 +33,7 @@
 - id: amy
   name: "Amy R. Bland"
   role: "Grant Awarding Coordinator"
-  institution: ""
+  institution: "Manchester Metropolitan University"
   country: "UK"
   email: ""
   website: ""
@@ -47,7 +47,7 @@
 - id: markos
   name: "Markos Apostolakis"
   role: "Grant Holder Scientific Representative"
-  institution: ""
+  institution: "University of Cyprus"
   country: "Cyprus"
   email: ""
   website: ""
