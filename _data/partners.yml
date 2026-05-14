@@ -33,7 +33,7 @@
   name: "Global Brain Health Institute"
   description: "International organisation dedicated to protecting the world’s ageing populations from threats to brain health."
   url: "https://www.gbhi.org"
-  logo: ""
+  logo: "/assets/images/partners/gbhi-logo.svg"
   type: "initiative"
 
 - id: fieldtrip
