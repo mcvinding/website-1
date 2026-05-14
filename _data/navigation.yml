@@ -35,5 +35,7 @@ footer:
     url: "/partners/"
   - title: "Contact"
     url: "/contact/"
+  - title: "Calendar"
+    url: "/calendar/"
   - title: "Privacy"
     url: "/privacy/"
