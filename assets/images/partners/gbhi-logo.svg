@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" role="img" aria-labelledby="title desc">
+  <title id="title">Global Brain Health Institute</title>
+  <desc id="desc">Text logo placeholder for Global Brain Health Institute</desc>
+  <rect width="300" height="180" rx="18" fill="#ffffff"/>
+  <rect x="1" y="1" width="298" height="178" rx="17" fill="none" stroke="#e0dbd4" stroke-width="2"/>
+  <text x="150" y="78" text-anchor="middle" font-family="Lato, Arial, sans-serif" font-size="34" font-weight="700" fill="#000099">GBHI</text>
+  <text x="150" y="112" text-anchor="middle" font-family="Lato, Arial, sans-serif" font-size="17" font-weight="600" fill="#1a1a2e">Global Brain Health</text>
+  <text x="150" y="134" text-anchor="middle" font-family="Lato, Arial, sans-serif" font-size="17" font-weight="600" fill="#1a1a2e">Institute</text>
+</svg>
