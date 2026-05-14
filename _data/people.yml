@@ -12,9 +12,7 @@
   orcid: ""
   image: "/assets/images/people/faisal.jpg"
   bio: >
-    Professor of Cognitive Neuroscience at the University of Leeds. Faisal's
-    research focuses on sensorimotor learning, neural plasticity, and open
-    science. He leads EEG101 as COST Action Chair.
+    Professor of Cognitive Neuroscience at the University of Leeds. Faisal's research focuses on sensorimotor learning, neural plasticity, and open science. He leads EEG101 as COST Action Chair.
   tags: [Core Group, MC]
   order: 1
 
@@ -28,9 +26,7 @@
   orcid: ""
   image: "/assets/images/people/anneso.jpg"
   bio: >
-    Cognitive neuroscientist at Aix-Marseille Université. Anne-Sophie's research
-    focuses on language processing and EEG methodology. She serves as EEG101
-    Vice Chair and co-contact for Code of Conduct matters.
+    Cognitive neuroscientist at Aix-Marseille Université. Anne-Sophie's research focuses on language processing and EEG methodology. She serves as EEG101 Vice Chair and co-contact for Code of Conduct matters.
   tags: [Core Group, MC]
   order: 2
 
@@ -44,8 +40,7 @@
   orcid: ""
   image: "/assets/images/people/amy.jpg"
   bio: >
-    Amy coordinates EEG101's grant schemes — including STSMs, VMGs, and
-    conference grants — overseeing the application and review process.
+    Amy coordinates EEG101's grant schemes — including STSMs, VMGs, and conference grants — overseeing the application and review process.
   tags: [Core Group, MC]
   order: 3
 
@@ -59,8 +54,7 @@
   orcid: ""
   image: "/assets/images/people/markos.jpg"
   bio: >
-    Markos represents EEG101's grant holder institution and supports
-    administrative and financial coordination of the Action.
+    Markos represents EEG101's grant holder institution and supports administrative and financial coordination of the Action.
   tags: [Core Group, MC]
   order: 4
 
@@ -68,7 +62,6 @@
   name: "Marie-Constance Corsi"
   role: "Community Engagement Lead"
   institution: "Inria / Paris Brain Institute"
-  department: ""
   country: "France"
   email: ""
   website: ""
@@ -77,6 +70,19 @@
   bio: ""
   tags: [Core Group]
   order: 5
+
+- id: robert
+  name: "Robert Oostenveld"
+  role: "Industry Engagement Lead"
+  institution: "Donders Institute for Brain, Cognition and Behaviour"
+  country: "Netherlands"
+  email: ""
+  website: ""
+  orcid: ""
+  image: "/assets/images/people/robert.jpg"
+  bio: ""
+  tags: [Core Group]
+  order: 6
 
 - id: pinar
   name: "Pınar S. Özbay"
@@ -88,10 +94,9 @@
   orcid: ""
   image: "/assets/images/people/pinar.jpg"
   bio: >
-    Pınar leads science communication for EEG101, overseeing the podcast series,
-    social media, and public engagement activities.
+    Pınar leads science communication for EEG101, overseeing the podcast series, social media, and public engagement activities.
   tags: [Core Group, MC]
-  order: 6
+  order: 7
 
 - id: vanja
   name: "Vanja Ković"
@@ -103,10 +108,9 @@
   orcid: ""
   image: "/assets/images/people/vanja.jpg"
   bio: >
-    Vanja leads Working Group 1 on Reporting Standards, developing standardised
-    templates and guidelines to improve transparency and reproducibility in EEG research.
+    Vanja leads Working Group 1 on Reporting Standards, developing standardised templates and guidelines to improve transparency and reproducibility in EEG research.
   tags: [WG1, Core Group, MC]
-  order: 7
+  order: 8
 
 - id: andjela
   name: "Anđela Šoškić"
@@ -119,7 +123,7 @@
   image: "/assets/images/people/andjela.jpg"
   bio: ""
   tags: [WG1, Core Group, MC]
-  order: 8
+  order: 9
 
 - id: mahnaz
   name: "Mahnaz Arvaneh"
@@ -131,10 +135,9 @@
   orcid: ""
   image: "/assets/images/people/mahnaz.jpg"
   bio: >
-    Mahnaz leads Working Group 2, overseeing the curation and harmonisation of
-    EEG datasets across laboratories and device manufacturers.
+    Mahnaz leads Working Group 2, overseeing the curation and harmonisation of EEG datasets across laboratories and device manufacturers.
   tags: [WG2, Core Group, MC]
-  order: 9
+  order: 10
 
 - id: xun
   name: "Xun He"
@@ -147,7 +150,7 @@
   image: "/assets/images/people/xun.jpg"
   bio: ""
   tags: [WG2, Core Group]
-  order: 10
+  order: 11
 
 - id: claudio
   name: "Claudio Babiloni"
@@ -160,7 +163,7 @@
   image: "/assets/images/people/claudio.jpg"
   bio: ""
   tags: [WG2, Core Group, MC]
-  order: 11
+  order: 12
 
 - id: maximilien
   name: "Maximilien Chaumon"
@@ -172,10 +175,9 @@
   orcid: ""
   image: "/assets/images/people/maximilien.jpg"
   bio: >
-    Maximilien leads Working Group 3, guiding the development of the EEG
-    Community Framework for ethical, open EEG research practice.
+    Maximilien leads Working Group 3, guiding the development of the EEG Community Framework for ethical, open EEG research practice.
   tags: [WG3, Core Group, MC]
-  order: 12
+  order: 13
 
 - id: alexandra
   name: "Alexandra Corneyllie"
@@ -188,4 +190,4 @@
   image: "/assets/images/people/alexandra.jpg"
   bio: ""
   tags: [WG3, Core Group, MC]
-  order: 13
+  order: 14
