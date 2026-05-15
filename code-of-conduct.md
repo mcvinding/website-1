@@ -6,7 +6,7 @@ description: "EEG101 COST Action Code of Conduct — community standards for res
 permalink: /code-of-conduct/
 ---
 
-The EEG101 Code of Conduct is adapted from the [CuttingEEG Code of Conduct](https://cuttingeeg.org) and applies to all EEG101 spaces — including Discord, mailing lists, in-person and online events, working group meetings, and collaborative projects.
+The EEG101 Code of Conduct is adapted from the [CuttingEEG Code of Conduct](https://cuttingeeg.org/wp-content/uploads/2026/03/Code-of-conduct-2026.03.24.pdf) and applies to all EEG101 spaces — including Discord, mailing lists, in-person and online events, working group meetings, and collaborative projects.
 
 ---
 
@@ -73,4 +73,4 @@ This Code of Conduct applies to:
 
 ---
 
-*This Code of Conduct was last reviewed: 2025. Adapted from the CuttingEEG Code of Conduct with permission.*
+*This Code of Conduct was adapted from the CuttingEEG Code of Conduct with permission.*
