@@ -65,7 +65,7 @@
   tags:
     - grants
     - funding
-  id: mc-brussels-2025
+- id: mc-brussels-2025
   title: "MC1 Meeting — Brussels"
   start_date: 2025-09-24
   end_date: 2025-09-24
@@ -74,7 +74,7 @@
   category: "Events"
   summary: >
     The first management committee (MC) meeting was hosted on 24 September 2025 at the COST headquarters in Brussels. The COST action was explained to all members by Wioleta Walentowska (Science Officer) and Flavya Ricci (Administrative Officer), including the networking tools and financial support. We discussed the initial actions to be undertaken by the working groups. Furthermore, the action chair, vice chair and others of the core team were selected and voted into position.
-  image: "/assets/images/events/mc1-meeting.jpg"
+  image: "/assets/images/events/mc1-brussels.png"
   alt: "Group photo from EEG101 Management Committee meeting in Brussels"
   registration_url: ""
   programme_url: ""
@@ -85,7 +85,7 @@
     - management-committee
     - in-person
 
-  id: funding-round-1-opened
+- id: funding-round-1-opened
   title: "Funding Round 1: Application Window Opened"
   start_date: 2026-03-01
   end_date: 2026-03-01
@@ -105,7 +105,7 @@
     - grants
     - funding
 
-  id: eeg101-approved
+- id: eeg101-approved
   title: "EEG101 Approved"
   start_date: 2025-05-20
   end_date: 2025-05-20
