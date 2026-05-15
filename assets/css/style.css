@@ -499,6 +499,7 @@ strong { font-weight: 600; }
   color: var(--color-primary);
   margin-bottom: 0.6rem;
 }
+.obj-card .obj-card__title { margin-top: 0; }
 .obj-card__body { font-size: 0.9rem; color: var(--color-text-muted); margin: 0; line-height: 1.65; }
 
 /* --- Working Group Cards (homepage) --- */
@@ -530,6 +531,7 @@ strong { font-weight: 600; }
   color: var(--color-primary);
   margin-bottom: 0.35rem;
 }
+.wg-card .wg-card__title { margin-top: 0; }
 .wg-card__tagline { font-size: 0.82rem; font-weight: 600; color: var(--color-text-muted); margin-bottom: 0.75rem; }
 .wg-card__aim { font-size: 0.88rem; color: var(--color-text-muted); margin-bottom: 1rem; line-height: 1.6; }
 .wg-card__link { font-size: 0.88rem; font-weight: 600; color: var(--color-primary); text-decoration: none; }
@@ -573,6 +575,7 @@ strong { font-weight: 600; }
 .news-card__body { padding: 1.25rem; flex: 1; display: flex; flex-direction: column; }
 .news-card__date { font-size: 0.78rem; color: var(--color-text-muted); display: block; margin-bottom: 0.5rem; }
 .news-card__title { font-family: var(--font-heading); font-size: var(--step-1); font-weight: 600; color: var(--color-text); margin-bottom: 0.6rem; line-height: 1.3; }
+.news-card .news-card__title { margin-top: 0; }
 .news-card__summary { font-size: 0.88rem; color: var(--color-text-muted); flex: 1; margin-bottom: 1rem; line-height: 1.6; }
 .news-card__link { font-size: 0.88rem; font-weight: 600; color: var(--color-primary); text-decoration: none; margin-top: auto; }
 .news-card__link:hover { text-decoration: underline; }
@@ -607,6 +610,7 @@ strong { font-weight: 600; }
 .event-card__past-badge { font-size: 0.7rem; font-weight: 600; color: var(--color-text-muted); background: var(--color-bg-alt); padding: 0.2rem 0.6rem; border-radius: 100px; }
 .event-card__date { font-size: 0.82rem; font-weight: 600; color: var(--color-primary); display: block; margin-bottom: 0.4rem; }
 .event-card__title { font-family: var(--font-heading); font-size: var(--step-1); font-weight: 600; color: var(--color-text); margin-bottom: 0.4rem; line-height: 1.3; }
+.event-card .event-card__title { margin-top: 0; }
 .event-card__location { font-size: 0.82rem; color: var(--color-text-muted); margin-bottom: 0.6rem; }
 .event-card__summary { font-size: 0.88rem; color: var(--color-text-muted); margin-bottom: 1rem; line-height: 1.6; }
 .event-card__links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
@@ -841,6 +845,7 @@ strong { font-weight: 600; }
 .resource-card__icon { font-size: 2rem; display: block; margin-bottom: 0.75rem; }
 .resource-card__type { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-muted); display: block; margin-top: 0.75rem; margin-bottom: 0.15rem; }
 .resource-card__title { font-size: var(--step-0); font-weight: 600; color: var(--color-text); margin-bottom: 0.5rem; }
+.resource-card .resource-card__title { margin-top: 0; }
 .resource-card__desc { font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 1rem; line-height: 1.65; }
 .resource-card__status { font-size: 0.8rem; color: var(--color-gold-dark); font-style: italic; margin-bottom: 0.75rem; }
 .resource-card__links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
@@ -875,6 +880,7 @@ strong { font-weight: 600; }
 }
 .partner-card__body { padding: 1.25rem; flex: 1; display: flex; flex-direction: column; }
 .partner-card__name { font-family: var(--font-heading); font-size: var(--step-1); font-weight: 700; color: var(--color-primary); margin-bottom: 0.5rem; margin-top: 0; }
+.partner-card .partner-card__name { margin-top: 0; }
 .partner-card__desc { font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.65; flex: 1; margin-bottom: 1rem; }
 
 /* --- WG Leaders & Detail Cards --- */
