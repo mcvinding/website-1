@@ -98,23 +98,9 @@
   tags: [CG, MC]
   order: 7
 
-- id: vanja
-  name: "Vanja Ković"
-  role: "WG1 Leader — Reporting Standards"
-  institution: "University of Belgrade"
-  country: "Serbia"
-  email: "vanja.kovic@f.bg.ac.rs"
-  website: ""
-  orcid: ""
-  image: "/assets/images/people/vanja.jpg"
-  bio: >
-    Vanja leads Working Group 1 on Reporting Standards, developing standardised templates and guidelines to improve transparency and reproducibility in EEG research.
-  tags: [WG1, CG, MC]
-  order: 8
-
 - id: andjela
   name: "Anđela Šoškić"
-  role: "WG1 Co-leader — Reporting Standards"
+  role: "WG1 Leader — Reporting Standards"
   institution: "University of Belgrade"
   country: "Serbia"
   email: "andjela.soskic@f.bg.ac.rs"
@@ -123,7 +109,34 @@
   image: "/assets/images/people/andjela.jpg"
   bio: ""
   tags: [WG1, CG, MC]
+  order: 8
+
+- id: vanja
+  name: "Vanja Ković"
+  role: "WG1 Co-leader — Reporting Standards"
+  institution: "University of Belgrade"
+  country: "Serbia"
+  email: "vanja.kovic@f.bg.ac.rs"
+  website: ""
+  orcid: ""
+  image: "/assets/images/people/vanja.jpg"
+  bio: >
+    Vanja co-leads Working Group 1 on Reporting Standards, developing standardised templates and guidelines to improve transparency and reproducibility in EEG research.
+  tags: [WG1, CG, MC]
   order: 9
+
+- id: dejan
+  name: "Dejan Pajić"
+  role: "WG1 Co-leader — Reporting Standards"
+  institution: "University of Novi Sad"
+  country: "Serbia"
+  email: ""
+  website: ""
+  orcid: ""
+  image: "/assets/images/people/dejan.jpg"
+  bio: ""
+  tags: [WG1, CG, MC]
+  order: 10
 
 - id: mahnaz
   name: "Mahnaz Arvaneh"
@@ -137,7 +150,7 @@
   bio: >
     Mahnaz leads Working Group 2, overseeing the curation and harmonisation of EEG datasets across laboratories and device manufacturers.
   tags: [WG2, CG, MC]
-  order: 10
+  order: 11
 
 - id: xun
   name: "Xun He"
@@ -150,7 +163,7 @@
   image: "/assets/images/people/xun.jpg"
   bio: ""
   tags: [WG2, CG]
-  order: 11
+  order: 12
 
 - id: claudio
   name: "Claudio Babiloni"
@@ -163,7 +176,7 @@
   image: "/assets/images/people/claudio.jpg"
   bio: ""
   tags: [WG2, CG, MC]
-  order: 12
+  order: 13
 
 - id: maximilien
   name: "Maximilien Chaumon"
@@ -177,7 +190,7 @@
   bio: >
     Maximilien leads Working Group 3, guiding the development of the EEG Community Framework for ethical, open EEG research practice.
   tags: [WG3, CG, MC]
-  order: 13
+  order: 14
 
 - id: alexandra
   name: "Alexandra Corneyllie"
@@ -190,7 +203,7 @@
   image: "/assets/images/people/alexandra.jpg"
   bio: ""
   tags: [WG3, CG]
-  order: 14
+  order: 15
 
 - id: yuri
   name: "Yuri Pavlov"
@@ -203,4 +216,4 @@
   image: "/assets/images/people/yuri.png"
   bio: ""
   tags: [CG, MC]
-  order: 15
+  order: 16
