@@ -16,10 +16,10 @@
   type: "initiative"
 
 - id: indos
-  name: "INDOS COST Action"
+  name: "INDOS"
   description: "INDoS is a European COST Action focused on transforming how human neuroimaging data is shared and reused."
   url: "https://www.indos-costaction.eu"
-  logo: "/assets/images/partners/indos-logo.png"
+  logo: "/assets/images/partners/indos_logo.png"
   type: "initiative"
 
 - id: global-brain-consortium
