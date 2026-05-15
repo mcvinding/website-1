@@ -17,7 +17,7 @@
 
 - id: indos
   name: "INDOS COST Action"
-  description: "COST Action investigating individual differences in oscillatory neural dynamics and their functional consequences."
+  description: "INDoS is a European COST Action focused on transforming how human neuroimaging data is shared and reused."
   url: "https://www.indos-costaction.eu"
   logo: "/assets/images/partners/indos-logo.png"
   type: "initiative"
