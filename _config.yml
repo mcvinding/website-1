@@ -6,7 +6,7 @@ description: >
   leadership in EEG research.
 
 url: "https://www.eeg101.eu"
-baseurl: ""
+baseurl: "/eeg101"
 
 # Build settings
 markdown: kramdown
