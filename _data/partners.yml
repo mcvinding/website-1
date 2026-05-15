@@ -5,7 +5,7 @@
   name: "#EEGManyLabs"
   description: "Large-scale multi-site replication of 20 influential EEG studies across >230 laboratories from 32 countries."
   url: "https://www.eegmanylabs.org"
-  logo: "/assets/images/partners/eegmanylabs-logo.svg"
+  logo: "/assets/images/partners/eegmanylabs-logo.png"
   type: "initiative"
 
 - id: cuttingeeg
@@ -40,7 +40,7 @@
   name: "FieldTrip"
   description: "Open-source MATLAB toolbox for advanced analysis of MEG, EEG, and invasive electrophysiological data."
   url: "https://www.fieldtriptoolbox.org"
-  logo: "/assets/images/partners/fieldtrip-logo.svg"
+  logo: "/assets/images/partners/fieldtrip-logo.png"
   type: "tool"
 
 - id: artem-is
