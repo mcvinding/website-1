@@ -19,7 +19,7 @@
 - id: anneso
   name: "Anne-Sophie Dubarry"
   role: "Vice Chair"
-  institution: "Aix-Marseille Université"
+  institution: "CNRS (French National Centre for Scientific Research)"
   country: "France"
   email: ""
   website: ""
@@ -94,7 +94,7 @@
   orcid: ""
   image: "/assets/images/people/pinar.jpg"
   bio: >
-    Pınar leads science communication for EEG101, overseeing the podcast series, social media, and public engagement activities.
+    Pınar leads science communication for EEG101, overseeing social media and public engagement activities.
   tags: [CG, MC]
   order: 7
 

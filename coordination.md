@@ -37,7 +37,8 @@ EEG101 operates through a **Management Committee (MC)** comprising representativ
 |------|---------------|
 | **Action Chair** | Overall scientific leadership and external representation |
 | **Vice Chair** | Supports the Chair; co-leads governance and Code of Conduct |
-| **Science Communication Coordinator** | Podcast, social media, and public engagement |
+| **Science Communication Coordinator** | Social media and public engagement |
+| **Community Engagement Lead** | Internal engagement, community building, and outreach |
 | **Grant Awarding Coordinator** | STSMs, VMGs, and Conference Grant administration |
 | **Grant Holder Scientific Representative** | Liaison with host institution and financial administration |
 
