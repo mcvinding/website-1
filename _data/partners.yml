@@ -54,7 +54,7 @@
   name: "African Brain Data Network"
   description: "Network promoting open, FAIR neuroscience data from African research sites to advance globally representative brain science."
   url: "https://africanbraindatanetwork.com"
-  logo: "/assets/images/partners/abdn-logo.png"
+  logo: "/assets/images/partners/abdn-logo.jpg"
   type: "initiative"
 
 - id: eegnet
