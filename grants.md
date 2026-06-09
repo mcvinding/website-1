@@ -9,13 +9,19 @@ permalink: /grants/
 EEG101 offers several COST grant schemes to support research collaboration, training, and dissemination. Grants are open to researchers affiliated with institutions in COST Full Member or Cooperating Member countries.
 
 <div class="grants-status-banner">
-We are pleased to announce the second funding round of the EEG101 COST Action. Dedicated funding will support collaboration, training, and dissemination activities that advance the Action’s mission to promote open and rigorous EEG science. There will be a rolling 8-week review period (i.e. your submission will be reviewed within 8 weeks of submission). Please take this into account when planning your application.
+<h3>Important information</h3>
 
-The deadline for EEG101 2026 Round 2 for all available schemes is open until funds are exhausted. 
+🔹 Please note that the **academic lead at the host institution for all STSM placements must be a member of EEG101**. Applicants should ensure that prospective hosts have joined the Action before submitting their application. Membership is open to eligible researchers internationally, including those based outside COST countries.
 
-🔹 Please note that the academic lead at the host institution for all STSM placements must be a member of EEG101. Applicants should ensure that prospective hosts have joined the Action before submitting their application. Membership is open to eligible researchers internationally, including those based outside COST countries. 
+🔹 For **Virtual Mobility applications** involving collaboration with a third party, the **named academic or professional lead at the collaborating organisation must also be a member of EEG101**. Applicants should ensure that any third-party collaborator has joined the Action before submitting their application.
 
-🔹 Applications must also include a clear justification of the requested expenses, including estimated travel, accommodation and subsistence costs where relevant, so that the Grant Reviewers can assess whether the proposed budget is reasonable and eligible.
+🔹 Applications must also include a **clear justification of the requested expenses**, including estimated travel, accommodation and subsistence costs where relevant, so that the Grant Reviewers can assess whether the proposed budget is reasonable and eligible.
+
+🔹 **All visible output** produced with support from these funding schemes **must acknowledge the support of the COST Action** and whenever possible use the COST and EEG101 logos (e.g. on presentation slides and posters). Manuscripts must include the following acknowledgement statement:
+
+> **Example acknowledgement statement:**
+> 
+> This publication is based on work supported by the European COST Action CA24148: ‘EEG101 - Fundamentals of Open & Rigorous EEG Science’.
 </div>
 
 ---
