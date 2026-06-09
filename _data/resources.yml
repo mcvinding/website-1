@@ -73,10 +73,10 @@
   title: "EEG101 Discord Community"
   type: "tool"
   description: >
-    The main community space for EEG101 members. Join channels for each
-    Working Group, grant discussions, job postings, and general EEG
-    conversation. Free to join.
-  url: "https://discord.gg/eeg101"
+    The main community space for EEG101 members. Discord invites are sent to 
+    members who have been approved. To join the network, please register via 
+    e-COST.
+  url: "https://e-services.cost.eu/action/CA24148/working-groups/apply"
   file: ""
   image: "/assets/images/resources/discord.png"
   working_group: ""
