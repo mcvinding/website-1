@@ -1,11 +1,13 @@
 {% assign event = include.event %}
 {% assign status = include.computed_status | default: event.status %}
 <article class="event-card event-card--{{ status }}">
-  {% if event.image %}
   <div class="event-card__img-wrap">
-    <img src="{{ event.image | relative_url }}" alt="{{ event.alt }}" class="event-card__img" loading="lazy" width="800" height="450">
+    {% if event.image and event.image != "" %}
+      <img src="{{ event.image | relative_url }}" alt="{{ event.alt }}" class="event-card__img" loading="lazy" width="800" height="450">
+    {% else %}
+      <img src="{{ '/assets/images/placeholders/default-placeholder.webp' | relative_url }}" alt="EEG101 Event Placeholder" class="event-card__img" loading="lazy" width="800" height="450">
+    {% endif %}
   </div>
-  {% endif %}
   <div class="event-card__body">
     <div class="event-card__meta">
       <span class="event-card__category">Meetings</span>

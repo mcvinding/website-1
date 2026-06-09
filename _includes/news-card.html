@@ -11,8 +11,10 @@
 {% endif %}
 <article class="news-card{% if item.featured %} news-card--featured{% endif %}">
   <div class="news-card__img-wrap">
-    {% if item.image %}
+    {% if item.image and item.image != "" %}
       <img src="{{ item.image | relative_url }}" alt="{{ item.alt }}" class="news-card__img" loading="lazy" width="800" height="450">
+    {% else %}
+      <img src="{{ '/assets/images/placeholders/default-placeholder.webp' | relative_url }}" alt="EEG101 News Placeholder" class="news-card__img" loading="lazy" width="800" height="450">
     {% endif %}
   </div>
   <div class="news-card__body">
