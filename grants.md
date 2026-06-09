@@ -147,4 +147,4 @@ The deadline for EEG101 2026 Round 2 for all available schemes is open until fun
 </div>
 {:/nomarkdown}
 
-For further guidance, contact the Grant Awarding Coordinator via [{{ site.data.site.email }}](mailto:{{ site.data.site.email }}) or consult the [COST funding pages](https://www.cost.eu/funding/funding-opportunities/).
+For further guidance, consult the [COST funding pages](https://www.cost.eu/funding/funding-opportunities/).
