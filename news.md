@@ -24,8 +24,8 @@ permalink: /news/
   <div class="mb-3">
     <label class="text-muted small text-uppercase fw-bold mb-2 d-block">Timeframe</label>
     <div class="news-filter d-flex flex-wrap gap-2" id="statusFilters">
-      <button class="news-filter__btn active" data-filter-type="status" data-filter-val="upcoming-recent">Upcoming & Recent</button>
-      <button class="news-filter__btn" data-filter-type="status" data-filter-val="all">All Time</button>
+      <button class="news-filter__btn" data-filter-type="status" data-filter-val="upcoming-recent">Upcoming & Recent</button>
+      <button class="news-filter__btn active" data-filter-type="status" data-filter-val="all">All Time</button>
       <button class="news-filter__btn" data-filter-type="status" data-filter-val="upcoming">Upcoming</button>
       <button class="news-filter__btn" data-filter-type="status" data-filter-val="recent">Recent</button>
       <button class="news-filter__btn" data-filter-type="status" data-filter-val="past">Past</button>
@@ -99,7 +99,7 @@ permalink: /news/
   var resetBtn = document.getElementById('resetFilters');
 
   var currentFilters = {
-    status: 'upcoming-recent',
+    status: 'all',
     topic: 'all'
   };
 
@@ -143,9 +143,9 @@ permalink: /news/
   handleFilterClick(topicBtns, 'topic');
 
   resetBtn.addEventListener('click', function() {
-    statusBtns.forEach(function(b) { b.classList.remove('active'); if(b.dataset.filterVal === 'upcoming-recent') b.classList.add('active'); });
+    statusBtns.forEach(function(b) { b.classList.remove('active'); if(b.dataset.filterVal === 'all') b.classList.add('active'); });
     topicBtns.forEach(function(b) { b.classList.remove('active'); if(b.dataset.filterVal === 'all') b.classList.add('active'); });
-    currentFilters.status = 'upcoming-recent';
+    currentFilters.status = 'all';
     currentFilters.topic = 'all';
     updateDisplay();
   });
