@@ -9,9 +9,13 @@ permalink: /grants/
 EEG101 offers several COST grant schemes to support research collaboration, training, and dissemination. Grants are open to researchers affiliated with institutions in COST Full Member or Cooperating Member countries.
 
 <div class="grants-status-banner">
-<strong>Funding Round 2 opening shortly.</strong>
-Round 1 applications are currently under review. 
-Make sure you are <a href="{{ '/join/' | relative_url }}">signed up</a> to EEG101 via e-COST to be eligible to apply.
+We are pleased to announce the second funding round of the EEG101 COST Action. Dedicated funding will support collaboration, training, and dissemination activities that advance the Action’s mission to promote open and rigorous EEG science. There will be a rolling 8-week review period (i.e. your submission will be reviewed within 8 weeks of submission). Please take this into account when planning your application.
+
+The deadline for EEG101 2026 Round 2 for all available schemes is open until funds are exhausted. 
+
+🔹 Please note that the academic lead at the host institution for all STSM placements must be a member of EEG101. Applicants should ensure that prospective hosts have joined the Action before submitting their application. Membership is open to eligible researchers internationally, including those based outside COST countries. 
+
+🔹 Applications must also include a clear justification of the requested expenses, including estimated travel, accommodation and subsistence costs where relevant, so that the Grant Reviewers can assess whether the proposed budget is reasonable and eligible.
 </div>
 
 ---
