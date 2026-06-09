@@ -41,25 +41,3 @@ A growing library of open resources developed by and for the EEG101 community. R
 </div>
 {% endfor %}
 </div>
-
----
-
-## Videos
-
-<div class="section-header d-flex justify-content-between align-items-center mb-4">
-<p class="section-lead mb-0">Talks, tutorials, and podcast episodes from the EEG101 community.</p>
-<a href="{{ site.data.site.youtube_url }}" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">Subscribe on YouTube ↗</a>
-</div>
-
-<div class="row g-4">
-{% for video in site.data.videos %}
-<div class="col-12 col-md-4">
-{% include video-card.html video=video %}
-</div>
-{% endfor %}
-{% if site.data.videos.size == 0 %}
-<div class="col-12">
-<p class="text-muted">Video content coming soon. <a href="{{ site.data.site.youtube_url }}" target="_blank" rel="noopener">Subscribe on YouTube</a> to be notified.</p>
-</div>
-{% endif %}
-</div>

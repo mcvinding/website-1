@@ -8,8 +8,8 @@
   description: >
     The official technical annex and MOU for COST Action CA24148, outlining
     aims, objectives, working groups, milestones, and governance.
-  url: ""
-  file: "/assets/docs/EEG101-MOU-CA24148.pdf"
+  url: "https://e-services.cost.eu/files/domain_files/CA/Action_CA24148/mou/CA24148-e.pdf"
+  file: ""
   image: "/assets/images/resources/mou.png"
   working_group: ""
   tags:
@@ -42,7 +42,7 @@
     A practical guide to applying for EEG101 and COST grant schemes, including
     STSMs, VMGs, and Conference Grants. Covers eligibility, application process,
     reporting requirements, and frequently asked questions.
-  url: "https://www.cost.eu/funding/funding-opportunities/"
+  url: "https://www.cost.eu/cost-actions-event/action-networking-tools/"
   file: ""
   image: "/assets/images/resources/grants.png"
   working_group: ""
@@ -59,7 +59,7 @@
     Membership is free and open to researchers at all career stages from any
     country. Register via e-COST to access grants, Working Group activities,
     and the full EEG101 community.
-  url: "https://e-services.cost.eu/"
+  url: "https://e-services.cost.eu/action/CA24148/working-groups/apply"
   file: ""
   image: "/assets/images/resources/network.png"
   working_group: ""
@@ -123,7 +123,7 @@
   description: >
     Follow EEG101 on LinkedIn for network updates, job postings, and
     announcements from the coordination team.
-  url: "https://www.linkedin.com/company/eeg101"
+  url: "https://www.linkedin.com/groups/16491058/"
   file: ""
   image: "/assets/images/resources/linkedin.png"
   working_group: ""
@@ -136,9 +136,9 @@
   title: "EEG101 on Bluesky"
   type: "tool"
   description: >
-    Follow @eeg101.bsky.social on Bluesky for community news,
+    Follow @eeg101costaction.bsky.social on Bluesky for community news,
     events, and open science discussions.
-  url: "https://bsky.app/profile/eeg101.bsky.social"
+  url: "https://bsky.app/profile/eeg101costaction.bsky.social"
   file: ""
   image: "/assets/images/resources/bluesky.png"
   working_group: ""
