@@ -33,23 +33,6 @@
     - STSM
     - VMG
 
-- title: "First in-person Management Committee meeting in Brussels"
-  date: 2025-09-01
-  category: "Announcement"
-  summary: >
-    EEG101's Management Committee held its first in-person meeting in Brussels
-    in September 2025, bringing together representatives from 24 COST Full Member
-    countries to launch the Action's scientific programme.
-  image: "/assets/images/news/group-photo-mc1.jpg"
-  alt: "EEG101 Management Committee first in-person meeting Brussels 2025"
-  featured: false
-  external_url: ""
-  internal_url: "/events/"
-  button_label: "Event details"
-  tags:
-    - management-committee
-    - milestone
-
 - title: "EEG101 COST Action approved by COST Committee"
   date: 2025-05-20
   category: "Announcement"
