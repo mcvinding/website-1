@@ -1,8 +1,9 @@
 # Events — categorised automatically at build time based on date.
 # Events with dates in the future → Upcoming
-# Events within the last 30 days → Recent Announcements
+# Events within the last 30 days → Recent
 # Everything else → Past
 # format options: in-person | online | hybrid
+# category options: Announcement | Events | Grants
 
 - id: funding-round-2-announcement
   title: "Funding Round 2 Opening Shortly"
@@ -10,7 +11,7 @@
   end_date: 2026-06-01
   location: "Announcement"
   format: "online"
-  category: "Grants"
+  category: "Announcement"
   summary: >
     Funding Round 2 will open shortly. Make sure you are signed up to EEG101 via e-COST and eligible to apply for our range of grant schemes.
   image: ""
@@ -34,7 +35,7 @@
   time: "15:00 – 17:00 (Central European Time)"
   category: "Events"
   summary: >
-    This first EEG101 WG2 virtual meeting brings together researchers and practitioners working on EEG data curation, preprocessing, harmonization, and open data infrastructures. The symposium aims to foster discussion, share ongoing work, and build alignment around best practices within the EEG101 COST Action. The program and signup link will be posted here soon, and you will receive information over the online location by email.
+    This first EEG101 WG2 virtual meeting brings together researchers and practitioners working on EEG data curation, preprocessing, harmonization, and open data infrastructures. The symposium aims to foster discussion, share ongoing work, and build alignment around best practices within the EEG101 COST Action.
   image: ""
   alt: "Virtual meeting icon — EEG101 WG2 online meeting"
   registration_url: ""
@@ -54,11 +55,31 @@
   location: "e-COST Platform"
   format: "online"
   time: "Closed 17:00 CET"
-  category: "Grants"
+  category: "Announcement"
   summary: >
     The application window for Funding Round 1 has now closed. The coordination team is currently reviewing applications for STSMs, VMGs, and Conference Grants.
   image: ""
   alt: "Grants deadline icon"
+  registration_url: ""
+  programme_url: ""
+  recording_url: ""
+  slides_url: ""
+  related_wg: ""
+  tags:
+    - grants
+    - funding
+
+- id: funding-round-1-opened
+  title: "Funding Round 1: Application Window Opened"
+  start_date: 2026-03-01
+  end_date: 2026-03-01
+  location: "e-COST Platform"
+  format: "online"
+  category: "Announcement"
+  summary: >
+    Funding Round 1 for EEG101 grants (STSMs, VMGs, and ITC Conference Grants) opened for applications.
+  image: ""
+  alt: "Grants opening icon"
   registration_url: ""
   programme_url: ""
   recording_url: ""
@@ -87,23 +108,3 @@
   tags:
     - management-committee
     - in-person
-
-- id: funding-round-1-opened
-  title: "Funding Round 1: Application Window Opened"
-  start_date: 2026-03-01
-  end_date: 2026-03-01
-  location: "e-COST Platform"
-  format: "online"
-  category: "Grants"
-  summary: >
-    Funding Round 1 for EEG101 grants (STSMs, VMGs, and ITC Conference Grants) opened for applications.
-  image: ""
-  alt: "Grants opening icon"
-  registration_url: ""
-  programme_url: ""
-  recording_url: ""
-  slides_url: ""
-  related_wg: ""
-  tags:
-    - grants
-    - funding

@@ -608,6 +608,8 @@ strong { font-weight: 600; }
 .event-card__format--in-person { background: #dcfce7; color: #15803d; }
 .event-card__format--hybrid { background: #fef3c7; color: #b45309; }
 .event-card__past-badge { font-size: 0.7rem; font-weight: 600; color: var(--color-text-muted); background: var(--color-bg-alt); padding: 0.2rem 0.6rem; border-radius: 100px; }
+.event-card__recent-badge { font-size: 0.7rem; font-weight: 600; color: #b45309; background: #fef3c7; padding: 0.2rem 0.6rem; border-radius: 100px; }
+.event-card__upcoming-badge { font-size: 0.7rem; font-weight: 600; color: #15803d; background: #dcfce7; padding: 0.2rem 0.6rem; border-radius: 100px; }
 .event-card__date { font-size: 0.82rem; font-weight: 600; color: var(--color-primary); display: block; margin-bottom: 0.4rem; }
 .event-card__title { font-family: var(--font-heading); font-size: var(--step-1); font-weight: 600; color: var(--color-text); margin-bottom: 0.4rem; line-height: 1.3; }
 .event-card .event-card__title { margin-top: 0; }

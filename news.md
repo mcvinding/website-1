@@ -8,11 +8,8 @@ permalink: /news/
 
 {::nomarkdown}
 
-
 {% assign now_epoch = "now" | date: "%s" | plus: 0 %}
 {% assign thirty_days_ago_epoch = now_epoch | minus: 2592000 %}
-
-
 
 <!-- Filter Section -->
 <div class="news-filter-section mb-5">
@@ -41,18 +38,70 @@ permalink: /news/
 </div>
 
 <div class="row g-4" id="unifiedGrid">
+  {% comment %}
+    Build a combined list. Events use start_date; news items use date.
+    We normalise both into a sort_date field so the combined sort works correctly.
+  {% endcomment %}
   {% assign combined_items = "" | split: "," %}
+
   {% for event in site.data.events %}
+    {% assign event_with_sort = event %}
     {% assign combined_items = combined_items | push: event %}
   {% endfor %}
+
   {% for news in site.data.news %}
     {% assign combined_items = combined_items | push: news %}
   {% endfor %}
-  
-  {% assign sorted_items = combined_items | sort: "date" | reverse %}
-  {% assign sorted_items = combined_items | sort: "start_date" | reverse %}
 
-  {% for item in sorted_items %}
+  {% comment %}
+    Sort: events have start_date, news items have date.
+    We sort twice — first by date (news), then by start_date (events) — and
+    merge by rendering in a single pass sorted by whichever field is present.
+    Liquid cannot sort on a computed field, so we sort by start_date (which
+    is nil for news items, pushing them to the end), then re-sort by date
+    (which is nil for events, pushing them to the end), and interleave manually.
+    Simplest reliable approach: assign a unified epoch for each item in the loop.
+  {% endcomment %}
+
+  {% assign all_epochs = "" | split: "," %}
+  {% for item in combined_items %}
+    {% if item.start_date %}
+      {% assign sort_key = item.start_date %}
+    {% else %}
+      {% assign sort_key = item.date %}
+    {% endif %}
+    {% assign epoch = sort_key | date: "%s" %}
+    {% assign all_epochs = all_epochs | push: epoch %}
+  {% endfor %}
+
+  {% comment %}
+    Liquid's sort is stable and works on a single key. We tag each item with
+    a sort_date string and sort the whole array by it.
+    Since Liquid cannot mutate objects, we use a workaround: build a parallel
+    array of "epoch|index" strings, sort it, then render items in that order.
+  {% endcomment %}
+
+  {% assign tagged = "" | split: "," %}
+  {% assign idx = 0 %}
+  {% for item in combined_items %}
+    {% if item.start_date %}
+      {% assign sort_key = item.start_date %}
+    {% else %}
+      {% assign sort_key = item.date %}
+    {% endif %}
+    {% assign epoch = sort_key | date: "%s" %}
+    {% assign tag = epoch | append: "|" | append: idx %}
+    {% assign tagged = tagged | push: tag %}
+    {% assign idx = idx | plus: 1 %}
+  {% endfor %}
+
+  {% assign sorted_tags = tagged | sort | reverse %}
+
+  {% for tag in sorted_tags %}
+    {% assign parts = tag | split: "|" %}
+    {% assign item_idx = parts[1] | plus: 0 %}
+    {% assign item = combined_items[item_idx] %}
+
     {% if item.start_date %}
       {% assign item_date = item.start_date %}
       {% assign is_event = true %}
@@ -104,7 +153,7 @@ permalink: /news/
     gridItems.forEach(function(item) {
       var status = item.dataset.status;
       var topic = item.dataset.topic;
-      
+
       var statusMatch = false;
       if (currentFilters.status === 'all') {
         statusMatch = true;
@@ -115,12 +164,12 @@ permalink: /news/
       }
 
       var topicMatch = (currentFilters.topic === 'all' || topic === currentFilters.topic);
-      
+
       var isVisible = statusMatch && topicMatch;
       item.style.display = isVisible ? '' : 'none';
       if (isVisible) visibleCount++;
     });
-    
+
     noItemsMsg.style.display = (visibleCount === 0) ? '' : 'none';
   }
 
@@ -146,7 +195,6 @@ permalink: /news/
     updateDisplay();
   });
 
-  // Initialize
   updateDisplay();
 })();
 </script>
