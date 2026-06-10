@@ -1,0 +1,38 @@
+name: Build preview branch
+
+on:
+  push:
+    branches: ["preview"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview branch
+        uses: actions/checkout@v4
+        with:
+          ref: preview
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Build with Jekyll (preview baseurl)
+        run: bundle exec jekyll build --baseurl "/website"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to gh-pages-preview branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages-preview
+          force_orphan: true
+          commit_message: "Preview build from ${{ github.sha }}"
