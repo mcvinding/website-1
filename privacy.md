@@ -16,7 +16,7 @@ When you contact EEG101 by email, your email address and message are used solely
 
 ## COST platform (e-COST)
 
-Membership of EEG101 is managed through the [e-COST platform](https://e-services.cost.eu/), operated by COST. Please refer to [COST's privacy policy](https://www.cost.eu/privacy-policy/) for details of how your data is handled in that context.
+Membership of EEG101 is managed through the [e-COST platform](https://e-services.cost.eu/action/CA24148/working-groups/apply), operated by COST. Please refer to [COST's privacy policy](https://www.cost.eu/privacy-policy/) for details of how your data is handled in that context.
 
 ## Third-party services
 

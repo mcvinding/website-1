@@ -34,7 +34,7 @@ EEG101 welcomes researchers at all career stages — from PhD students to full p
 <div class="join-step__number">2</div>
 <div class="join-step__body">
 <h3>Register on e-COST</h3>
-<p>Official COST membership is managed through the <a href="https://e-services.cost.eu/" target="_blank" rel="noopener">e-COST platform ↗</a>. Search for Action <strong>CA24148</strong> and submit a membership application. This gives you access to grant applications and official COST activities.</p>
+<p>Official COST membership is managed through the <a href="https://e-services.cost.eu/action/CA24148/working-groups/apply" target="_blank" rel="noopener">e-COST platform ↗</a>. Search for Action <strong>CA24148</strong> and submit a membership application. This gives you access to grant applications and official COST activities.</p>
 </div>
 </div>
 <div class="join-step">
@@ -80,6 +80,6 @@ Researchers from non-member countries may participate as observers and collabora
 
 {::nomarkdown}
 <div class="text-center mt-5">
-  <a href="https://e-services.cost.eu/" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Join via e-COST ↗</a>
+  <a href="https://e-services.cost.eu/action/CA24148/working-groups/apply" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Join via e-COST ↗</a>
 </div>
 {:/nomarkdown}

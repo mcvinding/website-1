@@ -24,7 +24,7 @@ schemes:
     status: "open"
     deadline: "Until funds are exhausted or 30th September 2026, whichever comes sooner."
     round_label: "Round 2"
-    application_url: "https://e-services.cost.eu/"
+    application_url: "https://e-services.cost.eu/action/CA24148/working-groups/apply"
     guidance_url: "https://www.cost.eu/funding/stsm/"
     contact: "grants@eeg101.eu"
     notes: >
@@ -51,7 +51,7 @@ schemes:
     status: "open"
     deadline: "Until funds are exhausted or 30th September 2026, whichever comes sooner."
     round_label: "Round 2"
-    application_url: "https://e-services.cost.eu/"
+    application_url: "https://e-services.cost.eu/action/CA24148/working-groups/apply"
     guidance_url: "https://www.cost.eu/funding/vmg/"
     contact: "grants@eeg101.eu"
     notes: >
@@ -76,7 +76,7 @@ schemes:
     status: "open"
     deadline: "Until funds are exhausted or 30th September 2026, whichever comes sooner."
     round_label: "Round 2"
-    application_url: "https://e-services.cost.eu/"
+    application_url: "https://e-services.cost.eu/action/CA24148/working-groups/apply"
     guidance_url: "https://www.cost.eu/funding/dissemination-conference-grants/"
     contact: "grants@eeg101.eu"
     notes: >
@@ -100,7 +100,7 @@ schemes:
     status: "open"
     deadline: "Until funds are exhausted or 30th September 2026, whichever comes sooner."
     round_label: "Round 2"
-    application_url: "https://e-services.cost.eu/"
+    application_url: "https://e-services.cost.eu/action/CA24148/working-groups/apply"
     guidance_url: "https://www.cost.eu/funding/dissemination-conference-grants/"
     contact: "grants@eeg101.eu"
     notes: ""
@@ -115,7 +115,7 @@ application_process:
     description: "Contact a potential host institution within the EEG101 network and agree the work plan and dates."
   - step: 3
     title: "Submit via e-COST"
-    description: "Complete your application on the e-COST platform (e-services.cost.eu) before the deadline."
+    description: "Complete your application on the e-COST platform (e-services.cost.eu/action/CA24148/working-groups/apply) before the deadline."
   - step: 4
     title: "Await decision"
     description: "Applications are reviewed by the Grant Awarding Coordinator. Decisions are communicated within 4 weeks of the deadline."
