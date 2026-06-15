@@ -8,7 +8,11 @@ permalink: /privacy/
 
 ## Analytics
 
-This website uses [Plausible Analytics](https://plausible.io), a privacy-friendly analytics tool. Plausible does not use cookies, does not collect personal data, and is fully GDPR-compliant. No personal information is shared with third parties.
+This website uses [Google Analytics](https://analytics.google.com) (GA4) to collect anonymised data about how visitors use the site. This includes information such as pages visited, time spent on the site, approximate geographic location (country level), device type, and how you arrived at the site (for example, via a search engine or a direct link).
+
+Google Analytics uses cookies to distinguish between visits. No personally identifiable information is collected or stored by EEG101. The data is processed by Google LLC and may be transferred to servers outside the UK and European Economic Area. For details of how Google handles this data, please refer to [Google's Privacy Policy](https://policies.google.com/privacy).
+
+You can opt out of Google Analytics tracking across all websites by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
 
 ## Contact data
 
@@ -21,4 +25,3 @@ Membership of EEG101 is managed through the [e-COST platform](https://e-services
 ## Third-party services
 
 This website links to external services including YouTube, GitHub, and Discord. Please refer to those platforms' own privacy policies when using their services.
-
