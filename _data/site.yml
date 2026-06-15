@@ -30,8 +30,8 @@ logo_alt: "EEG101 COST Action logo"
 hero_video: "/assets/video/hero.mp4"
 hero_fallback: "/assets/images/hero-fallback.jpg"
 
-# Plausible analytics (privacy-friendly, no cookies)
-plausible_domain: "eeg101.eu"
+# Google Analytics GA4
+ga_measurement_id: "G-CNKHMEVHS4"
 
 footer_text: >
   EEG101 (CA24148) is supported by COST (European Cooperation in Science and

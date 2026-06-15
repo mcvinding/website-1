@@ -51,9 +51,15 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plausible analytics (privacy-friendly, no cookies) -->
-  {% if site.data.site.plausible_domain and jekyll.environment == "production" %}
-  <script defer data-domain="{{ site.data.site.plausible_domain }}" src="https://plausible.io/js/script.js"></script>
+  <!-- Google Analytics GA4 -->
+  {% if site.data.site.ga_measurement_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.site.ga_measurement_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.data.site.ga_measurement_id }}');
+  </script>
   {% endif %}
 
 </body>
