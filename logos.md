@@ -1,18 +1,92 @@
 ---
 layout: page
-title: "Logos & Brand Assets"
-subtitle: "Official EEG101 visual identity resources"
-description: "Download official EEG101 logos and brand assets for use in presentations, publications, and promotional materials."
+title: "Graphical Charter"
+subtitle: "Official visual identity guidelines for EEG101"
+description: "Official visual identity guidelines for EEG101, including logos in all formats, colour specifications, and typography."
 permalink: /logos/
 ---
 
-All logos on this page are available for use by EEG101 network members in presentations, posters, publications, and other materials that acknowledge EEG101 membership or collaboration. Please use the official versions below rather than creating your own adaptations.
+Official visual identity guidelines for EEG101, including logos in all formats, colour specifications, and typography. Use these assets when acknowledging EEG101 membership or collaboration in presentations, posters, publications, and other materials.
+
+<a href="{{ '/assets/EEG101-logos.zip' | relative_url }}" download class="btn btn-primary mb-5">Download all logos (ZIP)</a>
+
+---
+
+## Colours
+
+EEG101's visual identity is built on two primary colours. Use these values to ensure consistency across all materials.
+
+<div class="row g-4 mt-2 mb-5">
+
+  <div class="col-12 col-sm-6 col-md-4">
+    <div class="colour-card">
+      <div class="colour-card__swatch" style="background:#FFCC00;"></div>
+      <div class="colour-card__body">
+        <p class="colour-card__name">Gold</p>
+        <p class="colour-card__pantone">Pantone Yellow</p>
+        <table class="colour-card__values">
+          <tr><td>HEX</td><td><code>#FFCC00</code></td></tr>
+          <tr><td>RGB</td><td>255, 204, 0</td></tr>
+          <tr><td>CMYK</td><td>0, 21, 100, 0</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-md-4">
+    <div class="colour-card">
+      <div class="colour-card__swatch" style="background:#000099;"></div>
+      <div class="colour-card__body">
+        <p class="colour-card__name">Azure</p>
+        <p class="colour-card__pantone">Pantone Reflex Blue</p>
+        <table class="colour-card__values">
+          <tr><td>HEX</td><td><code>#000099</code></td></tr>
+          <tr><td>RGB</td><td>0, 51, 153</td></tr>
+          <tr><td>CMYK</td><td>100, 80, 0, 0</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
+
+## Typography
+
+EEG101 uses two typefaces across all branded materials.
+
+<div class="row g-4 mt-2 mb-5">
+
+  <div class="col-12 col-md-6">
+    <div class="font-card">
+      <p class="font-card__sample font-card__sample--comfortaa">Comfortaa</p>
+      <div class="font-card__body">
+        <p class="font-card__name">Comfortaa</p>
+        <p class="font-card__use">Headings and display text</p>
+        <a href="https://fonts.google.com/specimen/Comfortaa" target="_blank" rel="noopener" class="font-card__link">View on Google Fonts ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-md-6">
+    <div class="font-card">
+      <p class="font-card__sample font-card__sample--lato">Lato</p>
+      <div class="font-card__body">
+        <p class="font-card__name">Lato</p>
+        <p class="font-card__use">Body text and captions</p>
+        <a href="https://fonts.google.com/specimen/Lato" target="_blank" rel="noopener" class="font-card__link">View on Google Fonts ↗</a>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ---
 
 ## EEG101 Logos
 
-The EEG101 logo is available in several variants. Use the version that best suits your background and format.
+All logo variants are included in the ZIP download above. Use the version that best suits your background and format.
 
 <div class="row g-4 mt-2 mb-5">
 
@@ -154,7 +228,7 @@ The EEG101 logo is available in several variants. Use the version that best suit
 
 ## COST Logos
 
-When acknowledging COST funding in publications or presentations, please use the official COST logos below.
+When acknowledging COST funding, please use the official COST logos. Full brand guidelines are available at the [COST visual identity page](https://www.cost.eu/about/visual-identity/){:target="_blank" rel="noopener"}.
 
 <div class="row g-4 mt-2 mb-5">
 
@@ -212,7 +286,7 @@ When acknowledging COST funding in publications or presentations, please use the
 
 ## EU Funding Logos
 
-EEG101 is funded through Horizon Europe. The following logos should be used when acknowledging EU funding.
+EEG101 is funded through Horizon Europe. Use these logos when acknowledging EU funding in publications and presentations. Full guidelines and additional formats are available at the [EU emblem download centre](https://ec.europa.eu/regional_policy/information-sources/logo-download-center_en){:target="_blank" rel="noopener"}.
 
 <div class="row g-4 mt-2 mb-5">
 
@@ -271,6 +345,96 @@ EEG101 is funded through Horizon Europe. The following logos should be used when
 ← [Back to Resources](/resources/)
 
 <style>
+/* Colour swatches */
+.colour-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+}
+.colour-card__swatch {
+  height: 100px;
+  width: 100%;
+}
+.colour-card__body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+.colour-card__name {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.1rem;
+}
+.colour-card__pantone {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.75rem;
+}
+.colour-card__values {
+  font-size: 0.82rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+.colour-card__values td {
+  padding: 0.15rem 0.5rem 0.15rem 0;
+  color: var(--color-text-muted);
+}
+.colour-card__values td:first-child {
+  font-weight: 600;
+  color: var(--color-text);
+  width: 3rem;
+}
+.colour-card__values code {
+  font-size: 0.82rem;
+  background: var(--color-bg-alt);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
+/* Font cards */
+.font-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+}
+.font-card__sample {
+  padding: 1.5rem 1.5rem 1rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--color-text);
+  margin: 0;
+  background: var(--color-bg-alt);
+}
+.font-card__sample--comfortaa { font-family: 'Comfortaa', cursive; }
+.font-card__sample--lato      { font-family: 'Lato', sans-serif; }
+.font-card__body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+.font-card__name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-bottom: 0.2rem;
+}
+.font-card__use {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+.font-card__link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.font-card__link:hover { border-color: var(--color-primary); }
+
+/* Logo cards */
 .logo-card {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -309,8 +473,5 @@ EEG101 is funded through Horizon Europe. The following logos should be used when
   text-decoration: none;
   border-bottom: 1px solid rgba(0,0,0,0.15);
 }
-.logo-card__dl:hover {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
-}
+.logo-card__dl:hover { border-color: var(--color-primary); }
 </style>

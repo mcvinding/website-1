@@ -148,12 +148,12 @@
   icon: "🦋"
 
 - id: brand-assets
-  title: "EEG101 Logos & Brand Assets"
+  title: "Graphical Charter"
   type: "template"
   description: >
-    Official EEG101 logos in various formats for use in presentations,
-    publications, and promotional materials. Use these on posters, slides,
-    and papers to acknowledge EEG101 membership.
+    Official visual identity guidelines for EEG101, including logos in all
+    formats, colour specifications, and typography. Use these assets on
+    posters, slides, and papers to acknowledge EEG101 membership.
   url: "/logos/"
   file: ""
   image: "/assets/images/resources/logos.png"
