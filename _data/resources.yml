@@ -154,7 +154,7 @@
     Official EEG101 logos in various formats for use in presentations,
     publications, and promotional materials. Use these on posters, slides,
     and papers to acknowledge EEG101 membership.
-  url: ""
+  url: "/logos/"
   file: ""
   image: "/assets/images/resources/logos.png"
   working_group: ""
@@ -163,7 +163,6 @@
     - logos
     - design
   icon: "🎨"
-  status: "Coming soon"
 
 - id: slide-templates
   title: "Presentation Template Slides"
