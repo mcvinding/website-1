@@ -13,11 +13,10 @@
   format: "in-person"
   category: "Events"
   summary: >
-    EEG101 hosted a two-day satellite event at OHBM Brainhack, bringing together
-    over 120 participants for workshops on ARTEM-IS reporting standards, BIDS data
-    curation, scientific transparency, and community frameworks. Day 2 featured
-    presentations on MEEGqc, EEGNet, and FAIR principles, alongside a vibrant
-    debate on harmonisation and standardisation in EEG research.
+    EEG101 hosted a two-day satellite event at OHBM Brainhack in June 2026,
+    bringing together over 120 participants for workshops, open discussions,
+    and community-building sessions on standardisation, data curation, and
+    reproducibility in EEG research.
   image: "/assets/images/events/ohbm-brainhack-day2.jpg"
   alt: "Group photo of over 120 participants at EEG101 OHBM Brainhack 2026"
   registration_url: ""
