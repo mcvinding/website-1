@@ -15,6 +15,27 @@
 #   button_label — optional CTA label (default: "Read more")
 #   tags        — list of tags
 
+- title: "EEG101 at OHBM Brainhack 2026: Two Days of Open EEG Science"
+  date: 2026-06-13
+  category: "Events"
+  summary: >
+    EEG101 hosted a two-day satellite event at OHBM Brainhack in June 2026,
+    bringing together over 120 participants for workshops, open discussions,
+    and community-building sessions on standardisation, data curation, and
+    reproducibility in EEG research.
+  image: "/assets/images/events/ohbm-brainhack-day1.jpg"
+  alt: "EEG101 at OHBM Brainhack 2026 — Faisal Mushtaq presenting alongside session photos"
+  featured: true
+  external_url: ""
+  internal_url: ""
+  button_label: ""
+  tags:
+    - OHBM
+    - Brainhack
+    - events
+    - community
+    - open-science
+
 - title: "Round 1 grants open: STSMs, VMGs, and Conference Grants"
   date: 2026-03-01
   category: "Grants"
@@ -24,7 +45,7 @@
     31 October 2026, 17:00 CET. Decisions will be announced by 30 April 2026.
   image: ""
   alt: "EEG101 grant schemes open for applications"
-  featured: true
+  featured: false
   external_url: ""
   internal_url: "/grants/"
   button_label: "View grants"
