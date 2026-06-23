@@ -28,7 +28,7 @@
     {% if event.time and event.time != "" %}
     <p class="event-card__time">🕑 {{ event.time }}</p>
     {% endif %}
-    <p class="event-card__summary">{{ event.summary | truncatewords: 30 }}</p>
+    <p class="event-card__summary">{{ event.summary }}</p>
     <div class="event-card__links">
       {% if event.registration_url and event.registration_url != "" and status == "upcoming" %}
       <a href="{{ event.registration_url }}" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Register ↗</a>
