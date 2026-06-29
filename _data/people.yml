@@ -257,3 +257,17 @@
   bio: ""
   tags: [MC, WG1, WG2, WG3]
   order: 19
+
+- id: guiomar
+  name: "Guiomar Niso"
+  role: "Management Committee Member"
+  institution: "Cajal Neuroscience Center, CSIC"
+  country: "Spain"
+  email: "guiomar.niso@cajal.csic.es"
+  website: "https://cajal.csic.es/laboratorios/neuroimagen/"
+  orcid: "0000-0001-5872-8924"
+  image: "/assets/images/people/guiomar.png"
+  bio: >
+    Head of the Neuroimaging Group at Cajal Neuroscience Center (CNC-CSIC). She investigates human neurophysiology to characterize brain dynamics. EEG101 MC representative of Spain.
+  tags: [MC, WG1, WG2, WG3]
+  order: 20
